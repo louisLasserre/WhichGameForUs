@@ -1,0 +1,19 @@
+title: Un jeu pour moi
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "game"
+
+collections:
+  games:
+    output: true
+    permalink: /jeux/:title

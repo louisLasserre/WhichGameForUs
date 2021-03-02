@@ -1,0 +1,8 @@
+<div>
+  {{ include.title }}
+  {{ include.value.note }}
+  {% if include.value.screenshot %}
+    <img src="/assets/images/games/{{ include.slug }}/{{ include.value.screenshot }}" alt="" class="img-fluid">
+  {% endif %}
+  {{ include.value.description }}
+</div>
