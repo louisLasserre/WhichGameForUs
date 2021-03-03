@@ -111,6 +111,32 @@ evaluation:
     note: 3
     description: Le format du text est clair, les lettres sont séparé les unes des autres pour permettre une lecture facile.
 
+  tutorials:
+    note: 3
+    description: Le niveau "Prologue" introduit les différentes actions du jeu.
+
+  more_reading_time:
+    note: 2
+    description: Certains panneau de texte, ceux au début de niveau par exemple défile tout seul. La majorité (les dialogues notamment) necessite une action du joueur.
+
+  photosensitive:
+    note: 3
+    description: Permet de d'activer un mode "Photosensible" désactivant tout les éléments pouvant déclencher des crises.
+
+  help_game:
+    note: 1
+    description: A part durant le tutoriel, il n'y a plus d'aide in-game.
+
+  reminder_objective:
+    note: 1
+    description: Il n'y a pas de rappel de l'objectif durant le jeu.
+
+  reminder_control:
+    note: 1
+    description: Il n'y a pas de rappel des controles durant le jeu.
+
+
+
 
 
 
