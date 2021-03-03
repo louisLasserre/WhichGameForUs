@@ -42,10 +42,27 @@ evaluation:
   qte:
     note: 3
     description: Pas de QTE ou de button-mashing.
-  window_mod:
+  window_mode:
     note: 3
     description: Présence d'un mode fenêtré.
-
+  button_pressure:
+    note: 1
+    description: Les directions et attraper un mur sont des boutons que l'on maintiens qui n'ont pas d'alternatives.
+  orga_interface:
+    note: 1
+    description: Pas de possibilité de réarranger l'interface.
+  resizing_interface:
+    note: 1
+    description: Pas de possibilité d'aggrandir l'interface.
+  macro_system:
+    note: 1
+    description: Pas de systeme de macro.
+  movement_tracking:
+    note: 0
+    description: le jeu n'est pas en VR.
+  mobile_mode:
+    note: 0
+    description: Le jeu n'est pas mobile.
 
 
 
