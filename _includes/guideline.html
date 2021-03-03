@@ -5,6 +5,10 @@
         <span class="badge bg-secondary">Non applicable</span>
       {% elsif include.data.note == 1 %}
         <span class="badge bg-danger">Non respecté</span>
+      {% elsif include.data.note == 2 %}
+        <span class="badge bg-warning">Partiellement respecté</span>
+      {% elsif include.data.note == 3 %}
+        <span class="badge bg-success">Respecté</span>
       {% endif %}
 
     </div>
