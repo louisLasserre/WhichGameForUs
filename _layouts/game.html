@@ -12,7 +12,7 @@ layout: default
   </div>
 </div>
 
-<ul class="nav nav-tabs" id="myTab" role="tablist">
+<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
   {% for category in site.data.structure.categories %}
     {% assign category_slug = category.name | slugify: 'latin' %}
     {% if forloop.index0 == 0%}
@@ -40,11 +40,10 @@ layout: default
     {% else %}
       {% assign active = false %}
     {% endif %}
-    <div  class="tab-pane show{% if active %} active {% endif %}"
+    <div  class="tab-pane show pt-5 {% if active %} active {% endif %}"
           id="{{ category_slug}}"
           role="tabpanel"
           aria-labelledby="{{ category_slug}}-tab">
-      {{ category.name }}
       {% for guideline in category.guidelines %}
         {% assign data = page.evaluation[guideline] %}
         {% include guideline.html data=data slug=slug %}
