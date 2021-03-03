@@ -1,24 +1,20 @@
 <div class="row mb-5">
-  
-  <div>
-    {{ include.value[1]['lib'] }}
-  </div>
-  {% assign handle = include.value[1]["note"] %}
-  {% case handle %}
-    {% when 0 %}
-      <div> equals to 0 </div>
-    {% when 1 %}
-      <div> equals to 1 </div>
-    {% when 2 %}
-      <div> equals to 2 </div>
-    {% when 3 %}
-      <div> equals to 3 </div>
-  {% endcase %} 
-  {% if include.value[1]["screenshot"] %}
-    <img src="/assets/images/games/{{include.slug}}/{{include.value[1]['screenshot']}}" alt="Screenshot {{include.slug}} représentant la guideline  ' {{include.value[1]['lib']}} ' " class="img-fluid">
-  {% endif %}
+  <div class="col-md-2">
+    <div class="lead">
+      {% if include.data.note == 0 %}
+        <span class="badge bg-secondary">Non applicable</span>
+      {% elsif include.data.note == 1 %}
+        <span class="badge bg-danger">Non respecté</span>
+      {% endif %}
 
-  <div>
-    {{ include.value[1]["description"] }}
+    </div>
+  </div>
+  <div class="col-md-6">
+    {{ include.data.description }}
+    {% if include.data.screenshot %}
+      <img  src="/assets/images/games/{{include.slug}}/{{ include.data.screenshot }}"
+            alt="Screenshot {{include.slug}}"
+            class="img-fluid">
+    {% endif %}
   </div>
 </div>

@@ -1,0 +1,14 @@
+guidelines:
+  touch_assign: Autoriser la modification par l'utilisateur de l’assignation des commandes du jeu
+categories:
+  - name: Moteur
+    guidelines:
+      - touch_assign
+      - simple_commands
+  - name: Cognitif
+    guidelines:
+      - touch_assign
+  - name: Visuel
+  - name: Auditif
+  - name: Discours
+  - name: Général
