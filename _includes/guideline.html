@@ -1,8 +1,24 @@
-<div>
-  {{ include.title }}
-  {{ include.value.note }}
-  {% if include.value.screenshot %}
-    <img src="/assets/images/games/{{ include.slug }}/{{ include.value.screenshot }}" alt="" class="img-fluid">
-  {% endif %}
-  {{ include.value.description }}
+<div class="row mb-5">
+  <div class="col-md-2">
+    <div class="lead">
+      {% if include.data.note == 0 %}
+        <span class="badge bg-secondary">Non applicable</span>
+      {% elsif include.data.note == 1 %}
+        <span class="badge bg-danger">Non respecté</span>
+      {% elsif include.data.note == 2 %}
+        <span class="badge bg-warning">Partiellement respecté</span>
+      {% elsif include.data.note == 3 %}
+        <span class="badge bg-success">Respecté</span>
+      {% endif %}
+
+    </div>
+  </div>
+  <div class="col-md-8">
+    {{ include.data.description }}
+    {% if include.data.screenshot %}
+      <img  src="/assets/images/games/{{include.slug}}/{{ include.data.screenshot }}"
+            alt="Screenshot {{include.slug}}"
+            class="img-fluid">
+    {% endif %}
+  </div>
 </div>
