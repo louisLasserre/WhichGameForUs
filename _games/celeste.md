@@ -94,7 +94,8 @@ evaluation:
  simple_control:
    note: 1
    description: Le jeu est trop complexe pour être joué avec des controles aussi simple.
-  level_navigation:
+
+ level_navigation:
    note: 2
    description: Il faut confirmer 5 fois avant d'arriver dans un niveau jouable pour une nouvelle sauvegarde, et 6 fois pour une sauvegarde existante.
  
