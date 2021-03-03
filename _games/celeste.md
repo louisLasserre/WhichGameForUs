@@ -178,7 +178,7 @@ evaluation:
     note: 3
     description: "Chaque élément ou action dispose d'un son distinct."
 
-  text-changes:
+  text_changes:
     note: 1
     description: "Impossible de choisir la couleur du texte et de modifier le contraste."
 
@@ -257,6 +257,41 @@ evaluation:
   visible_essentiel_elements:
     note: 3
     description: "Toutes les informations temporaires sont dans la zone de vue."
+
+  font_size:
+    note: 1
+    description: "On ne peut pas choisir la taille des polices."
+
+  audio_card_sonar:
+    note: 0
+    description: "Le jeu n'est pas en 3D et ne dispose pas de mini-map."
+
+  voice_gps:
+    note: 0
+    description: "Le jeu n'est pas en 3D."
+
+  cardinal_point_orientation:
+    note: 0
+    description: "Le jeu n'est pas en 3D."
+
+  digital_controls:
+    note: 3
+    description: "Toute les actions peuvent être effectué avec des controles digitaux."
+
+  screen_readers:
+    note: 1
+    description: "Le jeu n'est pas compatible avec les lecteurs d'écran."
+
+  separate_music:
+    note: 3
+    description: "Chaque objet à un son associé, chaque action à un son associé, et chaque niveaux et menu à sa musique."
+
+  binaural_recording:
+    note: 1
+    description: "Le jeu ne simule pas l'enregistrement binaural ."
+
+
+
 
 
 
