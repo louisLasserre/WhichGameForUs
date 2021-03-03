@@ -152,8 +152,51 @@ evaluation:
     description: Certaines informations du tutoriel sont communiqué avec des pictogrammes de la touches à utilisé, mais contiennent du texte pour décrire l'action. 
 
   interactive_elements:
+    note: 3
+    description: Il n'y a quasiment pas d'UI visible. Et pas d'élément interractible (Objet à ramassé en cliquant sur un bouton par exemple).
+
+  background_movements:
     note: 1
-    description: Il n'y a quasiment pas d'UI visible. Et pas d'élément interractible (Objet à ramassé en cliquant sur un bouton par exemple)
+    description: Il n'y a pas d'option pour désactiver ou cacher les mouvements de l'arrière plan.
+
+
+  text_audio_chat:
+    note: 0
+    description: Le jeu n'est pas un jeu multijoueur.
+
+
+  visual_backup:
+    note: 2
+    description: On ne peut pas nommer les sauvegardes, mais différentes icones sont la pour montrer notre progrès.
+
+
+  separate_volumes:
+    note: 3
+    description: Il n'y a pas de Voix dans le jeux. Donc les deux types de sons sont la musique et les sfx (donc son).
+
+  different_sound:
+    note: 3
+    description: Chaque élément ou action dispose d'un son distinct.
+
+  text-changes:
+    note: 1
+    description: Impossible de choisir la couleur du texte et de modifier le contraste.
+
+  important_word:
+    note: 3
+    description: Certains mots importants (comme le nom des personnages) dans les dialogues sont marqué d'une couleur différentes.
+
+  turn_off_blood:
+    note: 0
+    description: Il n'y a pas de sang ou de gore.
+
+
+    note: 1
+    description: Chaque élément ou action dispose d'un son distinct.
+
+
+    note: 2
+    description: Chaque élément ou action dispose d'un son distinct.
 
 
 
