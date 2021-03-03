@@ -11,11 +11,7 @@ evaluation:
   haptic_slider:
     note: 3
     screenshot: controls_celeste.jpg
-<<<<<<< HEAD
-    description: On peut gérer la force des vibrations
-=======
     description: On peut gérer la force des vibrations.
->>>>>>> d315597578476b5d121024a0ccfa64b557553888
   menu_with_keys:
     note: 3
     description: Les menus sont navigables en utilisant les touches de déplacement.
@@ -26,19 +22,13 @@ evaluation:
   large_elements:
     note: 0
     description: La navigation dans les menus n'utilisent pas la souris.
-<<<<<<< HEAD
-  more_than_one_device:
-=======
   more_than_one_device: 
->>>>>>> d315597578476b5d121024a0ccfa64b557553888
     note: 3
     screenshot: controls_celeste.jpg
     description: La manette et le clavier sont supporté
   menus_do_not_move:
     note: 0
     description: La navigation dans les menus n'utilisent pas la souris.
-<<<<<<< HEAD
-=======
   simultaneous_action:
     note: 3
     description: La souris n'est pas utilisée dans le jeu.
@@ -60,5 +50,4 @@ evaluation:
 
 
   
->>>>>>> d315597578476b5d121024a0ccfa64b557553888
 ---
