@@ -1,5 +1,7 @@
 guidelines:
   touch_assign: Autoriser la modification par l'utilisateur de l’assignation des commandes du jeu
+  simple_commands: Les commandes sont le plus simple possible ou une alternative plus simple existe
+  haptic_slider: Inclure une glissière ou un switch pour toute forme d’haptique
 categories:
   - name: Moteur
     guidelines:
@@ -11,11 +13,40 @@ categories:
       - large_elements
       - more_than_one_device
       - menus_do_not_move
+      - simultaneous_action
+      - digital_controls
+      - option_speed
+      - noqte
+      - window_mode 
+      - button_pressure
+      - orga_interface
+      - resizing_interface
+      - macro_system
+      - movement_tracking
+      - mobile_mode
+      - timing
+      - time_limit
+      - simple_control
+
   - name: Cognitif
     guidelines:
       - touch_assign
+      - level_navigation
+      - font
+      - clear_language
+      - clear_text
+      - tutorials
+      - more_reading_time
+      - photosensitive
+      - help_game
+      - reminder_objective
+      - reminder_control
   - name: Visuel
+    guidelines:
       - large_elements
+      - resizing_interface
+      - font
+      - clear_text  
   - name: Auditif
   - name: Discours
   - name: Général

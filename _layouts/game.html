@@ -46,7 +46,7 @@ layout: default
           aria-labelledby="{{ category_slug}}-tab">
       {% for guideline in category.guidelines %}
         {% assign data = page.evaluation[guideline] %}
-        {% include guideline.html data=data slug=slug %}
+        {% include guideline.html data=data slug=slug guideline=guideline %}
       {% endfor %}
     </div>
   {% endfor %}
