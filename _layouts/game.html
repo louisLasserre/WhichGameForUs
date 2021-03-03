@@ -29,11 +29,10 @@ layout: default
     {%endif%}
   
   {% endfor %}
-  
- 
-  
+   
 
   {% assign access_tot = (nb3 * 100 + nb2 * 50) / (nb3 + nb2 + nb1) %}
+
   <span class="display-6">Accessibilité Totale:</span>
   <div class="lead">{{access_tot}}</div>
   <div class="progress">
