@@ -152,58 +152,34 @@ evaluation:
     description: Certaines informations du tutoriel sont communiqué avec des pictogrammes de la touches à utilisé, mais contiennent du texte pour décrire l'action. 
 
   interactive_elements:
-    note: 3
-    description: Il n'y a quasiment pas d'UI visible. Et pas d'élément interractible (Objet à ramassé en cliquant sur un bouton par exemple).
-
-  background_movements:
     note: 1
-    description: Il n'y a pas d'option pour désactiver ou cacher les mouvements de l'arrière plan.
+    description: Il n'y a quasiment pas d'UI visible. Et pas d'élément interractible (Objet à ramassé en cliquant sur un bouton par exemple)
 
 
-  text_audio_chat:
+
+
+
+
+
+
+      online management:
     note: 0
-    description: Le jeu n'est pas un jeu multijoueur.
+    description: le jeu n'est pas mutlijoueur
 
-
-  visual_backup:
-    note: 2
-    description: On ne peut pas nommer les sauvegardes, mais différentes icones sont la pour montrer notre progrès.
-
-
-  separate_volumes:
+    gameplay_variable:
     note: 3
-    description: Il n'y a pas de Voix dans le jeux. Donc les deux types de sons sont la musique et les sfx (donc son).
+    description: Il y a un grand choix dan sle paramètrage des difficulté en touchant à certains paramètres
 
-  different_sound:
-    note: 3
-    description: Chaque élément ou action dispose d'un son distinct.
-
-  text-changes:
-    note: 1
-    description: Impossible de choisir la couleur du texte et de modifier le contraste.
-
-  important_word:
-    note: 3
-    description: Certains mots importants (comme le nom des personnages) dans les dialogues sont marqué d'une couleur différentes.
-
-  turn_off_blood:
+    accessibility_test:
     note: 0
-    description: Il n'y a pas de sang ou de gore.
+    description: il n'y a pas moyen de savoir les procédures de play-test du jeu
 
-
+    profile_parameter:
     note: 1
-    description: Chaque élément ou action dispose d'un son distinct.
+    description: Le jeu ne contient aucune solution multiprofile
 
 
-    note: 2
-    description: Chaque élément ou action dispose d'un son distinct.
-
-
-
-
-
-
-
-
-  
+    voice_transcription:
+    note: 0
+    description: Le jeu n'est pas multijoueur
 ---
