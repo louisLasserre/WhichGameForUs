@@ -13,11 +13,13 @@ layout: default
 </div>
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
+  
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="moteur-tab" data-bs-toggle="tab" data-bs-target="#moteur" type="button" role="tab" aria-controls="home" aria-selected="true">Moteur</button>
+    <button class="nav-link active" id="moteur-tab" data-bs-toggle="tab" data-bs-target="#moteur" type="button" role="tab" aria-controls="moteur" aria-selected="true">Moteur</button>
   </li>
+
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+    <button class="nav-link" id="cognitif-tab" data-bs-toggle="tab" data-bs-target="#cognitif" type="button" role="tab" aria-controls="cognitig" aria-selected="false">Cognitif</button>
   </li>
   <li class="nav-item" role="presentation">
     <button class="nav-link" id="visuel-tab" data-bs-toggle="tab" data-bs-target="#visuel" type="button" role="tab" aria-controls="visuel" aria-selected="false">Visuel</button>
@@ -28,6 +30,11 @@ layout: default
     {% include guideline.html title="Autoriser..." value=page.evaluation.touch_assign slug=slug %}
     {% include guideline.html title="Autoriser" value=page.evaluation.simple_commands slug=slug %}
   </div>
+<<<<<<< HEAD
   <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
   <div class="tab-pane" id="visuel" role="tabpanel" aria-labelledby="visuel-tab">...</div>
+=======
+  <div class="tab-pane" id="cognitif" role="tabpanel" aria-labelledby="cognitif-tab">..a.</div>
+  <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+>>>>>>> e858b7cca745b109551b9d5ea9e6f06dc327f91f
 </div>
