@@ -135,6 +135,28 @@ evaluation:
     note: 1
     description: Il n'y a pas de rappel des controles durant le jeu.
 
+  sandbox_mode:
+    note: 3
+    description: Le mode Assist permet d'activer de nombreuse options facilitant l'entrainement (Invincibilité, Nombre de Dash, Endurance).
+
+  simple_narration:
+    note: 3
+    description: Le jeu et son histoire sont une succession de niveau, l'histoire est linéaire.
+
+  summary_key_point:
+    note: 0
+    description: L'histoire n'est pas une histoire necessitant des résumés de la progression.
+
+  oral_written_information:
+    note: 2
+    description: Certaines informations du tutoriel sont communiqué avec des pictogrammes de la touches à utilisé, mais contiennent du texte pour décrire l'action. 
+
+  interactive_elements:
+    note: 1
+    description: Il n'y a quasiment pas d'UI visible. Et pas d'élément interractible (Objet à ramassé en cliquant sur un bouton par exemple)
+
+
+
 
 
 
