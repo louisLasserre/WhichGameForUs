@@ -29,16 +29,20 @@ layout: default
     {%endif%}
   
   {% endfor %}
-   
+ 
+  {% assign xy = (nb3 | times: 100 ) %}
+  {% assign wz = (nb2 | times: 50 ) %}
+  {% assign numerator = (xy | plus: wz) %}
+  {% assign ab = (nb3 | plus: nb2 )%}
+  {% assign denominator = (ab | plus: nb1 )%}
+  {% assign access_tot =  (numerator | divided_by: denominator) %}
 
-  {% assign access_tot = (nb3 * 100 + nb2 * 50) / (nb3 + nb2 + nb1) %}
 
   <span class="display-6">Accessibilité Totale:</span>
   <div class="lead">{{access_tot}}</div>
   <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: {{access_tot}}%" aria-valuenow="{{access_tot}}" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-bar bg-info" role="progressbar" style="width: {{access_tot}}%" aria-valuenow="{{access_tot}}" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
-
 </div>
 
 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
