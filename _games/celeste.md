@@ -1,100 +1,100 @@
 ---
 title: Celeste
 evaluation:
-
-  touch_assign:
-    note: 3
-    screenshot: controls_celeste.jpg
-    description: Toutes les commandes sont reconfigurables aussi bien pour clavier que pour manettes.
-
-  simple_commands:
-    note: 3
-    description: Un bouton saut, un bouton pour attraper les murs, un bouton de dash et des directions...
-
-  haptic_slider:
-    note: 3
-    screenshot: controls_celeste.jpg
-    description: On peut gérer la force des vibrations.
-
-  menu_with_keys:
-    note: 3
-    description: Les menus sont navigables en utilisant les touches de déplacement.
-
-  sensitivity:
-    note: 1
-    screenshot: controls_celeste.jpg
-    description: Pas d'options de sensibilité des contrôles.
-
-  large_elements:
-    note: 0
-    description: La navigation dans les menus n'utilisent pas la souris.
-
-  more_than_one_device: 
-    note: 3
-    screenshot: controls_celeste.jpg
-    description: La manette et le clavier sont supporté
-
-  menus_do_not_move:
-    note: 0
-    description: La navigation dans les menus n'utilisent pas la souris.
-
-  simultaneous_action:
-    note: 3
-    description: La souris n'est pas utilisée dans le jeu.
-    
-  digital_controls:
-    note: 3
-    description: Le jeu se joue uniquement avec des digitals controls.
-
-  option_vit:
-    note: 3
-    screenshot: controls_celeste.jpg
-    description: Le jeu dispose d'un "mode assist" qui permet de ralentir la vitesse du jeu.
-
-  qte:
-    note: 3
-    description: Pas de QTE ou de button-mashing.
-
-  window_mode:
-    note: 3
-    description: Présence d'un mode fenêtré.
-
-  button_pressure:
-    note: 1
-    description: Les directions et attraper un mur sont des boutons que l'on maintiens qui n'ont pas d'alternatives.
-
-  orga_interface:
-    note: 1
-    description: Pas de possibilité de réarranger l'interface.
-
-  resizing_interface:
-    note: 1
-    description: Pas de possibilité d'aggrandir l'interface.
-    
-  macro_system:
-    note: 1
-    description: Pas de systeme de macro.
-
-  movement_tracking:
-    note: 0
-    description: le jeu n'est pas en VR.
-
-  mobile_mode:
-    note: 0
-    description: Le jeu n'est pas mobile.
-
-  timing:
-    note: 1
-    description: Le timing est essentiel.
-
-  time_limit:
-    note: 2
-    description: Compliqué à tester après coup, mais il semble y avoir du cool down entre deux inputs, mais il n'est probablement pas de 0.5.
-
-  simple_control:
-    note: 1
-    description: Le jeu est trop complexe pour être joué avec des controles aussi simple.
+ 
+ touch_assign:
+   note: 3
+   screenshot: controls_celeste.jpg
+   description: Toutes les commandes sont reconfigurables aussi bien pour clavier que pour manettes.
+ 
+ simple_commands:
+   note: 3
+   description: Un bouton saut, un bouton pour attraper les murs, un bouton de dash et des directions...
+ 
+ haptic_slider:
+   note: 3
+   screenshot: controls_celeste.jpg
+   description: On peut gérer la force des vibrations.
+ 
+ menu_with_keys:
+   note: 3
+   description: Les menus sont navigables en utilisant les touches de déplacement.
+ 
+ sensitivity:
+   note: 1
+   screenshot: controls_celeste.jpg
+   description: Pas d'options de sensibilité des contrôles.
+ 
+ large_elements:
+   note: 0
+   description: La navigation dans les menus n'utilisent pas la souris.
+ 
+ more_than_one_device:
+   note: 3
+   screenshot: controls_celeste.jpg
+   description: La manette et le clavier sont supporté
+ 
+ menus_do_not_move:
+   note: 0
+   description: La navigation dans les menus n'utilisent pas la souris.
+ 
+ simultaneous_action:
+   note: 3
+   description: La souris n'est pas utilisée dans le jeu.
   
+ digital_controls:
+   note: 3
+   description: Le jeu se joue uniquement avec des digitals controls.
+ 
+ option_vit:
+   note: 3
+   screenshot: controls_celeste.jpg
+   description: Le jeu dispose d'un "mode assist" qui permet de ralentir la vitesse du jeu.
+ 
+ qte:
+   note: 3
+   description: Pas de QTE ou de button-mashing.
+ 
+ window_mode:
+   note: 3
+   description: Présence d'un mode fenêtré.
+ 
+ button_pressure:
+   note: 1
+   description: Les directions et attraper un mur sont des boutons que l'on maintiens qui n'ont pas d'alternatives.
+ 
+ orga_interface:
+   note: 1
+   description: Pas de possibilité de réarranger l'interface.
+ 
+ resizing_interface:
+   note: 1
+   description: Pas de possibilité d'aggrandir l'interface.
+  
+ macro_system:
+   note: 1
+   description: Pas de systeme de macro.
+ 
+ movement_tracking:
+   note: 0
+   description: le jeu n'est pas en VR.
+ 
+ mobile_mode:
+   note: 0
+   description: Le jeu n'est pas mobile.
+ 
+ timing:
+   note: 1
+   description: Le timing est essentiel.
+ 
+ time_limit:
+   note: 2
+   description: Compliqué à tester après coup, mais il semble y avoir du cool down entre deux inputs, mais il n'est probablement pas de 0.5.
+ 
+ simple_control:
+   note: 1
+   description: Le jeu est trop complexe pour être joué avec des controles aussi simple.
+   
   level_navigation:
     note: 2
     description: Il faut confirmer 5 fois avant d'arriver dans un niveau jouable pour une nouvelle sauvegarde, et 6 fois pour une sauvegarde existante.
@@ -152,34 +152,85 @@ evaluation:
     description: Certaines informations du tutoriel sont communiqué avec des pictogrammes de la touches à utilisé, mais contiennent du texte pour décrire l'action. 
 
   interactive_elements:
-    note: 1
-    description: Il n'y a quasiment pas d'UI visible. Et pas d'élément interractible (Objet à ramassé en cliquant sur un bouton par exemple)
-
-
-
-
-
-
-
-
-      online management:
-    note: 0
-    description: le jeu n'est pas mutlijoueur
-
-    gameplay_variable:
     note: 3
-    description: Il y a un grand choix dan sle paramètrage des difficulté en touchant à certains paramètres
+    description: Il n'y a quasiment pas d'UI visible. Et pas d'élément interractible (Objet à ramassé en cliquant sur un bouton par exemple).
 
-    accessibility_test:
-    note: 0
-    description: il n'y a pas moyen de savoir les procédures de play-test du jeu
-
-    profile_parameter:
+  background_movements:
     note: 1
-    description: Le jeu ne contient aucune solution multiprofile
+    description: Il n'y a pas d'option pour désactiver ou cacher les mouvements de l'arrière plan.
 
 
-    voice_transcription:
+  text_audio_chat:
     note: 0
-    description: Le jeu n'est pas multijoueur
+    description: Le jeu n'est pas un jeu multijoueur.
+
+
+  visual_backup:
+    note: 2
+    description: On ne peut pas nommer les sauvegardes, mais différentes icones sont la pour montrer notre progrès.
+
+
+  separate_volumes:
+    note: 3
+    description: Il n'y a pas de Voix dans le jeux. Donc les deux types de sons sont la musique et les sfx (donc son).
+
+  different_sound:
+    note: 3
+    description: Chaque élément ou action dispose d'un son distinct.
+
+  text-changes:
+    note: 1
+    description: Impossible de choisir la couleur du texte et de modifier le contraste.
+
+  important_word:
+    note: 3
+    description: Certains mots importants (comme le nom des personnages) dans les dialogues sont marqué d'une couleur différentes.
+
+  turn_off_blood:
+    note: 0
+    description: Il n'y a pas de sang ou de gore.
+
+  reading_text:
+    note: 1
+    description: Il n'y a pas de lecteur d'écran intégré au jeu.
+
+  unforeseen_event:
+    note: 2
+    description: Certains éléments peuvent être surprenant du à la nature rapide du jeu, mais ils sont en général annonçant.
+
+  replay_narration:
+    note: 3
+    description: Rejouer un niveau est similaire à jouer au niveau pour la première fois.
+
+
+    note: 0
+    description: Le jeu n'est pas un jeu multijoueur.
+
+
+    note: 1
+    description: Il n'y a pas d'option pour cacher les éléments interractifs
+
+
+    note: 3
+    description: Rejouer un niveau est similaire à joueur au niveau pour la première fois.
+
+    
+    note: 3
+    description: Rejouer un niveau est similaire à joueur au niveau pour la première fois.
+
+
+    note: 3
+    description: Rejouer un niveau est similaire à joueur au niveau pour la première fois.
+
+
+
+
+
+
+
+
+
+
+
+  
 ---
