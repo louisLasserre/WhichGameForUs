@@ -190,13 +190,40 @@ evaluation:
     note: 0
     description: Il n'y a pas de sang ou de gore.
 
+  reading_text:
+    note: 1
+    description: Il n'y a pas de lecteur d'écran intégré au jeu.
+
+  unforeseen_event:
+    note: 2
+    description: Certains éléments peuvent être surprenant du à la nature rapide du jeu, mais ils sont en général annonçant.
+
+  replay_narration:
+    note: 3
+    description: Rejouer un niveau est similaire à jouer au niveau pour la première fois.
+
+
+    note: 0
+    description: Le jeu n'est pas un jeu multijoueur.
+
 
     note: 1
-    description: Chaque élément ou action dispose d'un son distinct.
+    description: Il n'y a pas d'option pour cacher les éléments interractifs
 
 
-    note: 2
-    description: Chaque élément ou action dispose d'un son distinct.
+    note: 3
+    description: Rejouer un niveau est similaire à joueur au niveau pour la première fois.
+
+    
+    note: 3
+    description: Rejouer un niveau est similaire à joueur au niveau pour la première fois.
+
+
+    note: 3
+    description: Rejouer un niveau est similaire à joueur au niveau pour la première fois.
+
+
+
 
 
 
