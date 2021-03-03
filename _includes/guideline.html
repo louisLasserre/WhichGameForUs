@@ -1,8 +1,24 @@
-<div>
-  {{ include.title }}
-  {{ include.value.note }}
-  {% if include.value.screenshot %}
-    <img src="/assets/images/games/{{ include.slug }}/{{ include.value.screenshot }}" alt="" class="img-fluid">
+<div class="row mb-5">
+  
+  <div>
+    {{ include.value[1]['lib'] }}
+  </div>
+  {% assign handle = include.value[1]["note"] %}
+  {% case handle %}
+    {% when 0 %}
+      <div> equals to 0 </div>
+    {% when 1 %}
+      <div> equals to 1 </div>
+    {% when 2 %}
+      <div> equals to 2 </div>
+    {% when 3 %}
+      <div> equals to 3 </div>
+  {% endcase %} 
+  {% if include.value[1]["screenshot"] %}
+    <img src="/assets/images/games/{{include.slug}}/{{include.value[1]['screenshot']}}" alt="Screenshot {{include.slug}} représentant la guideline  ' {{include.value[1]['lib']}} ' " class="img-fluid">
   {% endif %}
-  {{ include.value.description }}
+
+  <div>
+    {{ include.value[1]["description"] }}
+  </div>
 </div>

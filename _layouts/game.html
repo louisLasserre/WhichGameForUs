@@ -8,9 +8,14 @@ layout: default
 
 <div class="row mb-5">
   <div class="offset-md-2 col-md-8">
-    <img src="/assets/images/games/{{ slug }}.jpg" alt="{{ game.title }}" class="img-fluid">
+    <img src="/assets/images/games/{{ slug }}/{{slug}}.jpg" alt="{{ game.title }}" class="img-fluid">
   </div>
 </div>
+
+{% assign globalPercent = %}
+
+<div class= text-center>  </div>
+
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   
@@ -21,15 +26,82 @@ layout: default
   <li class="nav-item" role="presentation">
     <button class="nav-link" id="cognitif-tab" data-bs-toggle="tab" data-bs-target="#cognitif" type="button" role="tab" aria-controls="cognitig" aria-selected="false">Cognitif</button>
   </li>
+
   <li class="nav-item" role="presentation">
     <button class="nav-link" id="visuel-tab" data-bs-toggle="tab" data-bs-target="#visuel" type="button" role="tab" aria-controls="visuel" aria-selected="false">Visuel</button>
   </li>
+
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="auditif-tab" data-bs-toggle="tab" data-bs-target="#auditif" type="button" role="tab" aria-controls="auditif" aria-selected="false">Auditif</button>
+  </li>
+  
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="discours-tab" data-bs-toggle="tab" data-bs-target="#discours" type="button" role="tab" aria-controls="discours" aria-selected="false">Discours</button>
+  </li>
+
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="general-tab" data-bs-toggle="tab" data-bs-target="#general" type="button" role="tab" aria-controls="general" aria-selected="false">Général</button>
+  </li>
+
+
 </ul>
+
 <div class="tab-content" id="myTabContent">
+  
+  
   <div class="tab-pane show active" id="moteur" role="tabpanel" aria-labelledby="moteur-tab">
-    {% include guideline.html title="Autoriser..." value=page.evaluation.touch_assign slug=slug %}
-    {% include guideline.html title="Autoriser" value=page.evaluation.simple_commands slug=slug %}
+
+
+    {% for guideline in page.evaluation %}
+      {% if guideline[1]["handicap"] contains "Moteur" %} 
+        {% include guideline.html value= guideline slug=slug %}
+      {% endif %} 
+    {% endfor %}
+    
+
   </div>
-  <div class="tab-pane" id="visuel" role="tabpanel" aria-labelledby="visuel-tab">...</div>
-  <div class="tab-pane" id="cognitif" role="tabpanel" aria-labelledby="cognitif-tab">..a.</div>
+  <div class="tab-pane" id="cognitif" role="tabpanel" aria-labelledby="cognitif-tab">
+        
+    {% for guideline in page.evaluation %}
+      {% if guideline[1]["handicap"] contains "Cognitif" %} 
+        {% include guideline.html value= guideline slug=slug %}
+      {% endif %} 
+    {% endfor %}
+
+  </div>
+  <div class="tab-pane" id="visuel" role="tabpanel" aria-labelledby="visuel-tab">
+    {% for guideline in page.evaluation %}
+      {% if guideline[1]["handicap"] contains "Visuel" %} 
+        {% include guideline.html value= guideline slug=slug %}
+      {% endif %} 
+    {% endfor %}
+  </div>
+
+
+  <div class="tab-pane" id="auditif" role="tabpanel" aria-labelledby="auditif-tab">
+    {% for guideline in page.evaluation %}
+      {% if guideline[1]["handicap"] contains "Auditif" %} 
+        {% include guideline.html value= guideline slug=slug %}
+      {% endif %} 
+    {% endfor %}
+  </div>
+
+
+  <div class="tab-pane" id="discours" role="tabpanel" aria-labelledby="discours-tab">
+    {% for guideline in page.evaluation %}
+      {% if guideline[1]["handicap"] contains "Discours" %} 
+        {% include guideline.html value= guideline slug=slug %}
+      {% endif %} 
+    {% endfor %}
+  </div>
+
+
+  <div class="tab-pane" id="general" role="tabpanel" aria-labelledby="general-tab">
+    {% for guideline in page.evaluation %}
+      {% if guideline[1]["handicap"] contains "General" %} 
+        {% include guideline.html value= guideline slug=slug %}
+      {% endif %} 
+    {% endfor %}
+  </div>
+
 </div>
