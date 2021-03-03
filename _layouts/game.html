@@ -18,7 +18,9 @@ layout: default
   {% assign nb2 = 0%}
   {% assign nb1 = 0%}
 
+
   {% for guideline in page.evaluation %}
+
     {% assign data = guideline[1] %}
     {% if data.note == 3 %}
       {% assign nb3 = nb3 | plus: 1 %}
@@ -31,11 +33,21 @@ layout: default
   {% endfor %}
  
   {% assign xy = (nb3 | times: 100 ) %}
+  {{xy}}
+
   {% assign wz = (nb2 | times: 50 ) %}
+  {{wz}}
+
   {% assign numerator = (xy | plus: wz) %}
+  {{numerator}}
+
   {% assign ab = (nb3 | plus: nb2 )%}
+  {{ab}}
+
   {% assign denominator = (ab | plus: nb1 )%}
-  {% assign access_tot =  (numerator | divided_by: denominator) %}
+  {{denominator}}
+
+  {{numerator | divided_by: 2 }}
 
 
   <span class="display-6">Accessibilité Totale:</span>
