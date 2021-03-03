@@ -1,15 +1,14 @@
 ---
 title: Celeste
 evaluation:
-  touch_assign: Autoriser la modification par l'utilisateur de l’assignation des commandes du jeu.
+  touch_assign:
     note: 3
     screenshot: controls_celeste.jpg
     description: Toutes les commandes sont reconfigurables aussi bien pour clavier que pour manettes.
   simple_commands:
-    lib: Les commandes doivent être les plus simples possibles, ou bien une alternative plus simple doit exister.
     note: 3
     description: Un bouton saut, un bouton pour attraper les murs, un bouton de dash et des directions...
-  haptic_slider: Inclure une glissière ou un switch pour toute forme d’haptique.
+  haptic_slider:
     note: 3
     screenshot: controls_celeste.jpg
     description: On peut gérer la force des vibrations
@@ -30,3 +29,4 @@ evaluation:
   menus_do_not_move:
     note: 0
     description: La navigation dans les menus n'utilisent pas la souris.
+---
