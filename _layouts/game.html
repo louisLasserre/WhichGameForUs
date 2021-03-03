@@ -12,6 +12,35 @@ layout: default
   </div>
 </div>
 
+<div class="text-center mb-4">
+
+  {% assign nb3 = 0%}
+  {% assign nb2 = 0%}
+  {% assign nb1 = 0%}
+
+  {% for guideline in page.evaluation %}
+    {% assign data = guideline[1] %}
+    {% if data.note == 3 %}
+      {% assign nb3 = nb3 | plus: 1 %}
+    {% elsif data.note == 2 %}
+      {% assign nb2 = nb2 | plus: 1  %}
+    {% elsif data.note == 1 %}
+      {% assign nb1 = nb1 | plus: 1  %}
+    {%endif%}
+  
+  {% endfor %}
+   
+
+  {% assign access_tot = (nb3 * 100 + nb2 * 50) / (nb3 + nb2 + nb1) %}
+
+  <span class="display-6">Accessibilité Totale:</span>
+  <div class="lead">{{access_tot}}</div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: {{access_tot}}%" aria-valuenow="{{access_tot}}" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+</div>
+
 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
   {% for category in site.data.structure.categories %}
     {% assign category_slug = category.name | slugify: 'latin' %}
@@ -46,7 +75,7 @@ layout: default
           aria-labelledby="{{ category_slug}}-tab">
       {% for guideline in category.guidelines %}
         {% assign data = page.evaluation[guideline] %}
-        {% include guideline.html data=data slug=slug %}
+        {% include guideline.html data=data slug=slug guideline=guideline %}
       {% endfor %}
     </div>
   {% endfor %}

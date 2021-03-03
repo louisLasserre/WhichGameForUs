@@ -14,11 +14,12 @@
     </div>
   </div>
   <div class="col-md-8">
-    {{ include.data.description }}
+    <div class="lead">{{site.data.structure.guidelines[include.guideline]}}</div>
     {% if include.data.screenshot %}
-      <img  src="/assets/images/games/{{include.slug}}/{{ include.data.screenshot }}"
-            alt="Screenshot {{include.slug}}"
-            class="img-fluid">
+    <img  src="/assets/images/games/{{include.slug}}/{{ include.data.screenshot }}"
+    alt="Screenshot {{include.slug}}"
+    class="img-fluid">
     {% endif %}
+    {{ include.data.description }}
   </div>
 </div>
