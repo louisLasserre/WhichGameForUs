@@ -1,5 +1,5 @@
-<div class="row mb-5 offset-md-3 ">
-  <div class="col-md-1">
+<div class="row mb-5">
+  <div class="col-md-2">
     <div class="lead">
       {% if include.data.note == 0 %}
         <span class="badge bg-secondary p-3 text-wrap" >Non applicable</span>
@@ -12,12 +12,16 @@
       {% endif %}
     </div>
   </div>
-  <div class="guideline col-md-7 gx-5">
-    <div class="lead container-fluid bg-secondary p-3 rounded">{{site.data.structure.guidelines[include.guideline]}}</div>
-    <div class="container-fluid my-5" >
+  <div class="guideline col-md-7">
+    <div class="lead bg-secondary p-3 rounded">
+      {{site.data.structure.guidelines[include.guideline]}}
+    </div>
+    <div class="my-5">
       <div class="row align-items-center">
         {% if include.data.screenshot %}
-         <div class="col"> <img  src="/assets/images/games/{{include.slug}}/{{ include.data.screenshot }}" alt="Screenshot {{include.slug}}" class="img-fluid "></div>
+          <img  src="/assets/images/games/{{include.slug}}/{{ include.data.screenshot }}"
+                alt="Screenshot {{include.slug}}"
+                class="img-fluid mb-4">
         {% endif %}
         <span class="col" >{{ include.data.description }}</span>
       </div>
