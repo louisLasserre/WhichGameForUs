@@ -3,7 +3,7 @@ title: Dofus
 evaluation:
   touch_assign:
     note: 3
-    screenshot: Dofu1.jpg
+    screenshot: Dofus1_touch_assign.jpg
     description: "Toutes les touches correspondant à des actions sont modifiables"
 
   simple_commands:
@@ -22,9 +22,9 @@ evaluation:
     note: 1
     description: "On ne peut pas régler la sensibilité de la souris"
 
-  large_elements:
+  _large_elements:
     note: 2
-    screenshot: Dofus2.1.jpg Dofus2.2.jpg
+    screenshot: Dofus2.1_large_elements.jpg Dofus2.2_large_elements.jpg
     description: "L'interface comporte des éléments proches qui pourraient être plus aérés. Une option permet de grossir les différentes icones"
 
   more_than_one_device:
@@ -97,7 +97,6 @@ evaluation:
 
   font:
     note: 3
-    screenshot: celeste_font.jpg
     description: "La police d'écriture est dans un style simple et fin, comprend les accents, il n'y a pas d'empatement"
 
   clear_language:
@@ -106,7 +105,7 @@ evaluation:
 
   clear_text:
     note: 3
-    screenshot: Dofus3.jpg
+    screenshot: Dofus3_clear_text.jpg
     description: "Le language est clair et précis sauf lorsqu'il s'agit d'objet précis qui sont propre au jeu qui peuvent avoir un nom plus complexe"
 
   tutorials:
@@ -123,16 +122,17 @@ evaluation:
 
   help_game:
     note: 1
+    screenshot: Dofus4_help_game.jpg
     description: "Un guide est présent mais il est très chargé, des astuces en jeu apparaissent en combat (par exemple lorsque l'on met trop de temps à passer son tour)"
 
   reminder_objective:
     note: 1
-    screenshot: Dofus5.jpg Dofus5.2.jpg
+    screenshot: Dofus5_reminder_objective.jpg Dofus5.2_reminder_objective.jpg
     description: "Au suvol des attaques disponible on nous rappel la touche de raccourci mais sinon tout se joue à la souris"
 
   reminder_control:
     note: 1
-    screenshot: Dofus5.jpg Dofus6.jpg
+    screenshot: Dofus5_reminder_control.jpg Dofus6_reminder_control.jpg
     description: "Il n'y a pas de rappel des controles durant le jeu."
 
   sandbox_mode:
@@ -153,7 +153,7 @@ evaluation:
 
   interactive_elements:
     note: 3    
-    screenshot: Dofus7.jpg
+    screenshot: Dofus7_interactive_elements.jpg
     description: "Les éléments avec lesquels on peut interargir sont accompagné d'un petit logo et d'un nom/description"
 
   background_movements:
@@ -162,19 +162,19 @@ evaluation:
 
   text_audio_chat:
     note: 2
-    screenshot: Dofus8.jpg
+    screenshot: Dofus8_text_audio_chat.jpg
     description: "Il n'y a qu'un tchat écrit dans le jeu, le tchat vocal n'est pas inclu"
 
 
   visual_backup:
     note: 3
-    screenshot: Dofus9.jpg
+    screenshot: Dofus9_visual_backup.jpg
     description: "Le jeu propose un menu accessible à tout moment en faisant \"Echap\" "
 
 
   separate_volumes:
     note: 3
-    screenshot: Dofus1.jpg
+    screenshot: Dofus1_separate_volumes.jpg
     description: "Chaque "famille" de son peut être baissée, coupée ou augmentée mais aussi plus gloabalement"
 
   different_sound:
@@ -183,7 +183,7 @@ evaluation:
 
   text_changes:
     note: 3
-    screenshot: Dofus11.jpg
+    screenshot: Dofus11_text_changes.jpg
     description: "On peut changer la couleur et le contraste des différents chanels"
 
   important_word:
@@ -212,7 +212,7 @@ evaluation:
 
   hide_option:
     note: 2
-    screenshot: Dofus12.jpg
+    screenshot: Dofus12_hide_option.jpg
     description: "En combat il est possible d'activer le mode "Tactique" qui permet de cacher tout les éléments décoratifs et avec lesquels on ne peut pas intéragir. Cela permet de mieux se concentrer sur l'essentiel"
 
   different_essential_information:
@@ -329,7 +329,7 @@ evaluation:
 
   visual_speaker_indication:
     note: 3
-    screenshot: Dofus13.jpg
+    screenshot: Dofus13_visual_speaker_indication.jpg
     description : "A chaque fois qu'un personnage parle son nom est affiché dans la bulle de dialogue en gras"
 
   customization_subtitles:
@@ -407,7 +407,7 @@ evaluation:
 
     access_comment:
         note: 2
-        screenshot: Dofus14.jpg
+        screenshot: Dofus14_access_comment.jpg
         description: "On peut contacter directement depuis le jeu l'équipe du support mais cela n'est pas forcément pour répondre aux problèmes d'accessiblité"
 
     menu_with_movement:
