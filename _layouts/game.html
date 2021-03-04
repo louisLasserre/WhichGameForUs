@@ -12,7 +12,7 @@ layout: default
   </div>
 </div>
 
-<ul class="offset-md-2 col-md-8  nav nav-tabs lead" id="myTab" role="tablist">
+<ul class="offset-md-2 col-md-8  nav nav-tabs" id="myTab" role="tablist">
   {% for category in site.data.structure.categories %}
     {% assign category_slug = category.name | slugify: 'latin' %}
     {% if forloop.index0 == 0%}
@@ -21,7 +21,7 @@ layout: default
       {% assign active = false %}
     {% endif %}
     <li class="nav-item " role="presentation">
-      <button class=" px-5 rounded-1 border nav-link{% if active %} active {% endif %}" id="{{ category_slug }}-tab"
+      <button class="lead px-5 rounded-1 border nav-link{% if active %} active {% endif %}" id="{{ category_slug }}-tab"
               data-bs-toggle="tab"
               data-bs-target="#{{ category_slug }}"
               type="button"
