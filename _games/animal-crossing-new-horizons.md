@@ -11,15 +11,15 @@ evaluation:
 
     haptic_slider:
         note: 1
-        description: "On ne peut pas gérer la vibration dans le jeu mais dans les paramètres de la console."
+        description: "Il n'y a pas de gestion de la vibration dans le jeu mais il y en a une dans les paramètres de la console."
 
     menu_with_keys:
         note: 1
-        description: "Nous n'avons pas accès aux contrôles directement en jeu."
+        description: "Il n'y a pas d'accès aux contrôles directement en jeu."
 
     sensitivity:
         note: 1
-        description: "Pas d'options d’accessibilité des contrôles."
+        description: "Il n'y a pas d'options d’accessibilité des contrôles."
 
     large_elements:
         note: 3
@@ -73,7 +73,7 @@ evaluation:
 
     movement_tracking:
         note: 0
-        description: "Le jeu n'est pas VR."
+        description: "Le jeu n'est pas en réalité virtuelle."
 
     mobile_mode:
         note: 0
@@ -81,7 +81,7 @@ evaluation:
 
     timing:
         note: 2
-        description: "Le timing n'est pas présent partout mais pour pêcher ou casser un rocher il faut appuyer avec un timing, guidé par des vibrations ou son."
+        description: "Le timing n'est pas présent partout mais pour pêcher ou casser un rocher il faut appuyer avec un timing, guidé par des vibrations ou du son."
 
     time_limit:
         note: 2
@@ -98,7 +98,7 @@ evaluation:
 
     font:
         note: 3
-        description: "La police utilisée est assez grande et n'a pas d'empâtements pouvant nuire à sa lecture."
+        description: "La police utilisée est assez grande et n'a pas d'empâtement pouvant nuire à sa lecture."
 
     clear_language:
         note: 3
@@ -139,7 +139,7 @@ evaluation:
 
     simple_narration:
         note: 3
-        description: "L'objectif du jeu est très clair et apporte dès le début du jeu."
+        description: "L'objectif du jeu est très clair et est apporté dès le début du jeu."
 
     summary_key_point:
         note: 0
@@ -151,23 +151,23 @@ evaluation:
 
     interactive_elements:
         note: 2
-        description: "Le joueur apprend que certains éléments sont interactifs ou non, rare sont les éléments qui ne peuvent pas être interactifs mais ce n'est pas totalement clair."
+        description: "Le joueur apprend que certains éléments sont intéractifs ou non, rare sont les éléments qui ne peuvent pas être intéractifs mais ce n'est pas totalement clair."
 
     background_movements:
         note: 0
-        description: "Il n'y a pas vraiment de mouvements de fond."
+        description: "Il n'y a pas vraiment de mouvement de fond."
 
     text_audio_chat:
         note: 1
-        description: "Le jeu est solo, le multijoueur est payant, il y a un tchat textuel (et un tchat vocal mais pas directement implementé en jeu)."
+        description: "Le jeu est solo, le multijoueur est payant, il y a un tchat textuel (et un tchat vocal, mais celui-ci n'est pas directement implementé en jeu)."
 
     visual_backup:
         note: 1
-        description: "On ne peut jouer qu’avec une seule sauvegarde a la fois, celle-ci est lancée quand on décide de démarrer le jeu"
+        description: "Il n'y a qu'une seule sauvegarde à la fois, celle-ci est lancée au démarrage du jeu"
 
     separate_volumes:
         note: 1
-        description: "Aucun réglage n'est integré."
+        description: "Aucun réglage de volume séparé n'est intégré."
 
     different_sound:
         note: 3
@@ -175,7 +175,7 @@ evaluation:
 
     text_changes:
         note: 1
-        description: "On ne pas régler la couleur du texte."
+        description: "Il n'y a pas de réglage concernant la couleur des textes."
 
     important_word:
         note: 3
@@ -200,7 +200,7 @@ evaluation:
 
     symbols_chat:
         note: 0
-        description: "le jeu n'est pas multijoueur mais ceci est payant (présence de réactions des personnage ou de texte)."
+        description: "Le jeu n'est pas multijoueur et n'a donc pas de chat."
 
     hide_option:
         note: 1
@@ -212,24 +212,24 @@ evaluation:
 
     field_of_view:
         note: 3
-        description: "Le jeu est en 3D et celle-ci est fixe, le personnage se déplace sur un globe."
+        description: "Le jeu est en 3D et le champs de vision est fixe, le personnage se déplace sur un globe."
 
     vr_problems:
         note: 0
-        description: "Le jeu n'est pas VR."
+        description: "Le jeu n'est pas en réalité virtuelle."
 
     contrast_elements:
         note: 3
         screenshot: animal_crossing_new_horizons_contrast_elements.jpg
-        description: "Le contraste est respecté, le fond des interfaces est clair et les éléments de couleur."
+        description: "Le contraste est respecté et le fond des interfaces est clair."
 
     different_movements:
         note: 2
-        description: "On ne peut pas vraiment bouger la caméra avec le joystick mais on peut lui définir 3 positions."
+        description: "Il n'y a pas de gestion libre de caméra avec le joystick mais il y a 3 positions de caméra."
 
     surround_sound:
         note: 0
-        description: "Il n'y a pas de son surround activa le directement en jeu, il faut activer cela depuis la console."
+        description: "Il n'y a pas de son surround activable directement en jeu, il faut activer cela depuis la console."
 
     background_animation:
         note: 1
@@ -250,7 +250,7 @@ evaluation:
 
     adapted_website:
         note: 2
-        description: "Le site https://www.animal-crossing.com/new-horizons/fr/ est accessible mais n'a pas d'alt pour les images par exemple."
+        description: "Le site https://www.animal-crossing.com/new-horizons/fr/ est accessible mais n'a pas de transcription textuelle pour les images par exemple."
 
     visible_essentiel_elements:
         note: 1
@@ -266,7 +266,7 @@ evaluation:
 
     voice_gps:
         note: 1
-        description: "Ce jeu ne dispose pas de gps vocal."
+        description: "Ce jeu ne dispose pas de GPS vocal."
 
     cardinal_point_orientation:
         note: 1
@@ -298,11 +298,11 @@ evaluation:
 
     sound_information:
         note: 3
-        description: "Les informations sonores sont aussi visible à l'écran."
+        description: "Les informations sonores sont aussi visibles à l'écran."
 
     clear_subtitles:
         note: 0
-        description: "En dehors des dialogues il n'y a pas de sous-titre."
+        description: "En dehors des dialogues, il n'y a pas de sous-titre."
 
     discussion_without_parasites:
         note: 0
@@ -323,7 +323,7 @@ evaluation:
     visual_speaker_indication:
         note: 3
         screenshot: animal_crossing_new_horizons_visuel_speaker_indication.jpg
-        description : "Le personnage entrain de parler a son nom qui est indiqué."
+        description : "Le personnage qui est en train de parler, à son nom qui est indiqué."
 
     customization_subtitles:
         note: 0
@@ -337,7 +337,6 @@ evaluation:
         note: 3
         description: "Le tchat textuel est possible en jeu."
 
-
     visual_voice_chat:
         note: 3
         description: "Dans l'application, on peut savoir qui parle, son icône est grossie."
@@ -348,7 +347,7 @@ evaluation:
 
     sounds_to_text:
         note: 3
-        description: "Les actions ou éléments sonores sont montrés à l'écran, quand on casse un rocher il bouge en même temps qu'il bouge."
+        description: "Les actions ou éléments sonores sont montrés à l'écran, quand on casse un rocher, la traduction visuelle de l'élément sonore bouge en même temps que le rocher bouge."
 
     stereo_mono:
         note: 1
@@ -356,7 +355,7 @@ evaluation:
 
     words_per_minute:
         note: 0
-        description: "Il n'y a pas de sous-titres dans le jeu."
+        description: "Il n'y a pas de sous-titre dans le jeu."
 
     sign_language:
         note: 1
@@ -365,7 +364,7 @@ evaluation:
 
     no_voice_input:
         note: 1
-        description: "Il n'y a pas de contrôles vocaux."
+        description: "Il n'y a pas de contrôle vocal."
 
     com_visuel_multi:
         note: 3
@@ -373,11 +372,11 @@ evaluation:
 
     speech_recognition:
         note: 1
-        description: "Il n'y a pas de contrôles vocaux en jeu ."
+        description: "Il n'y a pas de contrôle vocal en jeu ."
 
     half_voice:
         note: 1
-        description: "Il n'y a pas de contrôles vocaux en jeu."   
+        description: "Il n'y a pas de contrôle vocal en jeu."   
 
     provide_accessibility:
         note: 1
@@ -393,7 +392,7 @@ evaluation:
 
     save_parameters:
         note: 1
-        description: "Il n'y a aucun paramètres."
+        description: "Il n'y a aucun paramètre de sauvegarde."
 
     access_comment:
         note: 1
@@ -422,7 +421,7 @@ evaluation:
 
     automatic_backup:
         note: 3
-        description: "Le jeu comporte une sauvegarde automatique qui s'effectue environ toute les dix minutes, symbolise par un logo en bas de l'écran dans un coin."
+        description: "Le jeu comporte une sauvegarde automatique qui s'effectue environ toute les dix minutes, symbolise par une icône dans un coin de l'écran."
 
     online_management:
         note: 1
@@ -438,10 +437,10 @@ evaluation:
 
     profile_parameter:
         note: 1
-        description: "Le jeu ne contient aucune solution multiprofile."
+        description: "Le jeu ne contient aucune solution multi-profil."
 
     voice_transcription:
         note: 1
-        description: "Cette fonctionnalité n'est pas incluse dans le jeu"
+        description: "La retranscription vocale n'est pas incluse dans le jeu"
 
 ---
