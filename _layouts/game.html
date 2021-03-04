@@ -7,7 +7,7 @@ layout: default
 <h1 class="offset-md-3 mb-4 game-title">{{ page.title }}</h1>
 
 <div class="row mb-5">
-  <div class="offset-md-3 col-md-8">
+  <div class="offset-md-3 col-md-6">
     <img src="/assets/images/games/{{ slug }}/{{slug}}.jpg" alt="{{ game.title }}" class="img-fluid">
   </div>
 </div>
@@ -32,7 +32,7 @@ layout: default
   {% endfor %}
 </ul>
 
-<div class="tab-content" id="tabContent">
+<div class="tab-content a" id="tabContent">
   {% for category in site.data.structure.categories %}
     {% assign category_slug = category.name | slugify: 'latin' %}
     {% if forloop.index0 == 0%}
@@ -40,7 +40,7 @@ layout: default
     {% else %}
       {% assign active = false %}
     {% endif %}
-    <div  class="tab-pane show pt-5 {% if active %} active {% endif %}"
+    <div  class="tab-pane show pt-5 {% if active %} active {% endif %} "
           id="{{ category_slug}}"
           role="tabpanel"
           aria-labelledby="{{ category_slug}}-tab">
