@@ -323,6 +323,7 @@ evaluation:
     
     visual_speaker_indication:
         note: 3
+        screenshot: destiny_2_visible_visual_speaker_indication.jpg
         description : "Le nom de la personne qui entrain de parler est inscrit à l'écran."
     
     customization_subtitles:
