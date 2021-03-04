@@ -12,7 +12,7 @@ layout: default
   </div>
 </div>
 
-<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+<ul class="nav nav-tabs border-0" id="myTab" role="tablist">
   {% for category in site.data.structure.categories %}
     {% assign category_slug = category.name | slugify: 'latin' %}
     {% if forloop.index0 == 0%}
@@ -21,7 +21,7 @@ layout: default
       {% assign active = false %}
     {% endif %}
     <li class="nav-item" role="presentation">
-      <button class="nav-link{% if active %} active {% endif %}" id="{{ category_slug }}-tab"
+      <button class="border nav-link{% if active %} active border-bottom-0 {% endif %}" id="{{ category_slug }}-tab"
               data-bs-toggle="tab"
               data-bs-target="#{{ category_slug }}"
               type="button"
