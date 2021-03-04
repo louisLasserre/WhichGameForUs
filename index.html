@@ -5,7 +5,7 @@ title: Un jeu pour moi
 <div class="offset-md-2 col-md-8 row">
   {% for game in site.games %}
     {% assign slug = game.title | slugify: 'latin' %}
-    <div class="col-md-3 mb-4">
+    <div class="col-md-3 mb-5">
       <div class="card bg-secondary">
         <img src="/assets/images/games/{{ slug }}/{{ slug }}.jpg" alt="{{ game.title }}" class="card-img-top">
         <div class="card-body">
