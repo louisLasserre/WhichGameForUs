@@ -22,9 +22,9 @@ evaluation:
     note: 1
     description: "On ne peut pas régler la sensibilité de la souris"
 
-  large_elements:
+  _large_elements:
     note: 2
-    screenshot: Dofus2.1.jpg Dofus2.2.jpg
+    screenshot: Dofus2.1_large_elements.jpg Dofus2.2_large_elements.jpg
     description: "L'interface comporte des éléments proches qui pourraient être plus aérés. Une option permet de grossir les différentes icones"
 
   more_than_one_device:
@@ -122,11 +122,12 @@ evaluation:
 
   help_game:
     note: 1
+    screenshot: Dofus4_help_game.jpg
     description: "Un guide est présent mais il est très chargé, des astuces en jeu apparaissent en combat (par exemple lorsque l'on met trop de temps à passer son tour)"
 
   reminder_objective:
     note: 1
-    screenshot: Dofus5.jpg Dofus5.2.jpg
+    screenshot: Dofus5_reminder_objective.jpg Dofus5.2_reminder_objective.jpg
     description: "Au suvol des attaques disponible on nous rappel la touche de raccourci mais sinon tout se joue à la souris"
 
   reminder_control:
