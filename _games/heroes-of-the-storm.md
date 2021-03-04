@@ -4,6 +4,14 @@ evaluation:
 
     
 
+    multi_no_mic:
+    note : 0
+    description: "Le jeu n'est pas multijoueur."
+
+    sounds_to_text:
+    note: 3
+    description: "Toutes les informations sonores importantes sont aussi communiquées visuellement."
+
     stereo_mono:
     note: 1
     description: "Le jeu n'a pas de toggle entre mono et stereo."
