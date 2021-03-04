@@ -8,12 +8,12 @@ evaluation:
 
   simple_commands:
     note: 3
-    description: "Un bouton saut, un bouton pour attraper les murs, un bouton de dash et des directions..."
+    description: "Chaque action a un seul bouton qui lui correspond."
 
   haptic_slider:
     note: 3
     screenshot: celeste_haptic_slider.jpg
-    description: "On peut gérer la force des vibrations."
+    description: "Il y a une gestion des vibrations."
 
   menu_with_keys:
     note: 3
@@ -31,7 +31,7 @@ evaluation:
   more_than_one_device:
     note: 3
     screenshot: celeste_more_than_one_device.jpg
-    description: "La manette et le clavier sont supporté."
+    description: "La manette et le clavier sont supportés."
 
   menus_do_not_move:
     note: 0
@@ -43,7 +43,7 @@ evaluation:
 
   digital_controls:
     note: 3
-    description: "Le jeu se joue uniquement avec des digitals controls."
+    description: "Le jeu se joue uniquement avec des boutons."
 
   option_vit:
     note: 3
@@ -52,7 +52,7 @@ evaluation:
 
   qte:
     note: 3
-    description: "Pas de QTE ou de button-mashing."
+    description: "Pas de QTE ou de répétition rapide."
 
   window_mode:
     note: 3
@@ -61,7 +61,7 @@ evaluation:
 
   button_pressure:
     note: 1
-    description: "Les directions et attraper un mur sont des boutons que l'on maintiens qui n'ont pas d'alternatives."
+    description: "Les directions et attraper un mur sont des boutons à maintenir, ils n'ont pas d'alternatives."
 
   orga_interface:
     note: 1
@@ -89,11 +89,11 @@ evaluation:
 
   time_limit:
     note: 2
-    description: "Compliqué à tester après coup, mais il semble y avoir du cool down entre deux inputs, mais il n'est probablement pas de 0.5."
+    description: "Difficilement mesurable, mais il semble y avoir du délai entre deux pression successives, mais il n'est probablement pas de 0.5."
 
   simple_control:
     note: 1
-    description: "Le jeu est trop complexe pour être joué avec des controles aussi simple."
+    description: "Le jeu est trop complexe pour être joué avec des controles aussi simples."
 
   level_navigation:
     note: 2
@@ -102,16 +102,16 @@ evaluation:
   font:
     note: 3
     screenshot: celeste_font.jpg
-    description: "La font par défaut est lisible facilement. Elle ne dispose pas d'empatement, et chaque lettre est bien distincte des autres."
+    description: "La police par défaut est lisible facilement. Elle ne dispose pas d'empatement, et chaque lettre est bien distincte par rapport aux autres."
 
   clear_language:
     note: 3
-    description: "Le texte est écrit de manière claire."
+    description: "Le texte est écrit clairement."
 
   clear_text:
     note: 3
     screenshot: celeste_clear_text.jpg
-    description: "Le format du text est clair, les lettres sont séparé les unes des autres pour permettre une lecture facile."
+    description: "Le format du text est clair, les lettres sont séparées les unes des autres pour permettre une lecture facile."
 
   tutorials:
     note: 3
@@ -120,16 +120,16 @@ evaluation:
 
   more_reading_time:
     note: 2
-    description: "Certains panneau de texte, ceux au début de niveau par exemple défile tout seul. La majorité (les dialogues notamment) necessite une action du joueur."
+    description: "Certains panneaux de texte, ceux au début de niveau par exemple, défilent tout seul. La majorité des textes (les dialogues notamment) nécessite une action du joueur."
 
   photosensitive:
     note: 3
     screenshot: celeste_photosensitive.jpg
-    description: "Permet de d'activer un mode \"Photosensible\" désactivant tout les éléments pouvant déclencher des crises."
+    description: "Permet de d'activer un mode \"Photosensible\" désactivant tous les éléments pouvant déclencher des crises."
 
   help_game:
     note: 1
-    description: "A part durant le tutoriel, il n'y a plus d'aide in-game."
+    description: "A part durant le tutoriel, il n'y a plus d'aide en jeu."
 
   reminder_objective:
     note: 1
@@ -137,12 +137,12 @@ evaluation:
 
   reminder_control:
     note: 1
-    description: "Il n'y a pas de rappel des controles durant le jeu."
+    description: "Il n'y a pas de rappel des contrôles durant le jeu."
 
   sandbox_mode:
     note: 3
     screenshot: celeste_sandbox_mode.jpg
-    description: "Le mode Assist permet d'activer de nombreuse options facilitant l'entrainement (Invincibilité, Nombre de Dash, Endurance)."
+    description: "Le mode Assist permet d'activer de nombreuses options facilitant l'entrainement (Invincibilité, Nombre de Dash, Endurance)."
 
   simple_narration:
     note: 3
@@ -151,16 +151,16 @@ evaluation:
 
   summary_key_point:
     note: 0
-    description: "L'histoire n'est pas une histoire necessitant des résumés de la progression."
+    description: "L'histoire n'est pas une histoire nécessitant des résumés de la progression."
 
   oral_written_information:
     note: 2
     screenshot: celeste_oral_written_information.jpg
-    description: "Certaines informations du tutoriel sont communiqué avec des pictogrammes de la touches à utilisé, mais contiennent du texte pour décrire l'action."
+    description: "Certaines informations du tutoriel sont communiquées avec des pictogrammes de la touches à utiliser, mais contiennent du texte pour décrire l'action."
 
   interactive_elements:
     note: 3
-    description: "Il n'y a quasiment pas d'UI visible. Et pas d'élément interractible (Objet à ramassé en cliquant sur un bouton par exemple)."
+    description: "Il n'y a quasiment pas d'intéraction visible. Et pas d'élément interractible (Objet à ramasser en cliquant sur un bouton par exemple)."
 
   background_movements:
     note: 1
@@ -174,13 +174,13 @@ evaluation:
   visual_backup:
     note: 2
     screenshot: celeste_visual_backup.jpg
-    description: "On ne peut pas nommer les sauvegardes, mais différentes icones sont la pour montrer notre progrès."
+    description: "On ne peut pas nommer les sauvegardes, mais différentes icônes sont là pour montrer notre progrès."
 
 
   separate_volumes:
     note: 3
     screenshot: celeste_separate_volumes.jpg
-    description: "Il n'y a pas de Voix dans le jeux. Donc les deux types de sons sont la musique et les sfx (donc son)."
+    description: "Il n'y a pas de voix dans le jeu. Les deux types de sons sont la musique et les éléments sonores."
 
   different_sound:
     note: 3
@@ -193,7 +193,7 @@ evaluation:
   important_word:
     note: 3
     screenshot: celeste_important_world.jpg
-    description: "Certains mots importants (comme le nom des personnages) dans les dialogues sont marqué d'une couleur différentes."
+    description: "Certains mots importants (comme le nom des personnages) dans les dialogues sont marqués d'une couleur différente."
 
   turn_off_blood:
     note: 0
@@ -205,7 +205,7 @@ evaluation:
 
   unforeseen_event:
     note: 2
-    description: "Certains éléments peuvent être surprenant du à la nature rapide du jeu, mais ils sont en général annoncer."
+    description: "Certains éléments peuvent être surprenants à cuase de la rapidité du jeu, mais ils sont en général annoncés."
 
   replay_narration:
     note: 3
@@ -217,7 +217,7 @@ evaluation:
 
   hide_option:
     note: 1
-    description: "Il n'y a pas d'option pour cacher les éléments interractifs."
+    description: "Il n'y a pas d'option pour cacher les éléments intéractifs."
 
   different_essential_information:
     note: 1
@@ -230,16 +230,16 @@ evaluation:
 
   vr_problems:
     note: 0
-    description: "Le jeu n'est pas en VR."
+    description: "Le jeu n'est pas en réalité virtuelle."
 
   contrast_elements:
     note: 3
     screenshot: celeste_contrast_elements.jpg
-    description: "Tout éléments d'UI à un fond sombre en transparence pour le faire ressortir."
+    description: "Tout élément intéractif a un fond sombre en transparence pour le faire ressortir."
 
   different_movements:
     note: 0
-    description: "Le jeu est un plateformer en 2D, les mouvement suivent le personnage."
+    description: "Le jeu est un plateformer en 2D, les mouvements suivent le personnage."
 
   surround_sound:
     note: 1
@@ -247,15 +247,15 @@ evaluation:
 
   background_animation:
     note: 1
-    description: "De telles options n'existent pas."
+    description: "Il n'y a pas de gestion d'animation du fond."
 
   mobile_reader_background:
     note: 0
-    description: "Le jeu n'est pas sur support mobile."
+    description: "Le jeu n'est pas sur mobile."
 
   adjust_contrast:
     note: 1
-    description: "Il n'y a pas d'options pour ajuster le contraste."
+    description: "Il n'y a pas d'option pour ajuster le contraste."
 
   cursor:
     note: 0
@@ -263,11 +263,11 @@ evaluation:
 
   adapted_website:
     note: 1
-    description: "Le site http://www.celestegame.com/ ne suit pas de nombreuse guideline d'accessibilité web. Plus d'info sur l'accessibilité web sur https://www.w3.org/standards/webdesign/accessibility."
+    description: "Le site http://www.celestegame.com/ ne suit pas de nombreuses bonnes pratiques d'accessibilité web."
 
   visible_essentiel_elements:
     note: 3
-    description: "Toutes les informations temporaires sont dans la zone de vue."
+    description: "Toutes les informations temporaires sont dans lae champs de vision."
 
   font_size:
     note: 1
@@ -287,7 +287,7 @@ evaluation:
 
   digital_controls:
     note: 3
-    description: "Toute les actions peuvent être effectué avec des controles digitaux."
+    description: "Toutes les actions peuvent être effectuées avec des contrôles digitaux."
 
   screen_readers:
     note: 1
@@ -295,7 +295,7 @@ evaluation:
 
   separate_music:
     note: 3
-    description: "Chaque objet à un son associé, chaque action à un son associé, et chaque niveaux et menu à sa musique."
+    description: "Chaque élément ou interface a un son ou une musique propre."
 
   binaural_recording:
     note: 1
@@ -311,7 +311,7 @@ evaluation:
 
   sound_information:
     note: 3
-    description: "Toutes les informations sonore sont aussi communiqué visuellement."
+    description: "Toutes les informations sonores sont aussi communiquées visuellement."
 
   clear_subtitles:
     note: 0
@@ -336,7 +336,7 @@ evaluation:
   visual_speaker_indication:
     note: 3
     screenshot: celeste_visual_speaker_indication.jpg
-    description : "Les personnes entrains de parler lors des dialogues ont leur porter à coté du texte."
+    description : "Les personnes, qui parlent lors des dialogues, ont leur portrait à coté du texte."
 
   customization_subtitles:
     note: 0
@@ -344,7 +344,7 @@ evaluation:
 
   text_chat_and_voice:
     note: 0
-    description : "Les personnes entrains de parler lors des dialogues ont leur porter à coté du texte."
+    description : "Les personnes, qui parlent lors des dialogues, ont leur portrait à coté du texte."
 
   communication_sign:
     note: 0
@@ -364,11 +364,11 @@ evaluation:
 
   stereo_mono:
     note: 1
-    description: "Le jeu n'a pas de toggle entre mono et stereo."
+    description: "Le jeu n'a pas de possibilité de passer de mono à stéréo ou inversement."
 
   words_per_minute:
     note: 0
-    description: "Il n'y a pas de doublages."
+    description: "Il n'y a pas de doublage."
 
   sign_language:
     note: 0
@@ -385,11 +385,11 @@ evaluation:
 
   speech_recognition:
     note: 0
-    description: "Il n'y a pas controle à la voix dans le jeu."
+    description: "Il n'y a pas contrôle à la voix dans le jeu."
 
   half_voice:
     note: 0
-    description: "Il n'y a pas controle à la voix dans le jeu."    
+    description: "Il n'y a pas contrôle à la voix dans le jeu."    
 
   provide_accessibility:
     note: 1
@@ -398,7 +398,7 @@ evaluation:
   details_on_accessibility:
     note: 2
     screenshot: celeste_details_on_accessibility.jpg
-    description: "Le jeu explique le mode assist lorsqu'on essaye de l'activer, mais il n'explique pas le reste."
+    description: "Le jeu explique le mode assist lorsqu'on essaye de l'activer, mais il n'explique rien d'autre."
 
   difficulty_level:
     note: 3
@@ -407,7 +407,7 @@ evaluation:
 
   save_parameters:
     note: 3
-    description: "Tout les parametres sont sauvegardés quand on quitte le menu de parametres."
+    description: "Tous les paramètres sont sauvegardés lors de la sortie du menu de parametres."
 
   access_comment:
     note: 1
@@ -419,12 +419,12 @@ evaluation:
 
   disabled_tester:
     note: 0
-    description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu."
+    description: "Il n'y a pas de moyen de savoir les procédures de tests du jeu."
 
   mechanical_jump:
     note: 1
     screenshot: celeste_mechanical_jump.jpg
-    description: "Avec le mode Assist on peut passer des niveaux."
+    description: "Avec le mode Assist, on peut passer des niveaux."
 
   automatic_assistance_mode:
     note: 1
@@ -434,12 +434,12 @@ evaluation:
   manual_backup:
     note: 3
     screenshot: celeste_manual_backup.jpg
-    description: "Le jeu comporte des sauvegarde manuelles à chaque fois que l'on veut quitter le jeu."
+    description: "Le jeu comporte des sauvegardes manuelles à chaque fois que l'on veut quitter le jeu."
 
   automatic_backup:
     note: 3
     screenshot: celeste_automatic_backup.jpg
-    description: "Le jeu comporte des sauvegarde automatique à chaque changement d'écran."
+    description: "Le jeu comporte des sauvegarde automatiques à chaque changement d'écran."
 
   online_management:
     note: 0
@@ -448,15 +448,15 @@ evaluation:
   gameplay_variable:
     note: 3
     screenshot: celeste_gameplay_variable.jpg
-    description: "Il y a un grand choix dan sle paramètrage des difficulté en touchant à certains paramètres."
+    description: "Il y a un grand choix dans le paramètrage des difficultés en touchant à certains paramètres."
 
   accessibility_test:
     note: 0
-    description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu."
+    description: "Il n'y a pas moyen de savoir les procédures de tests du jeu."
 
   profile_parameter:
     note: 1
-    description: "Le jeu ne contient aucune solution multiprofile."
+    description: "Le jeu ne contient aucune solution multi-profil."
 
   voice_transcription:
     note: 0
