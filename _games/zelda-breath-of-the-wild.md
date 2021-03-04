@@ -1,5 +1,5 @@
 ---
-title: zelda-breath-of-the-wild
+title: The Legend of Zelda Breath Of The Wild
 evaluation:
   touch_assign:
     note: 2
