@@ -1,5 +1,5 @@
 ---
-title: 
+title: Starcraft 2
 evaluation:
     touch_assign:
         note: 3
@@ -27,7 +27,7 @@ evaluation:
     
     large_elements:
         note: 1
-        screenshot: dialogues_écrit_large_elements.png
+        screenshot: dialogues_écrit_clear_subtitles.png
         description: "éléments petits et gros, qui sont plus ou moins espacés, mais pas suffisament pour tous différenciers"
     
     more_than_one_device:
@@ -35,8 +35,8 @@ evaluation:
         description: "on peut jouer avec le clavier et la souris"
     
     menus_do_not_move:
-        note: 2
-        screenshot: armée_qui_se_mélange_menus_do_not_move.png
+        note: 1
+        screenshot: armée_qui_se_mélange.png
         description: "Certains éléments sont stationnaires et ne peuvent pas bouger mais en multi les autres joueurs peuvent bouger armée et batiments"
     
     simultaneous_action:
@@ -197,12 +197,12 @@ evaluation:
     
     important_word:
         note: 3
-        screenshot: éléments_intéractif_séléction_important_word.png
+        screenshot: éléments_intéractif_séléction_interactive_elements.png
         description: "Les éléments importants ont une couleurs spéciales (les noms ici mais sur la capture ça se voit plus)"
     
     turn_off_blood:
         note: 3
-        screenshot: violence_réduite_turn_off_blood.png
+        screenshot: violence_réduite.png
         description: "c'est possible"
     
     reading_text:
@@ -322,7 +322,7 @@ evaluation:
     
     sound_information:
         note: 3
-        screenshot: sous_titre_sound_information.png
+        screenshot: sous_titre_subtitles.png
         description: "Il est possible d'avoir des sous titres tout le temps"
     
     clear_subtitles:
