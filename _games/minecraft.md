@@ -21,13 +21,13 @@ evaluation:
 
   sensitivity:
     note: 3
-    screenshot: minecraft_controls.jpg
+    screenshot: minecraft_sensitivity.jpg
     description: "Possibilité de modifier la sensibilité de la souris."
 
   large_elements:
     note: 2
     screenshot: minecraft_large_elements.jpg
-    description: "L'inferface de base est peut espacée mais elle est totalement réglable."
+    description: "L'inferface de base est peu espacée mais elle est totalement réglable."
 
   more_than_one_device:
     note: 3
@@ -35,11 +35,11 @@ evaluation:
 
   menus_do_not_move:
     note: 3
-    description: "L'inferface ne bouge pas et reste fixe."
+    description: "L'interface ne bouge pas et reste fixe."
 
   simultaneous_action:
     note: 3
-    description: "Plusieurs touches n'ont pas besoin d'être pressées pour faire une action, mais plusieurs actions peuvent être combinées simultanément."
+    description: "Plusieurs touches n'ont pas besoin d'être pressées simultanément pour faire une action, mais plusieurs actions peuvent être combinées simultanément."
 
   digital_controls:
     note: 3
@@ -60,7 +60,7 @@ evaluation:
   button_pressure:
     note: 3
     screenshot: minecraft_button_pressure.jpg
-    description: "Il est possible d'adapter le \"saut\", l'action \"courir\" et \"s'accroupir\" pour ne pas devoir presser la touche en continu. Grâce au mode d'accessibilité.."
+    description: "Il est possible d'adapter le \"saut\", l'action \"courir\" et \"s'accroupir\" pour ne pas devoir presser la touche en continu. Grâce au mode d'accessibilité..."
 
   orga_interface:
     note: 1
@@ -68,7 +68,7 @@ evaluation:
 
   resizing_interface:
     note: 3
-    description: "L'interface est totalement adaptable et il est possible de la redimentionner."
+    description: "L'interface est totalement adaptable et il est possible de la redimensionner."
 
   macro_system:
     note: 1
@@ -76,7 +76,7 @@ evaluation:
 
   movement_tracking:
     note: 0
-    description: "Le jeu n'est pas en VR."
+    description: "Le jeu n'est pas en réalité virtuelle."
 
   mobile_mode:
     note: 0
@@ -84,7 +84,7 @@ evaluation:
 
   timing:
     note: 3
-    description: "Système qui permet de \"taper\" avec un certain rythme. Ce n'est pas obligatoire, uniquement pour faire plus de dégats. Possible de jouer sans respecter le timing de coups."
+    description: "Système qui permet de \"taper\" avec un certain rythme. Ce n'est pas obligatoire, uniquement pour faire plus de dégats. Possible de jouer sans respecter le timing des coups."
 
   time_limit:
     note: 1
@@ -106,7 +106,7 @@ evaluation:
   clear_language:
     note: 3
     screenshot: minecraft_clear_language.jpg
-    description: "Le language est clair et précis sauf lorsqu'il s'agit d'objet précis qui sont propre au jeu qui peuvent avoir un nom plus complexe."
+    description: "Le language est clair et précis sauf lorsqu'il s'agit d'objets précis qui sont propres au jeu et qui peuvent avoir un nom plus complexe."
 
   clear_text:
     note: 3
@@ -118,7 +118,7 @@ evaluation:
 
   more_reading_time:
     note: 0
-    description: "Il n'y a pas de dialogues dans ce jeu."
+    description: "Il n'y a pas de dialogue dans ce jeu."
 
   photosensitive:
     note: 2
@@ -128,7 +128,7 @@ evaluation:
   help_game:
     note: 2
     screenshot: minecraft_help_game.jpg
-    description: "Présence de messages quelques fois pour aider à effectuer des actions. Ainsi qu'un guide pour effectuer des \"crafts\" / recettes d'objet disponible à tout moment dans le jeu."
+    description: "Présence de messages (quelques fois) pour aider à effectuer des actions. De plus, un guide pour effectuer des \"crafts\"/recettes d'objet est disponible à tout moment dans le jeu."
 
   reminder_objective:
     note: 3
@@ -142,7 +142,7 @@ evaluation:
   sandbox_mode:
     note: 3
     screenshot: minecraft_sandbox_mode.jpg
-    description: "De multiples modes de jeu existent lorsque de la création d'un monde le joueur peut alors débuter avec un mode \"Créatif\"  sans challenge ni difficulté pour une meilleure prise en main. Possibilité aussi de jouer au jeu de base mais en mode \"Paisible\" sans monstres."
+    description: "De multiples modes de jeu existent lors de la création d'un monde le joueur peut alors débuter avec un mode \"Créatif\"  sans challenge ni difficulté pour une meilleure prise en main. Possibilité aussi de jouer au jeu de base mais en mode \"Paisible\" sans monstres."
 
   simple_narration:
     note: 0
@@ -159,7 +159,7 @@ evaluation:
   interactive_elements:
     note: 2
     screenshot: minecraft_interactive_elements.jpg
-    description: "Les éléments selectionnés ou visés sont entourés d'un petit trait noir mais celui ci est très léger. Lors d'un clic sur l'un des blocs celui-ci se casse progressivement pour montrer que l'intéraction est possible. Pour les ennemis lorsqu'ils sont frappés ils ont des particules autour deux et deviennent rouge quelques secondes."
+    description: "Les éléments selectionnés ou visés sont entourés d'un petit trait noir mais celui ci est très léger. Lors d'un clic sur l'un des blocs celui-ci se casse progressivement pour montrer que l'intéraction est possible. Pour les ennemis, lorsqu'ils sont frappés ils ont des particules autour deux et deviennent rouge quelques secondes."
 
   background_movements:
     note: 1
@@ -179,7 +179,7 @@ evaluation:
   separate_volumes:
     note: 3
     screenshot: minecraft_separate_volumes.jpg
-    description: "Chaque \"famille\" de son peut être baissée, coupée ou augmentée mais aussi plus gloabalement."
+    description: "Chaque catégories de son peut être gérer indépendamment."
 
   different_sound:
     note: 3
@@ -191,32 +191,32 @@ evaluation:
 
   important_word:
     note: 2
-    description: "Peu ou pas de mots sont mit en valeur. Seuls les messages d'erreurs qui apparaissent en rouge. Quelques objets importants ou spéciaux qui ont des labels de couleur."
+    description: "Peu ou pas de mots sont mit en valeur. Seuls les messages d'erreur qui apparaissent en rouge. Quelques objets importants ou spéciaux qui ont des labels de couleur."
 
   turn_off_blood:
     note: 0
-    description: "Le jeu ne contient pas d'éléments gore ou sanglants."
+    description: "Le jeu ne contient pas d'éléments gores ou sanglants."
 
   reading_text:
     note: 3
     screenshot: minecraft_reading_text.jpg
-    description: "Dans le menu accessibilité possibilité d'activer la voix d'un narrateur. Pouvant lire au choix le menu, les messages, les interfaces, le système ou tout lire."
+    description: "Dans le menu accessibilité, possibilité d'activer la voix d'un narrateur. Pouvant lire au choix le menu, les messages, les interfaces, le système ou tout lire."
 
   unforeseen_event:
     note: 1
-    description: "Pas possible de désactiver les événements surprises. Cependant le mode \"Paisible\" ne comporte plus de monstres alors une partie des événements imprévus sont retirés. Le reste serait des erreurs du joueur."
+    description: "Pas possible de désactiver les événements surprises. Cependant le mode \"Paisible\" ne comporte plus de monstres alors une partie des événements imprévus sont retirés."
 
   replay_narration:
     note: 1
-    description: "Le tutoriel est quasi absent du jeu et ne peut pas être rejoué même en recréant une partie."
+    description: "Le tutoriel est quasiment absent et ne peut pas être rejoué même en recréant une partie."
 
   symbols_chat:
     note: 1
-    description: "Le tchat est textuel et n'inclu pas de symboles, les joueurs sont libres de correspondre comme il le veulent en utilisant les caractères de leur clavier."
+    description: "Le tchat est textuel et n'inclut pas de symboles, les joueurs sont libres de converser comme ils le veulent en utilisant les caractères de leur clavier."
 
   hide_option:
     note: 1
-    description: "Cette option est inexistante, rien ne permet de désactiver les éléments non interactifs. Possibilité seulement désactiver les particules."
+    description: "Cette option est inexistante, rien ne permet de désactiver les éléments non intéractifs. Possibilité seulement désactiver les particules."
 
   different_essential_information:
     note: 3
@@ -224,15 +224,15 @@ evaluation:
 
   field_of_view:
     note: 3
-    description: "Le champs de vision est défini de base mais peut totalement être changé à souhait."
+    description: "Le champs de vision est défini de base mais peut être changé."
 
   vr_problems:
     note: 0
-    description: "Le jeu n'est pas VR."
+    description: "Le jeu n'est pas réalité virtuelle."
 
   contrast_elements:
     note: 2
-    description: "Possibilité de changer l'opacité de fond et du texte dans le menu accessibilité. Celui ci est surtout disponible pour le tchat."
+    description: "Possibilité de changer l'opacité de fond et du texte dans le menu accessibilité. Celui-ci est surtout disponible pour le tchat."
 
   different_movements:
     note: 1
@@ -260,11 +260,11 @@ evaluation:
 
   adapted_website:
     note: 2
-    description: "Le site https://www.minecraft.net/fr-fr est accessible mais il manque tout de même des alt à certaines images."
+    description: "Le site https://www.minecraft.net/fr-fr est accessible mais il manque tout de même des alternatives textuelles à certaines images."
 
   visible_essentiel_elements:
     note: 1
-    description: "Le champs de vision du joueur ne permet pas de tout voir, le joueur peut louper des éléments s'il ne les à pas visés."
+    description: "Le champs de vision du joueur ne permet pas de tout voir, le joueur peut louper des éléments s'il ne les a pas visés."
 
   font_size:
     note: 1
@@ -285,16 +285,16 @@ evaluation:
 
   digital_controls:
     note: 2
-    description: "Les contrôles sont possibles par le combo clavier souris ce qui nécessite des mouvements de souris ou bien ils peuvent être gérés avec une manette."
+    description: "Les contrôles sont possibles par le combo \"clavier/souris\", ce qui nécessite des mouvements de souris ou bien, ils peuvent être gérés avec une manette."
 
   screen_readers:
     note: 3
     screenshot: minecraft_screen_readers.jpg
-    description: "Dans le menu accessibilité possibilité d'activer la voix d'un narrateur. Pouvant lire au choix le menu, les messages, les interfaces, le système ou tout lire."
+    description: "Dans le menu accessibilité, possibilité d'activer la voix d'un narrateur. Pouvant lire au choix le menu, les messages, les interfaces, le système ou tout lire."
 
   separate_music:
     note: 3
-    description: " Chaque éléments, musique, bruitage, action possèdent des sons distincts."
+    description: " Chaque élément, musique, bruitage, action possède des sons distincts."
 
   binaural_recording:
     note: 1
@@ -310,7 +310,7 @@ evaluation:
 
   sound_information:
     note: 3
-    description: "Toutes les informations sonore sont aussi communiquées visuellement."
+    description: "Toutes les informations sonores sont aussi communiquées visuellement."
 
   clear_subtitles:
     note: 3
@@ -395,11 +395,11 @@ evaluation:
 
   details_on_accessibility:
     note: 2
-    description: "Fonctions d'accessibilité présentes un peu expliquées dans le menu."
+    description: "Fonctions d'accessibilité présentes, un peu expliquées dans le menu."
 
   difficulty_level:
     note: 3
-    description: "Nombreuses difficultées Paisible, Facile, Normale, Difficile. Ainsi que deux modes de jeu Créatif, Survie, Aventure, Hardcore et Spectateur."
+    description: "Nombreux niveaux de difficulté : Paisible, Facile, Normale, Difficile. Ainsi que des modes de jeu : Créatif, Survie, Aventure, Hardcore et Spectateur."
 
   save_parameters:
     note: 3
@@ -415,7 +415,7 @@ evaluation:
 
   disabled_tester:
     note: 0
-    description: "Pas moyen de savoir les procédures de play-test du jeu."
+    description: "Pas moyen de savoir les procédures de tests du jeu."
 
   mechanical_jump:
     note: 1
@@ -443,11 +443,11 @@ evaluation:
 
   accessibility_test:
     note: 0
-    description: "Pas moyen de savoir les procédures de play-test du jeu."
+    description: "Pas moyen de savoir les procédures de tests du jeu."
 
   profile_parameter:
     note: 1
-    description: "Le jeu ne contient aucune solution multiprofile."
+    description: "Le jeu ne contient aucune solution multi-profil."
 
   voice_transcription:
     note: 3

@@ -30,104 +30,10 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body class="bg-dark text-light">
-
-
-    <div class="navbar navbar-dark bg-dark shadow-sm mb-5">
-      <div class="container">
-        <a href="/" class="navbar-brand d-flex namesite text-left">
-          UnJeuPourMoi
-        </a>
-      </div>
-    </div>
-
-
-
-    <div class=" text-center">
-      <img src= "assets/images/logo/logoworckshop.png" >
-      <h1 class="arvo">
-        Un jeu pour toi !
-      </h1>
-      <p class="guideline">
-        Nous évaluons, selon la liste des bonnes pratiques de « game accessibility guideline », l’accessibilité des jeux vidéo les plus populaires, et nous leur attribuons une note sur 100. Nous revenons aussi sur les bonnes pratiques non présentes. Vous retrouverez l’intégralité de la liste de bonnes pratiques dans l’onglet « Bonnes pratiques ». 
-      </p>
-    </div>
-
-
-    <main class="container-fluid">
+    {% include nav.html %}
+    <main class="container">
       {{ content }}
     </main>
-
-
-  
-    <footer class="bg-dark text-center text-lg-start footer">
-      <div class="p-2" style="background-color: rgba(0, 0, 0, 0.2);"></div>
-
-      <div class="container p-4">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-center">
-            <img src= "assets/images/logo/logoworckshop.png" >
-            <h5 class="text-uppercase namesite">UnJeuPourMoi</h5>
-
-          </div>
-
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-left">
-            <h5 class="text-uppercase arvo">La Plateforme</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-ligth">Qui sommes-nous ?</a>
-              </li>
-            </ul>
-          </div>
-
-
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-left">
-            <h5 class="text-uppercase arvo">Contact</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-ligth">Email</a>
-              </li>
-              <li>
-                <a href="#!" class="text-ligth">Twitter</a>
-              </li>
-              <li>
-                <a href="#!" class="text-ligth">Facebook</a>
-              </li>
-            </ul>
-          </div>
-
-
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-left">
-            <h5 class="text-uppercase mb-0 arvo">A Propos</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-ligth">Mentions légales</a>
-              </li>
-              <li>
-                <a href="#!" class="text-ligth">Voir les critères de classement</a>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
-
-
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2021 Copyright
-        <a class="text-dark" href="<!-- Footer -->
-    
-          <!-- Footer -->">UnJeuPourMoi</a>
-      </div>
-
-    </footer>
-
-    <script src="/assets/javascripts/bootstrap.bundle.min.js"></script>
+    {% include footer.html %}
   </body>
 </html>

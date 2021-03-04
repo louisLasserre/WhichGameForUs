@@ -29,12 +29,12 @@ evaluation:
     
     more_than_one_device:
         note: 3
-        description: "Le jeu se joue au clavier et a la souris, il est possible d'y adapter une manette."
+        description: "Le jeu se joue au clavier et à la souris, il est possible d'y adapter une manette."
     
     menus_do_not_move:
         note: 1
         screenshot: slime_rancher_menus_do_not_move.jpg
-        description: "Les éléments comme les monstres à attraper, bougent et donc ne sont pas stationnaires."
+        description: "Les éléments, comme les monstres à attraper, bougent et ne sont donc pas stationnaires."
     
     simultaneous_action:
         note: 3
@@ -42,7 +42,7 @@ evaluation:
     
     digital_controls:
         note: 3
-        description: "Toutes les actions sont effectuées par des controles digitaux."
+        description: "Toutes les actions sont effectuées par des contrôles digitaux."
     
     option_vit:
         note: 1
@@ -50,7 +50,7 @@ evaluation:
     
     qte:
         note: 3
-        description: "Une touche n'a pas à être appuyée plusieurs fois pour faire une action."
+        description: "Il n'y a pas besoin d'appui répété pour faire une action."
     
     window_mode:
         note: 3
@@ -70,11 +70,11 @@ evaluation:
     
     macro_system:
         note: 1
-        description: "Il n'est pas possible de faire des macro."
+        description: "Il n'est pas possible de faire des macros."
     
     movement_tracking:
         note: 0
-        description: "le jeu n'est pas un VR."
+        description: "le jeu n'est pas en réalité virtuelle."
     
     mobile_mode:
         note: 0
@@ -82,7 +82,7 @@ evaluation:
     
     timing:
         note: 2
-        description: "Le Timing n'est pas essentiel mais peut-être gênant."
+        description: "Le timing n'est pas essentiel mais peut-être gênant."
     
     time_limit:
         note: 2
@@ -90,15 +90,15 @@ evaluation:
     
     simple_control:
         note: 1
-        description: "Le jeu est trop complexe pour être joué avec des controles aussi simple."
+        description: "Le jeu est trop complexe pour être joué avec des contrôles aussi simples."
     
     level_navigation:
         note: 3
-        description: "Pour lancer le jeu il suffit de cliquer sur \"Nouvelle Partie\" ou \"Continuer\"."
+        description: "Pour lancer le jeu, il suffit de cliquer sur \"Nouvelle Partie\" ou \"Continuer\"."
     
     font:
         note: 2
-        description: "La police d'écriture est dans un style simple et un peu gras, comprend les accents, il n'y a pas d'empatement. Cependant elle est de petite taille parfois et difficilement lisible."
+        description: "La police d'écriture est dans un style simple et un peu gras, comprend les accents, il n'y a pas d'empatement. Cependant elle est parfois de petite taille et difficilement lisible."
     
     clear_language:
         note: 2
@@ -114,7 +114,7 @@ evaluation:
         
     more_reading_time:
         note: 3
-        description: "Le texte apparait en un bloc, le joueur a le temps de le lire avant de cliquer sur la suite du dialogue quand il le souhaite."
+        description: "Le texte apparaît en un bloc, le joueur a le temps de le lire avant de cliquer sur la suite du dialogue quand il le souhaite."
     
     photosensitive:
         note: 3
@@ -138,7 +138,7 @@ evaluation:
     
     simple_narration:
         note: 2
-        description: "Le but est simple capturer le plus de monstres, les élever. Faire des missions mais l'histoire en elle-même est floue."
+        description: "Le but est simple : capturer le plus de monstres, les élever, faire des missions. Cependant, l'histoire en elle-même est floue."
     
     summary_key_point:
         note: 0
@@ -151,28 +151,28 @@ evaluation:
     interactive_elements:
         note: 2
         screenshot: slime_rancher_interactive_elements.jpg
-        description: "Les éléments interactifs sont nommés lorque l'on met le curseur dessus."
+        description: "Les éléments intéractifs sont nommés lorque l'on met le curseur dessus."
     
     background_movements:
         note: 1
-        description: "Cela n'est pas possible dêtre désactivé."
+        description: "Les mouvements de fond ne peuvent pas être désactivé."
     
     text_audio_chat:
         note: 0
-        description: "Le jeu n'est pas multijoueurs."
+        description: "Le jeu n'est pas multijoueur."
     
     visual_backup:
         note: 2
-        description: "Il est possible de sauvegarder à tout moment mais un visuel n'accompagne pas la sauvegarde."
+        description: "Il est possible de sauvegarder à tout moment mais ausun visuel n'accompagne la sauvegarde."
     
     separate_volumes:
         note: 3
         screenshot: slime_rancher_separate_volumes.jpg
-        description: "Il est possible de modifier le volume des effets et de la musique et du son principal."
+        description: "Il est possible de modifier le volume des effets, de la musique et du son principal."
     
     different_sound:
         note: 3
-        description: "Il est possible de modifier le volume des effets et de la musique et du son principal."
+        description: "Il est possible de modifier le volume des effets, de la musique et du son principal."
     
     text_changes:
         note: 1
@@ -188,11 +188,11 @@ evaluation:
     
     reading_text:
         note: 1
-        description: "Il n'y a pas de lecteur d'ecran integre dans le jeu."
+        description: "Il n'y a pas de lecteur d'écran intégré dans le jeu."
     
     unforeseen_event:
         note: 2
-        description: "Il y a des événements imprévus comme des attaques d'ennemis, des explosions etc.. Mais très peu !"
+        description: "Il y a des événements imprévus comme des attaques d'ennemis, des explosions etc.. Mais très peu."
         
     replay_narration:
         note: 1
@@ -208,15 +208,15 @@ evaluation:
     
     different_essential_information:
         note: 3
-        description: "Une information colorée est toujours accompagnée d'un texte, d'une texture différente, d'une forme"
+        description: "Une information colorée est toujours accompagnée d'un texte, d'une texture différente, d'une forme."
     
     field_of_view:
         note: 3
-        description: "Le jeu est en 3D et celle ci est fixe, le personnage se deplace dans un vaste uivers."
+        description: "Le jeu est en 3D et la vision est fixe, le personnage se déplace dans un vaste univers."
     
     vr_problems:
         note: 0
-        description: "Le jeu n'est pas VR."
+        description: "Le jeu n'est pas en réalité virtuelle."
     
     contrast_elements:
         note: 1
@@ -228,7 +228,7 @@ evaluation:
     
     surround_sound:
         note: 1
-        description: "Le jeu ne comprends pas de son surround."
+        description: "Le jeu ne comprend pas de son surround."
     
     background_animation:
         note: 1
@@ -240,7 +240,7 @@ evaluation:
     
     adjust_contrast:
         note: 1
-        description: "Cela n'est pas possible d'être ajusté."
+        description: "Le contraste n'est pas ajustable."
     
     cursor:
         note: 1
@@ -248,11 +248,11 @@ evaluation:
     
     adapted_website:
         note: 2
-        description: "Le site http://www.slimerancher.com/ est accessible mais il manque des labels clairs."
+        description: "Le site http://www.slimerancher.com/ est accessible mais il manque des libellés clairs."
     
     visible_essentiel_elements:
         note: 1
-        description: "Le champs de vision du joueur ne peux pas permettre de tout voir, le joueur peut louper des éléments s'il ne les à pas visés."
+        description: "Le champs de vision du joueur ne peut pas permettre de tout voir, le joueur peut louper des éléments s'il ne les à pas visés."
     
     font_size:
         note: 1
@@ -272,15 +272,15 @@ evaluation:
     
     digital_controls:
         note: 3
-        description: "Toute les actions peuvent être effectué avec des controles digitaux."
+        description: "Toutes les actions peuvent être effectuées avec des contrôles digitaux."
     
     screen_readers:
         note: 1
-        description: "Pas de lecteurs d'écrans."
+        description: "Pas de lecteur d'écran."
     
     separate_music:
         note: 3
-        description: "Pas de lecteurs d'écrans."
+        description: "Pas de lecteur d'écran."
     
     binaural_recording:
         note: 1
@@ -292,15 +292,15 @@ evaluation:
     
     subtitles:
         note: 1
-        description: "Il n'y a pas de sous-titres."
+        description: "Il n'y a pas de sous-titre."
     
     sound_information:
         note: 3
-        description: "Toute les informations sonore sont aussi communiqué visuellement. Execpté la musique de fond."
+        description: "Toutes les informations sonores sont aussi communiquées visuellement. Execpté la musique de fond."
     
     clear_subtitles:
         note: 0
-        description: "Il n'y a pas de sous titre."
+        description: "Il n'y a pas de sous-titre."
     
     discussion_without_parasites:
         note: 0
@@ -308,11 +308,11 @@ evaluation:
     
     substitles_speech_sup:
         note: 0
-        description: "Il n'y a pas de sous titre."
+        description: "Il n'y a pas de sous-titre."
     
     activation_subtitles:
         note: 0
-        description: "Il n'y a pas de sous titre."
+        description: "Il n'y a pas de sous-titre."
     
     noise_caption:
         note: 1
@@ -324,7 +324,7 @@ evaluation:
     
     customization_subtitles:
         note: 0
-        description : "Il n'y a pas de sous titre."
+        description : "Il n'y a pas de sous-titre."
         
     text_chat_and_voice:
         note: 0
@@ -344,7 +344,7 @@ evaluation:
 
     sounds_to_text:
         note: 3
-        description: "Toute les informations sonore sont aussi communiqué visuellement."
+        description: "Toutes les informations sonore sont aussi communiquées visuellement."
 
     stereo_mono:
         note: 1
@@ -352,7 +352,7 @@ evaluation:
 
     words_per_minute:
         note: 0
-        description: "Il n'y a pas de sous titre."
+        description: "Il n'y a pas de sous-titre."
 
     sign_language:
         note: 0
@@ -360,7 +360,7 @@ evaluation:
 
     no_voice_input:
         note: 1
-        description: "Il n'y a pas controle à la voix dans le jeu."
+        description: "Il n'y a pas contrôle à la voix dans le jeu."
 
     com_visuel_multi:
         note: 0
@@ -368,19 +368,19 @@ evaluation:
 
     speech_recognition:
         note: 0
-        description: "Il n'y a pas de controles vocaux."
+        description: "Il n'y a pas de contrôles vocaux."
 
     half_voice:
         note: 0
-        description: "Il n'y a pas de controles vocaux."   
+        description: "Il n'y a pas de contrôles vocaux."   
 
     provide_accessibility:
         note: 1
-        description: "Sur le site officiel il n'y a aucune information au sujet de l'accessibilité."
+        description: "Sur le site officiel, il n'y a aucune information au sujet de l'accessibilité."
 
     details_on_accessibility:
         note: 1
-        description: "Dans le jeu il n'y a aucune information au sujet de l'accessibilité."
+        description: "Dans le jeu, il n'y a aucune information au sujet de l'accessibilité."
 
     difficulty_level:
         note: 0
@@ -388,7 +388,7 @@ evaluation:
 
     save_parameters:
         note: 3
-        description: "Les paramètres sont automatiquement sauvegardés et mémorisé."
+        description: "Les paramètres sont automatiquement sauvegardés et mémorisés."
 
     access_comment:
         note: 2
@@ -396,15 +396,15 @@ evaluation:
 
     menu_with_movement:
         note: 3
-        description: "On ne peut naviguer dans les menus à la souris ou à la manette."
+        description: "On peut naviguer dans les menus à la souris ou à la manette."
 
     disabled_tester:
         note: 0
-        description: "Il n'y a pas moyen de savoir les procédures de test du jeu."
+        description: "Il n'y a pas moyen de savoir les procédures de tests du jeu."
 
     mechanical_jump:
         note: 1
-        description: "Il n'y a pas de mode avec des controles simplifiés."
+        description: "Il n'y a pas de mode avec des contrôles simplifiés."
 
     automatic_assistance_mode:
         note: 1
@@ -429,14 +429,14 @@ evaluation:
 
     accessibility_test:
         note: 0
-        description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu."
+        description: "Il n'y a pas moyen de savoir les procédures de tests du jeu."
 
     profile_parameter:
         note: 1
-        description: "Le jeu ne contient pas de profils parametrables."
+        description: "Le jeu ne contient pas de profils paramétrables."
 
     voice_transcription:
         note: 1
-        description: "Le jeu ne possede pas de transcription vocal pour les textes en temps réel/"
+        description: "Le jeu ne possède pas de transcription vocal pour les textes en temps réel."
         
 ---

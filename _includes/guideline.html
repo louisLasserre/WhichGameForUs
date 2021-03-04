@@ -1,25 +1,34 @@
-<div class="row mb-5 offset-md-3 ">
-  <div class="col-md-1">
+<div class="row mb-5">
+  <div class="col-md-3">
     <div class="lead">
       {% if include.data.note == 0 %}
-        <span class="badge bg-secondary p-3 text-wrap" >Non applicable</span>
+        {% assign color = 'secondary' %}
+        {% assign text = 'Non applicable' %}
       {% elsif include.data.note == 1 %}
-        <span class="badge bg-danger p-3 text-wrap">Non respecté</span>
+        {% assign color = 'danger' %}
+        {% assign text = 'Non respecté' %}
       {% elsif include.data.note == 2 %}
-        <span class="badge bg-warning p-3 text-wrap">En partie respecté</span>
+        {% assign color = 'warning' %}
+        {% assign text = 'En partie respecté' %}
       {% elsif include.data.note == 3 %}
-        <span class="badge bg-success p-3 text-wrap">Respecté</span>
+        {% assign color = 'success' %}
+        {% assign text = 'Respecté' %}
       {% endif %}
+      <span class="badge bg-{{ color }} p-3 badge__evaluation text-wrap">{{ text }}</span>
     </div>
   </div>
-  <div class="guideline col-md-7 gx-5">
-    <div class="lead container-fluid bg-secondary p-3 rounded">{{site.data.structure.guidelines[include.guideline]}}</div>
-    <div class="container-fluid my-5" >
+  <div class="guideline col-md-8">
+    <div class="lead bg-secondary px-3 py-2 rounded">
+      {{site.data.structure.guidelines[include.guideline]}}
+    </div>
+    <div class="mt-4">
       <div class="row align-items-center">
         {% if include.data.screenshot %}
-         <div class="col screen"> <img  src="/assets/images/games/{{include.slug}}/{{ include.data.screenshot }}" alt="Screenshot {{include.slug}}" class="img-fluid "></div>
+          <img  src="/assets/images/games/{{include.slug}}/{{ include.data.screenshot }}"
+                alt="Screenshot {{include.slug}}"
+                class="img-fluid mb-3">
         {% endif %}
-        <span class="col" >{{ include.data.description }}</span>
+        <p>{{ include.data.description }}</p>
       </div>
     </div>
   </div>

@@ -192,7 +192,7 @@ evaluation:
 
   important_word:
     note: 3
-    screenshot: celeste_important_world.jpg
+    screenshot: celeste_important_word.jpg
     description: "Certains mots importants (comme le nom des personnages) dans les dialogues sont marqués d'une couleur différente."
 
   turn_off_blood:
@@ -452,7 +452,7 @@ evaluation:
 
   accessibility_test:
     note: 0
-    description: "Il n'y a pas moyen de savoir les procédures de tests du jeu."
+    description: "Il n'y a pas de moyen de savoir les procédures de tests du jeu."
 
   profile_parameter:
     note: 1
