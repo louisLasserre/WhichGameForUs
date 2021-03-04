@@ -77,7 +77,7 @@ evaluation:
 
   movement_tracking:
     note: 0
-    description: "le jeu n'est pas en VR."
+    description: "Le jeu n'est pas en VR."
 
   mobile_mode:
     note: 0
@@ -288,21 +288,52 @@ evaluation:
 
   binaural_recording:
     note: 1
-    description: "Le jeu ne simule pas l'enregistrement binaural ."
+    description: "Le jeu ne simule pas l'enregistrement binaural."
+
+  audio_description:
+    note: 1
+    description: "Il n'y a pas de description audio."
+
+  subtitles:
+    note: 0
+    description: "Il n'y a pas de doublages."
+
+  sound_information:
+    note: 3
+    description: "Toutes les informations sonore sont aussi communiqué visuellement."
+
+  clear_subtitles:
+    note: 0
+    description: "Il n'y a pas de sous-titres."
+
+  discussion_without_parasites:
+    note: 0
+    description: "Il n'y a pas de doublages."
+
+  substitles_speech_sup:
+    note: 0
+    description: "Il n'y a pas de doublages."
+
+  activation_subtitles:
+    note: 0
+    description: "Il n'y a pas de doublages."
+
+  noise_caption:
+    note: 0
+    description : "Il n'y a pas de bruit de fond significatif".
+
+  visual_speaker_indication:
+    note: 3
+    description : "Les personnes entrains de parler lors des dialogues ont leur porter à coté du texte."
+
+  customization_subtitles:
+    note: 0
+    description : "Il n'y a pas de doublages."
+
+  text_chat_and_voice:
+    note: 0
+    description : "Les personnes entrains de parler lors des dialogues ont leur porter à coté du texte."
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+ 
 ---
