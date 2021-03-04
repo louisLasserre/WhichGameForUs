@@ -1,5 +1,5 @@
 ---
-title: minecraft
+title: Minecraft
 evaluation:
   touch_assign:
     note: 3
@@ -18,7 +18,7 @@ evaluation:
     note: 3
     screenshot: minecraft_menu_with_keys.jpg
     description: "Accès au menu avec la touche \"Echap\" à n'importe quel moment dans le jeu."
-    
+
   sensitivity:
     note: 3
     screenshot: minecraft_controls.jpg
@@ -191,7 +191,7 @@ evaluation:
 
   important_word:
     note: 2
-    description: "Peu ou pas de mots sont mit en valeur. Seuls les messages d'erreurs qui apparaissent en rouge. Quelques objets importants ou spéciaux qui ont des labels de couleur"
+    description: "Peu ou pas de mots sont mit en valeur. Seuls les messages d'erreurs qui apparaissent en rouge. Quelques objets importants ou spéciaux qui ont des labels de couleur."
 
   turn_off_blood:
     note: 0
@@ -200,7 +200,7 @@ evaluation:
   reading_text:
     note: 3
     screenshot: minecraft_reading_text.jpg
-    description: "Dans le menu accessibilité possibilité d'activer la voix d'un narrateu. Pouvant lire au choix le menu, les messages, les interfaces, le système ou tout lire.."
+    description: "Dans le menu accessibilité possibilité d'activer la voix d'un narrateur. Pouvant lire au choix le menu, les messages, les interfaces, le système ou tout lire."
 
   unforeseen_event:
     note: 1
@@ -212,7 +212,7 @@ evaluation:
 
   symbols_chat:
     note: 1
-    description: "Le tchat est textuel et n'inclu pas de symboles, les joueurs sont libres de correspondre comme il le veulent en utilisant les caractères de leur clavier"
+    description: "Le tchat est textuel et n'inclu pas de symboles, les joueurs sont libres de correspondre comme il le veulent en utilisant les caractères de leur clavier."
 
   hide_option:
     note: 1
@@ -285,7 +285,7 @@ evaluation:
 
   digital_controls:
     note: 2
-    description: "Les controles sont possibles par le combo clavier souris ce qui nécessite des mouvements de souris ou bien ils peuvent être gérés avec une manette."
+    description: "Les contrôles sont possibles par le combo clavier souris ce qui nécessite des mouvements de souris ou bien ils peuvent être gérés avec une manette."
 
   screen_readers:
     note: 3
@@ -449,14 +449,7 @@ evaluation:
     note: 1
     description: "Le jeu ne contient aucune solution multiprofile."
 
-
   voice_transcription:
     note: 3
     description: "L'option du narrateur permet de lire le tchat en temps réel."
- 
- 
 ---
- 
- 
- 
- 
