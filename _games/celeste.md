@@ -31,7 +31,7 @@ evaluation:
 
   more_than_one_device:
     note: 3
-    screenshot: controls_celeste.jpg
+    screenshot: celeste_more_than_one_device.jpg
     description: "La manette et le clavier sont supporté."
 
   menus_do_not_move:
@@ -48,7 +48,7 @@ evaluation:
 
   option_vit:
     note: 3
-    screenshot: controls_celeste.jpg
+    screenshot: celeste_option_vit.jpg
     description: "Le jeu dispose d'un \"mode assist\" qui permet de ralentir la vitesse du jeu."
 
   qte:
@@ -57,6 +57,7 @@ evaluation:
 
   window_mode:
     note: 3
+    screenshot: celeste_window_mode.jpg
     description: "Présence d'un mode fenêtré."
 
   button_pressure:
