@@ -32,7 +32,7 @@ evaluation:
     
     menus_do_not_move:
         note: 3
-	screenshot: animal_crossing_new_horizons_menus_do_not_move.jpg
+	    screenshot: animal_crossing_new_horizons_menus_do_not_move.jpg
         description: "L'interface ne bouge pas. Les contrôles dans les interfaces sont guidés et peuvent être fait par joystick ou la croix directionnelle."
     
     simultaneous_action:
@@ -93,7 +93,7 @@ evaluation:
     
     level_navigation:
         note: 3
-	screenshot: animal_crossing_new_horizons_level_navigation.jpg
+	    screenshot: animal_crossing_new_horizons_level_navigation.jpg
         description: "Pour lancer le jeu, il suffit de presser une fois une touche afin de jouer et de lancer sa partie."
     
     font:
@@ -106,7 +106,7 @@ evaluation:
     
     clear_text:
         note: 3
-	screenshot: animal_crossing_new_horizons_clear_text.jpg
+	    screenshot: animal_crossing_new_horizons_clear_text.jpg
         description: "Le texte est assez aéré ce qui rend sa lecture plus facile."
     
     tutorials:
@@ -179,7 +179,7 @@ evaluation:
     
     important_word:
         note: 3
-	screenshot: animal_crossing_new_horizons_important_word.jpg
+	    screenshot: animal_crossing_new_horizons_important_word.jpg
         description: "Les éléments importants dans un dialogue sont mis d'une couleur différente (ex: objet cadeau, prénom du personnage, etc)."
     
     turn_off_blood:
@@ -220,7 +220,7 @@ evaluation:
     
     contrast_elements:
         note: 3
-	screenshot: animal_crossing_new_horizons_contrast_elements.jpg
+	    screenshot: animal_crossing_new_horizons_contrast_elements.jpg
         description: "Le contraste est respecté, le fond des interfaces est clair et les éléments de couleur."
     
     different_movements:
@@ -245,7 +245,7 @@ evaluation:
     
     cursor:
         note: 1
-	screenshot: animal_crossing_new_horizons_cursor.jpg
+	    screenshot: animal_crossing_new_horizons_cursor.jpg
         description: "Le curseur n'est disponible que dans les interfaces et n'est pas modifiable."
     
     adapted_website:
@@ -322,7 +322,7 @@ evaluation:
     
     visual_speaker_indication:
         note: 3
-	screenshot: animal_crossing_new_horizons_visuel_speaker_indication.jpg
+	    screenshot: animal_crossing_new_horizons_visuel_speaker_indication.jpg
         description : "Le personnage entrain de parler a son nom qui est indiqué."
     
     customization_subtitles:
@@ -360,7 +360,7 @@ evaluation:
 
     sign_language:
         note: 1
-	screenshot: animal_crossing_new_horizons_sign_language.jpg
+	    screenshot: animal_crossing_new_horizons_sign_language.jpg
         description: "L’utilisation de la langue des signes n’est pas possible en jeu mais des réactions peuvent être faites par les joueurs."
 
     no_voice_input:
@@ -417,7 +417,7 @@ evaluation:
 
     manual_backup:
         note: 3
-	screenshot: animal_crossing_new_horizons_manual_backup.jpg
+	    screenshot: animal_crossing_new_horizons_manual_backup.jpg
         description: "Le jeu comporte une sauvegarde manuelle."
 
     automatic_backup:
