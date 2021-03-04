@@ -8,7 +8,27 @@ layout: default
 <div class="row mb-5">
   <div class="offset-md-1 col-md-10">
     <h1 class="mb-4">{{ page.title }}</h1>
-    <img src="/assets/images/games/{{ slug }}/{{slug}}.jpg" alt="{{ game.title }}" class="img-fluid">
+    <img src="/assets/images/games/{{ slug }}/{{slug}}.jpg" alt="{{ game.title }}" class="img-fluid mb-4">
+    {% assign points = 0 %}
+    {% assign total = site.data.structure.guidelines.size | times: 2 %}
+    {% for guideline in site.data.structure.guidelines %}
+      {% assign key = guideline[0] %}
+      {% assign data = page.evaluation[key] %}
+      {% if data.note == 2 %}
+        {% assign points = points | plus: 1 %}
+      {% elsif data.note == 3 %}
+        {% assign points = points | plus: 2 %}
+      {% endif %}
+    {% endfor %}
+    {% assign percent = 100.0 | times: points | divided_by: total | round %}
+    <div class="progress mb-4" style="height: 30px">
+      <div  class="progress-bar bg-success"
+            role="progressbar"
+            style="width: {{percent}}%;"
+            aria-valuenow="{{percent}}"
+            aria-valuemin="0"
+            aria-valuemax="100"><b>{{percent}}%</b></div>
+    </div>
   </div>
 </div>
 
