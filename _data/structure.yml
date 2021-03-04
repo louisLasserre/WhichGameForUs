@@ -99,7 +99,14 @@ guidelines:
   menu_with_movement: Menus uniquement naviguables avec les boutons de déplacement (Flèches directionnel, D-pad, joystick, etc).
   disabled_tester: Inclure certaines personnes handicapées parmi les participants aux tests de jeu.
   mechanical_jump: Offrir un moyen de contourner les éléments de jeu qui ne font pas partie du mécanisme de base, via les paramètres ou l'option de \"passer\" en jeu.
-  
+  automatic_assistance_mode: Inclut des modes d'assistance tels que la visée automatique et la direction assistée.
+  manual_backup: Fournir une fonction de sauvegarde manuelle.
+  automatic_backup: Fournir une fonction de sauvegarde automatique.
+  online_management: Permettre de définir une préférence pour jouer en multijoueur en ligne avec / sans autres joueurs qui utilisent des fonctionnalités d'accessibilité qui pourraient donner un avantage concurrentiel.
+  gameplay_variable: Permettre au gameplay d'être affiné en exposant autant de variables que possible. 
+  accessibility_test: "Inclure chaque catégorie pertinente de déficience (motrice, cognitive, etc.) parmi les participants aux tests de jeu, en nombre représentatif en fonction de l'âge / démographique du public cible."
+  profile_parameter: Autoriser l'enregistrement des paramètres dans différents profils, au niveau du jeu ou de la plateforme.
+  voice_transcription: Inclure une transcription vocale de texte en temps réel.
 
 categories:
   - name: Moteur
