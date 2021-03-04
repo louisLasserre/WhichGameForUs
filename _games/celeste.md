@@ -22,7 +22,6 @@ evaluation:
 
   sensitivity:
     note: 1
-    screenshot: controls_celeste.jpg
     description: "Pas d'options de sensibilité des contrôles."
 
   large_elements:
