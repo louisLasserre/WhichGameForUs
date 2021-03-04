@@ -36,8 +36,70 @@ guidelines:
   summary_key_point: Lorsque la partie narrative est longue, le jeu doit proposer un sommaire avec les points clé.
   oral_written_information: S’assurer que les informations essentielles soient retranscrites à l'oral et à l’écrit.
   interactive_elements: Montrer clairement au joueur que les éléments interactifs sont interactifs.
+  background_movements: Permettre de désactiver les mouvements d'arrière-plan.
+  text_audio_chat: Proposer non seulement un chat textuel mais aussi un chat audio pour les jeux multijoueurs.
+  visual_backup: Proposer dans le menu du jeu, les sauvegarde avec un visuel du gameplay en cours.
+  separate_volumes: Proposer une gestion des volumes séparés pour les éléments du jeu musique/voix/effets sonores.
+  different_sound: Le choix des musiques et effets sonores doivent être distinct pour chaque élément du jeu.
+  text_changes: Permettre au joueur de choisir la couleur des textes ou au moins gérer les contrastes du texte.
+  important_word: Mettre en surbrillance les mots importants.
+  turn_off_blood: Proposer une option pour désactiver le sang et le contenu gore.
+  reading_text: Proposer une voix préenregistrée pour la lecture des textes y compris dans les menus.
+  unforeseen_event: Éviter tous les mouvements et les événements imprévus.
+  replay_narration: Permettre au joueur de rejouer toutes les élèments de narrations et de tutoriel.
+  symbols_chat: Utiliser un chat basé sur des symboles.
+  hide_option: Proposer une option pour désactiver ou cacher les objets non-interactifs.
+  different_essential_information: S'assurer qu'aucune information essentielle n'est transmise que par une seule couleur fixe.
+  field_of_view: Définir une valeur par défaut appropriée pour le champ de vision, si le jeu utilise de la 3D.
+  vr_problems: Éviter les déclencheurs de vertiges, nausées etc.. lors de simulation VR.
+  contrast_elements: Faire un grand contraste entre le texte, l’Interface Utilisateur et l'arrière plan.
+  different_movements: Éviter (ou ajouter une possibilité de retirer) toute différence entre les mouvements et les mouvements de caméra (par exemple = mouvement de personnage, arme etc).
+  surround_sound: Utiliser un son Surround.
+  background_animation: Inclure une possibilité d’activer ou non les animations en arrière plan.
+  mobile_reader_background: Assurer la prise en charge des lecteurs d’écran mobile.
+  adjust_contrast: Ajouter une option permettant d’ajuster les contrastes.
+  cursor: Permettre de choisir le curseur / la couleur et le design de la croix de visée.
+  adapted_website: Permettre que le manuel/ site web soit adapté au format de lecteur d’écran.
+  visible_essentiel_elements: Eviter de placer un élément essentiel en dehors du champ de vision du joueur.
+  font_size: Permettre d’ajuster la taille de la police.
+  audio_card_sonar: Fournir une carte audio de type sonar.
+  voice_gps: Fournir un GPS vocal.
+  cardinal_point_orientation: Permettre facilement l’orientation/les mouvements en fonction des points cardinaux.
+  digital_controls: Veiller à ce que toutes les actions clés puissent être exécutées par des commandes numériques (pads / touches / pressions), sans qu'une saisie plus complexe (par exemple, analogique, gestuelle) ne soit nécessaire, et qu'elles ne soient incluses qu'en tant que méthodes de saisie supplémentaires / alternatives.
+  screen_readers: Permettre l’utilisation du lecteur d’écran, y compris dans les menus et installateurs.
+  separate_music: Utiliser un design sonore ou une musique distincte pour tout les différents objets et evenements.
+  binaural_recording: Simuler l'enregistrement binaural.
+  audio_description: Fournir une piste de description audio.
+  subtitles: Fournir des sous-titres pour tous les discours importants.
+  sound_information: S'assurer qu'aucune information essentielle n'est transmise uniquement par les sons.
+  clear_subtitles: Si des sous-titres / légendes sont utilisés, il faut les présenter de manière claire et lisible.
+  discussion_without_parasites: Garder le bruit de fond au minimum pendant les discussions.
+  substitles_speech_sup: Fournir des sous-titres pour des discours supplémentaires.
+  activation_subtitles: S'assurer que les sous-titres / légendes sont ou peuvent être activés avant la lecture de tout son.
+  noise_caption: Fournir des légendes ou des éléments visuels pour les bruits de fond importants.
+  visual_speaker_indication: Fournir une indication visuelle de qui parle actuellement.
+  customization_subtitles: Autoriser la personnalisation de la présentation des sous-titres / légendes.
+  text_chat_and_voice: Supporte le chat textuel ainsi que la voix pour le multijoueur.
+  communication_sign: Fournir des moyens visuels de communication en multijoueur.
+  visual_voice_chat: Fournir une indication visuelle de qui parle actuellement dans le chat vocal.
+  multi_no_mic: Autoriser la définition d'une préférence pour jouer en multijoueur en ligne avec des joueurs qui ne joueront qu'avec ou qui sont prêts à jouer sans chat vocal.
+  sounds_to_text: Veiller à ce que toutes les informations supplémentaires importantes (par exemple, la direction d'un tir) transmises par le son soient reproduites dans le texte / les images.
+  stereo_mono: Fournir une sélection stéréo / mono.
+  words_per_minute: S'assurer que les sous-titres / légendes soient réduits et présentés à un nombre de mots par minute approprié pour le groupe d'âge cible.
+  sign_language: Permettre l'utilisation de la langue des signes.
+  no_voice_input: S'assurer que l'entrée vocale n'est pas requise et est incluse uniquement comme méthode d'entrée supplémentaire / alternative.
+  com_visuel_multi: Fournir des moyens visuels de communication en multijoueur.
+  speech_recognition: Reconnaissance vocale basée sur des mots individuels d'un petit vocabulaire (par exemple, «oui» «non» «ouvert») au lieu de phrases longues ou de mots à plusieurs syllabes.
+  half_voice: Reconnaissance vocale basée sur l'atteinte d'un seuil de volume (par exemple 50%) au lieu de mots.
+  provide_accessibility: Fournir les détails des caractéristiques d'accessibilité sur l'emballage et/ou le site web.
+  details_on_accessibility: Fournir des détails sur les caractéristiques d'accessibilité dans le jeu.
+  difficulty_level: Offrir un large choix de niveaux de difficulté.
+  save_parameters: S'assurer que tous les paramètres sont sauvegardés/mémorisés.
+  access_comment: Solliciter des commentaires sur l'accessibilité.
+  menu_with_movement: Menus uniquement naviguables avec les boutons de déplacement (Flèches directionnel, D-pad, joystick, etc).
+  disabled_tester: Inclure certaines personnes handicapées parmi les participants aux tests de jeu.
+  mechanical_jump: Offrir un moyen de contourner les éléments de jeu qui ne font pas partie du mécanisme de base, via les paramètres ou l'option de \"passer\" en jeu.
   
-
 
 categories:
   - name: Moteur
@@ -126,14 +188,57 @@ categories:
       - screen_readers
       - separate_music
       - binaural_recording
+      - audio_description
       
   - name: Auditif
     guidelines:
       - separate_volumes
       - symbols_chat
+      - subtitles
+      - sound_information
+      - clear_subtitles
+      - discussion_without_parasites
+      - substitles_speech_sup
+      - activation_subtitles
+      - noise_caption
+      - visual_speaker_indication
+      - customization_subtitles
+      - text_chat_and_voice
+      - communication_sign
+      - visual_voice_chat
+      - multi_no_mic
+      - sounds_to_text
+      - stereo_mono
+      - words_per_minute
+      - sign_language
+
   - name: Discours
     guidelines:
       - symbols_chat
+      - communication_sign
+      - multi_no_mic
+      - no_voice_input
+      - com_visuel_multi
+      - speech_recognition
+      - half_voice
+
+
   - name: Général
     guidelines:
       - adapted_website
+      - provide_accessibility
+      - details_on_accessibility
+      - difficulty_level
+      - save_parameters
+      - access_comment
+      - menu_with_movement
+      - disabled_tester
+      - mechanical_jump
+      - automatic_assistance_mode
+      - manual_backup
+      - automatic_backup
+      - online_management
+      - gameplay_variable
+      - accessibility_test
+      - profile_parameter
+      - voice_transcription

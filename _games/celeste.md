@@ -334,10 +334,6 @@ evaluation:
     note: 0
     description : "Les personnes entrains de parler lors des dialogues ont leur porter à coté du texte."
 
-  multi_voice_text:
-    note: 0
-    description: "Le jeu n'est pas multijoueur."
-
   communication_sign:
     note: 0
     description: "Le jeu n'est pas multijoueur."
