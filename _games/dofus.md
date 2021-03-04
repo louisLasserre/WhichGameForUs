@@ -22,9 +22,9 @@ evaluation:
     note: 1
     description: "On ne peut pas régler la sensibilité de la souris"
 
-  _large_elements:
+  large_elements:
     note: 2
-    screenshot: Dofus2.1_large_elements.jpg Dofus2.2_large_elements.jpg
+    screenshot: Dofus2.1_large_elements.jpg
     description: "L'interface comporte des éléments proches qui pourraient être plus aérés. Une option permet de grossir les différentes icones"
 
   more_than_one_device:
@@ -127,12 +127,12 @@ evaluation:
 
   reminder_objective:
     note: 1
-    screenshot: Dofus5_reminder_objective.jpg Dofus5.2_reminder_objective.jpg
+    screenshot: Dofus5_reminder_objective.jpg
     description: "Au suvol des attaques disponible on nous rappel la touche de raccourci mais sinon tout se joue à la souris"
 
   reminder_control:
     note: 1
-    screenshot: Dofus6_reminder_control.jpg Dofus6_reminder_control.jpg
+    screenshot: Dofus6_reminder_control.jpg
     description: "Il n'y a pas de rappel des controles durant le jeu."
 
   sandbox_mode:
