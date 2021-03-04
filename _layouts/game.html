@@ -40,10 +40,30 @@ layout: default
     {% else %}
       {% assign active = false %}
     {% endif %}
-    <div  class="tab-pane show pt-5 {% if active %} active {% endif %} "
+    <div  class="tab-pane show pt-4 {% if active %} active {% endif %} "
           id="{{ category_slug}}"
           role="tabpanel"
           aria-labelledby="{{ category_slug}}-tab">
+      {% assign points = 0 %}
+      {% assign total = category.guidelines.size | times: 2 %}
+      {% for guideline in category.guidelines %}
+        {% assign data = page.evaluation[guideline] %}
+        {% if data.note == 2 %}
+          {% assign points = points | plus: 1 %}
+        {% elsif data.note == 3 %}
+          {% assign points = points | plus: 2 %}
+        {% endif %}
+      {% endfor %}
+      {% assign percent = 100.0 | times: points | divided_by: total | round %}
+      <div class="progress mb-4" style="height: 30px">
+        <div  class="progress-bar bg-success"
+              role="progressbar"
+              style="width: {{percent}}%;"
+              aria-valuenow="{{percent}}"
+              aria-valuemin="0"
+              aria-valuemax="100"><b>{{percent}}%</b></div>
+      </div>
+
       {% for guideline in category.guidelines %}
         {% assign data = page.evaluation[guideline] %}
         {% include guideline.html data=data slug=slug guideline=guideline %}
