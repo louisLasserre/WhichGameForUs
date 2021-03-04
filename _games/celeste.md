@@ -195,7 +195,7 @@ evaluation:
 
   unforeseen_event:
     note: 2
-    description: "Certains éléments peuvent être surprenant du à la nature rapide du jeu, mais ils sont en général annonçant."
+    description: "Certains éléments peuvent être surprenant du à la nature rapide du jeu, mais ils sont en général annoncer."
 
   replay_narration:
     note: 3
@@ -332,7 +332,7 @@ evaluation:
   text_chat_and_voice:
     note: 0
     description : "Les personnes entrains de parler lors des dialogues ont leur porter à coté du texte."
-    
+
   multi_voice_text:
     note: 0
     description: "Le jeu n'est pas multijoueur."

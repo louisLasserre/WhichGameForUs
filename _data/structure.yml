@@ -91,6 +91,11 @@ categories:
       - text_changes
       - important_word
       - turn_off_blood
+      - reading_text
+      - unforeseen_event
+      - replay_narration
+      - symbols_chat
+      - hide_option
 
   - name: Visuel
     guidelines:
@@ -101,10 +106,34 @@ categories:
       - interactive_elements
       - separate_volumes
       - different_sound
-
+      - reading_text
+      - different_essential_information
+      - field_of_view
+      - vr_problems
+      - contrast_elements
+      - different_movements
+      - surround_sound
+      - background_animation
+      - mobile_reader_background
+      - adjust_contrast
+      - cursor
+      - visible_essentiel_elements
+      - font_size
+      - audio_card_sonar
+      - voice_gps
+      - cardinal_point_orientation
+      - digital_controls
+      - screen_readers
+      - separate_music
+      - binaural_recording
       
   - name: Auditif
     guidelines:
       - separate_volumes
+      - symbols_chat
   - name: Discours
+    guidelines:
+      - symbols_chat
   - name: Général
+    guidelines:
+      - adapted_website
