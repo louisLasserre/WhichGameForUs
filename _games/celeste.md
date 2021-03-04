@@ -102,6 +102,7 @@ evaluation:
 
   font:
     note: 3
+    screenshot: celeste_font.jpg
     description: "La font par défaut est lisible facilement. Elle ne dispose pas d'empatement, et chaque lettre est bien distincte des autres."
 
   clear_language:
@@ -110,10 +111,12 @@ evaluation:
 
   clear_text:
     note: 3
+    screenshot: celeste_clear_text.jpg
     description: "Le format du text est clair, les lettres sont séparé les unes des autres pour permettre une lecture facile."
 
   tutorials:
     note: 3
+    screenshot: celeste_tutorials.jpg
     description: "Le niveau \"Prologue\" introduit les différentes actions du jeu."
 
   more_reading_time:
@@ -122,6 +125,7 @@ evaluation:
 
   photosensitive:
     note: 3
+    screenshot: celeste_photosensitive.jpg
     description: "Permet de d'activer un mode \"Photosensible\" désactivant tout les éléments pouvant déclencher des crises."
 
   help_game:
@@ -138,10 +142,12 @@ evaluation:
 
   sandbox_mode:
     note: 3
+    screenshot: celeste_sandbox_mode.jpg
     description: "Le mode Assist permet d'activer de nombreuse options facilitant l'entrainement (Invincibilité, Nombre de Dash, Endurance)."
 
   simple_narration:
     note: 3
+    screenshot: celeste_simple_narration.jpg
     description: "Le jeu et son histoire sont une succession de niveau, l'histoire est linéaire."
 
   summary_key_point:
@@ -150,6 +156,7 @@ evaluation:
 
   oral_written_information:
     note: 2
+    screenshot: celeste_oral_written_information.jpg
     description: "Certaines informations du tutoriel sont communiqué avec des pictogrammes de la touches à utilisé, mais contiennent du texte pour décrire l'action."
 
   interactive_elements:
@@ -167,11 +174,13 @@ evaluation:
 
   visual_backup:
     note: 2
+    screenshot: celeste_visual_backup.jpg
     description: "On ne peut pas nommer les sauvegardes, mais différentes icones sont la pour montrer notre progrès."
 
 
   separate_volumes:
     note: 3
+    screenshot: celeste_separate_volumes.jpg
     description: "Il n'y a pas de Voix dans le jeux. Donc les deux types de sons sont la musique et les sfx (donc son)."
 
   different_sound:
