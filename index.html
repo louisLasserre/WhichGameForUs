@@ -6,11 +6,11 @@ title: Un jeu pour moi
   {% for game in site.games %}
     {% assign slug = game.title | slugify: 'latin' %}
     <div class="col-md-3 mb-4">
-      <div class="card bg-dark">
+      <div class="card bg-secondary">
         <img src="/assets/images/games/{{ slug }}/{{ slug }}.jpg" alt="{{ game.title }}" class="card-img-top">
         <div class="card-body">
           <h2 class="card-title">{{ game.title }}</h2>
-          <a href="/jeux/{{ slug }}" class="btn btn-primary stretched-link">
+          <a href="/jeux/{{ slug }}" class="btn btn-info stretched-link border-0">
             Voir le jeu
           </a>
         </div>
