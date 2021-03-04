@@ -8,7 +8,7 @@ evaluation:
 
     simple_commands:
         note: 1
-        screenshot: ori_and_the_blind_forest_simple_commands.jpg
+        screenshot: ori_and_the_blind_forest_simple_command.jpg
         description: "Les commandes sont assez complexes puisque le jeu combine un platforming assez challenging et plusieurs mécaniques de combos, sans fournir des versions simplifiées des contrôles."
 
     haptic_slider:
@@ -321,7 +321,7 @@ evaluation:
 
     clear_subtitles:
         note: 3
-        screenshot: ori_and_the_blind_forest_clear_subtitles.jpg
+        screenshot: ori_and_the_blind_clear_subtitles.jpg
         description: "Tout les textes sont faciles à percevoir."
 
     discussion_without_parasites:
@@ -342,7 +342,7 @@ evaluation:
 
     visual_speaker_indication:
         note: 1
-        screenshot: ori_and_the_blind_forest_visual_speaker_indication.jpg
+        screenshot: ori_and_the_blind_forest_subtitles.jpg
         description : "Pas d'indication."
 
     customization_subtitles:
