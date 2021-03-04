@@ -21,7 +21,7 @@ layout: default
       {% assign active = false %}
     {% endif %}
     <li class="nav-item" role="presentation">
-      <button class="nav-link{% if active %} active {% endif %}" id="moteur-tab"
+      <button class="nav-link{% if active %} active {% endif %}" id="{{ category_slug }}-tab"
               data-bs-toggle="tab"
               data-bs-target="#{{ category_slug }}"
               type="button"
