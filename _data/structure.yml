@@ -136,8 +136,8 @@ categories:
 
   - name: Cognitif
     guidelines:
-      - touch_assign
       - level_navigation
+      - touch_assign
       - font
       - clear_language
       - clear_text
