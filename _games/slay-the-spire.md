@@ -8,7 +8,7 @@ evaluation:
     
     simple_commands:
         note: 
-	    screenshot: slay_the_spire_simple_commands.jpg
+	screenshot: slay_the_spire_simple_commands.jpg
         description: "Les Commandes son modifiable a volonter, et il n'y en a pas tant que ca, de plus on peu jouer avec une manette, le clavier, ou la souris. Avec la souris le systeme est principalement un drag and drop."
     
     haptic_slider:
@@ -17,22 +17,22 @@ evaluation:
     
     menu_with_keys:
         note: 2
-	    screenshot: slay_the_spire_menu_with_keys.jpg
+	screenshot: slay_the_spire_menu_with_keys.jpg
         description: "Les menus sont naviguables à la souris ou la manette. Ls menu ne sont pas accesible avec le clavier : il faut utiliser la souris."
     
     sensitivity:
         note: 1
-	    screenshot: slay_the_spire_sensitivity.jpg
+	screenshot: slay_the_spire_sensitivity.jpg
         description: "Pas d'options de sensibilité des contrôles."
     
     large_elements:
         note: 3
-	    screenshot: slay_the_spire_large_elements.jpg
+	screenshot: slay_the_spire_large_elements.jpg
         description: "Les element avec lesquelles on interagit sont espace des autre element, et sont asses large"
     
     more_than_one_device:
         note: 3
-	    screenshot: slay_the_spire_more_than_one_device.jpg
+	screenshot: slay_the_spire_more_than_one_device.jpg
         description: "Nous pouvons jouer avec le clavier et la souris, la souris et le controler"
     
     menus_do_not_move:
@@ -41,12 +41,12 @@ evaluation:
     
     simultaneous_action:
         note: 3
-	    screenshot: slay_the_spire_simultaneous_action.jpg
+	screenshot: slay_the_spire_simultaneous_action.jpg
         description: "Il n'y a pas d'action simultaner, meme le pseudo drag and drop se fait en deux clique, sans besoin de maintenir la souris"
     
     digital_controls:
         note: 3
-	    screenshot: slay_the_spire_digital_controls.jpg
+	screenshot: slay_the_spire_digital_controls.jpg
         description: "Toutes les action peuvent etre realiser avec la souris, il n'y as pas besoin de jouer au controler ou du clavier"
     
     option_vit:
@@ -58,12 +58,12 @@ evaluation:
     
     window_mode:
         note: 3
-	    screenshot: slay_the_spire_window_mode.jpg
+	screenshot: slay_the_spire_window_mode.jpg
         description: "on peut mettre le jeu en mode fenetre "
     
     button_pressure:
         note: 3
-	    screenshot: slay_the_spire_button_pressure.jpg
+	screenshot: slay_the_spire_button_pressure.jpg
         description: "Il n'y a pas besoin de maintenir de bouton appueyer de tout le jeu, mais on peut mettre les confirmation en pression longue dans les option."
     
     orga_interface:
@@ -104,12 +104,12 @@ evaluation:
     
     font:
         note: 2
-	    screenshot: slay_the_spire_font.jpg
+	screenshot: slay_the_spire_font.jpg
         description: "La police est facilement lisible et non-styliser, mais elle est un peu fine, mais on peu l'agrandir"
     
     clear_language:
         note: 2
-	    screenshot: slay_the_spire_clear_language.jpg
+	screenshot: slay_the_spire_clear_language.jpg
         description: "A part quelque mot de vocabulaire, et les dialogues de lores, les instructions et informations sont clair et simple"
     
     clear_text:
@@ -119,7 +119,7 @@ evaluation:
     
     tutorials:
         note: 3
-	    screenshot: slay_the_spire_tutorials.jpg
+	screenshot: slay_the_spire_tutorials.jpg
         description: "Il y a un tutoriel au debut du jeu, qui explique les mecaniques et le vocabulaire"
         
     more_reading_time:
@@ -128,7 +128,7 @@ evaluation:
     
     photosensitive:
         note: 3
-	    screenshot: slay_the_spire_photosensitive.jpg
+	screenshot: slay_the_spire_photosensitive.jpg
         description: "Les niveau sont des image dessiner qui sont uniques qu tableau ou on est, "
     
     help_game:
@@ -141,7 +141,7 @@ evaluation:
     
     reminder_control:
         note: 2
-	    screenshot: slay_the_spire_reminder_control.jpg
+	screenshot: slay_the_spire_reminder_control.jpg
         description: "On ne rappel pas les commande du jeu normalement mais il y a une option qui permet de montrer les racourcis clavier, et en jouant avec la manette plusieur commande sont labelle avec la touche qui leur est attribuer"
     
     sandbox_mode:
@@ -162,7 +162,7 @@ evaluation:
     
     interactive_elements:
         note: 3
-	    screenshot: slay_the_spire_interactive_elements.jpg
+	screenshot: slay_the_spire_interactive_elements.jpg
         description: "Les element interactifs ressortes du decor et sont un peu animer, ou ils ont in text indicateur"
     
     background_movements:
@@ -179,7 +179,7 @@ evaluation:
     
     separate_volumes:
         note: 3
-	    screenshot: slay_the_spire_separate_volumes.jpg
+	screenshot: slay_the_spire_separate_volumes.jpg
         description: "Il n'y a pas de voix, et il y a une separation des effets sonores et de la musique"
     
     different_sound:
