@@ -18,7 +18,7 @@ evaluation:
     note: 3
     screenshot: minecraft_menu_with_keys.jpg
     description: "Accès au menu avec la touche \"Echap\" à n'importe quel moment dans le jeu."
-    
+
   sensitivity:
     note: 3
     screenshot: minecraft_controls.jpg
@@ -449,14 +449,7 @@ evaluation:
     note: 1
     description: "Le jeu ne contient aucune solution multiprofile."
 
-
   voice_transcription:
     note: 3
     description: "L'option du narrateur permet de lire le tchat en temps réel."
- 
- 
 ---
- 
- 
- 
- 

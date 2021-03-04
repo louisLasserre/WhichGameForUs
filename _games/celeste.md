@@ -19,7 +19,7 @@ evaluation:
     note: 3
     screenshot: celeste_menu_with_keys.jpg
     description: "Les menus sont navigables en utilisant les touches de déplacement."
-    
+
   sensitivity:
     note: 1
     screenshot: controls_celeste.jpg
@@ -459,14 +459,7 @@ evaluation:
     note: 1
     description: "Le jeu ne contient aucune solution multiprofile."
 
-
   voice_transcription:
     note: 0
     description: "Le jeu n'est pas multijoueur."
- 
- 
 ---
- 
- 
- 
- 
