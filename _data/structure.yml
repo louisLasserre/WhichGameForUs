@@ -1,41 +1,41 @@
 guidelines:
-  touch_assign: "Autoriser la modification par l'utilisateur de l’assignation des commandes du jeu."
-  simple_commands: "Les commandes doivent être les plus simples possibles, ou bien une alternative plus simple doit exister."
-  haptic_slider: "Inclure une glissière ou un switch pour toute forme d’haptique."
-  menu_with_keys: "Les zones de l’interface doivent être accessible avec le même médium que le gameplay."
-  sensitivity: "Inclure une option pour ajuster la sensibilité des contrôles."
-  large_elements: "Les éléments interactifs/contrôles virtuels doivent être larges et espacés, en particulier sur petits écrans ou écrans tactiles."
-  more_than_one_device: "Autoriser plus d’un périphérique d’entrée."
-  menus_do_not_move: "Les éléments interactifs nécessitant une précision (curseur, toucher, etc…) doivent être stationnaires."
-  simultaneous_action: "Aucune séries d’actions simultanées ne doit être nécessaire, seulement incluses comme alternative ou supplément."
-  digital_controls: "Toutes les actions essentielles peuvent être réalisés à l’aide de contrôles digitaux, et les entrées plus complexes sont seulement incluses comme alternative ou supplément."
-  option_vit: "Inclure une option pour ajuster la vitesse du jeu."
-  qte: "Eviter les entrées répétés (QTE/appuis successifs rapides)."
-  window_mode: "Fournir un mode fenêtré compatible avec les claviers virtuels dans le cadre d’un jeu PC."
-  button_pressure: "Fournir des alternatives à la pression continue des boutons."
-  orga_interface: "Permettre la réorganisation des interfaces."
-  resizing_interface: "Permettre le redimensionnement des interfaces."
-  macro_system: "Fournir un système macro."
-  movement_tracking: "Ne pas nécessiter de suivi de mouvements de types de corps spécifiques dans le cadre d'un jeu VR."
-  mobile_mode: "Inclure la lecture en mode portrait et paysage dans le cadre d'un jeu mobile."
-  timing: "Éviter un timing précis essentiel au gameplay, ou bien proposer des alternatives, des actions qui peuvent être effectuées en pause ou un mécanisme de saut."
-  time_limit: "Inclure une période de refroidissement (délai après acceptation) de 0,5 seconde entre les entrées."
-  simple_control: "Fournir des schémas de contrôle très simples compatibles avec les appareils de technologie d'assistance, tels que le commutateur ou le suivi oculaire."
-  level_navigation: "Permettre de démarrer le jeu sans la nécessité de naviguer à travers de multiples niveaux et menus."
-  font: "Utiliser une taille de police de caractère facilement lisible."
-  clear_language: "Utiliser un langage clair et simple."
-  clear_text: "Utiliser un format de texte clair."
-  tutorials: "Inclure des tutoriels au début ou pendant la progression du jeu."
-  more_reading_time: "Permettre au joueur d'avancer dans les boites de textes à son propre rythme."
-  photosensitive: "Eviter les clignotement d'images et les textures de jeu répétitives."
-  help_game: "Inclure des aides, guides ou astuces en jeu."
-  reminder_objective: "Rappeler régulièrement les objectifs en jeu."
-  reminder_control: "Rappeler régulièrement les commandes du jeu."
-  sandbox_mode: "Inclure un mode sans risque d'échec, comme un niveau d'entrainemment ou un mode bac à sable par exemple."
-  simple_narration: "La structure narrative doit être simple et claire."
-  summary_key_point: "Lorsque la partie narrative est longue, le jeu doit proposer un sommaire avec les points clé."
-  oral_written_information: "S’assurer que les informations essentielles soient retranscrites à l'oral et à l’écrit."
-  interactive_elements: "Montrer clairement au joueur que les éléments interactifs sont interactifs."
+  touch_assign: Autoriser la modification par l'utilisateur de l’assignation des commandes du jeu.
+  simple_commands: Les commandes doivent être les plus simples possibles, ou bien une alternative plus simple doit exister.
+  haptic_slider: Inclure une glissière ou un switch pour toute forme d’haptique.
+  menu_with_keys: Les zones de l’interface doivent être accessible avec le même médium que le gameplay.
+  sensitivity: Inclure une option pour ajuster la sensibilité des contrôles.
+  large_elements: Les éléments interactifs/contrôles virtuels doivent être larges et espacés, en particulier sur petits écrans ou écrans tactiles.
+  more_than_one_device: Autoriser plus d’un périphérique d’entrée.
+  menus_do_not_move: Les éléments interactifs nécessitant une précision (curseur, toucher, etc…) doivent être stationnaires.
+  simultaneous_action: Aucune séries d’actions simultanées ne doit être nécessaire, seulement incluses comme alternative ou supplément.
+  digital_controls: Toutes les actions essentielles peuvent être réalisés à l’aide de contrôles digitaux, et les entrées plus complexes sont seulement incluses comme alternative ou supplément.
+  option_vit: Inclure une option pour ajuster la vitesse du jeu.
+  qte: Eviter les entrées répétés (QTE/appuis successifs rapides).
+  window_mode: Fournir un mode fenêtré compatible avec les claviers virtuels dans le cadre d’un jeu PC.
+  button_pressure: Fournir des alternatives à la pression continue des boutons.
+  orga_interface: Permettre la réorganisation des interfaces.
+  resizing_interface: Permettre le redimensionnement des interfaces.
+  macro_system: Fournir un système macro.
+  movement_tracking: Ne pas nécessiter de suivi de mouvements de types de corps spécifiques dans le cadre d'un jeu VR.
+  mobile_mode: Inclure la lecture en mode portrait et paysage dans le cadre d'un jeu mobile.
+  timing: Éviter un timing précis essentiel au gameplay, ou bien proposer des alternatives, des actions qui peuvent être effectuées en pause ou un mécanisme de saut.
+  time_limit: Inclure une période de refroidissement (délai après acceptation) de 0,5 seconde entre les entrées.
+  simple_control: Fournir des schémas de contrôle très simples compatibles avec les appareils de technologie d'assistance, tels que le commutateur ou le suivi oculaire.
+  level_navigation: Permettre de démarrer le jeu sans la nécessité de naviguer à travers de multiples niveaux et menus.
+  font: Utiliser une taille de police de caractère facilement lisible.
+  clear_language: Utiliser un langage clair et simple.
+  clear_text: Utiliser un format de texte clair.
+  tutorials: Inclure des tutoriels au début ou pendant la progression du jeu.
+  more_reading_time: Permettre au joueur d'avancer dans les boites de textes à son propre rythme.
+  photosensitive: Eviter les clignotement d'images et les textures de jeu répétitives.
+  help_game: Inclure des aides, guides ou astuces en jeu.
+  reminder_objective: Rappeler régulièrement les objectifs en jeu.
+  reminder_control: Rappeler régulièrement les commandes du jeu.
+  sandbox_mode: Inclure un mode sans risque d'échec, comme un niveau d'entrainemment ou un mode bac à sable par exemple.
+  simple_narration: La structure narrative doit être simple et claire.
+  summary_key_point: Lorsque la partie narrative est longue, le jeu doit proposer un sommaire avec les points clé.
+  oral_written_information: S’assurer que les informations essentielles soient retranscrites à l'oral et à l’écrit.
+  interactive_elements: Montrer clairement au joueur que les éléments interactifs sont interactifs.
   
 
 
@@ -52,8 +52,8 @@ categories:
       - menus_do_not_move
       - simultaneous_action
       - digital_controls
-      - option_speed
-      - noqte
+      - option_vit
+      - qte
       - window_mode 
       - button_pressure
       - orga_interface
@@ -64,7 +64,6 @@ categories:
       - timing
       - time_limit
       - simple_control
-      - text_audio_chat
 
   - name: Cognitif
     guidelines:
@@ -84,10 +83,6 @@ categories:
       - summary_key_point
       - oral_written_information
       - interactive_elements
-      - background_movements
-      - text_audio_chat
-      - visual_backup
-      - separate_volumes
 
   - name: Visuel
     guidelines:
@@ -96,14 +91,7 @@ categories:
       - font
       - clear_text  
       - interactive_elements
-      - text_audio_chat
-      - separate_volumes
-      - different_sound
-
-  - name: Auditif
-    guidelines:
-      - separate_volumes
-      - different_sound
       
+  - name: Auditif
   - name: Discours
   - name: Général

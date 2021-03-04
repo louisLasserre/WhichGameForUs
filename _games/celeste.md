@@ -1,10 +1,9 @@
 ---
 title: Celeste
 evaluation:
- 
   touch_assign:
     note: 3
-    screenshot: controls_celeste.jpg
+    screenshot: celeste_touch_assign.jpg
     description: "Toutes les commandes sont reconfigurables aussi bien pour clavier que pour manettes."
 
   simple_commands:
@@ -13,13 +12,13 @@ evaluation:
 
   haptic_slider:
     note: 3
-    screenshot: controls_celeste.jpg
+    screenshot: celeste_haptic_slider.jpg
     description: "On peut gérer la force des vibrations."
 
   menu_with_keys:
     note: 3
     description: "Les menus sont navigables en utilisant les touches de déplacement."
-
+    
   sensitivity:
     note: 1
     screenshot: controls_celeste.jpg
@@ -49,7 +48,7 @@ evaluation:
   option_vit:
     note: 3
     screenshot: controls_celeste.jpg
-    description: "Le jeu dispose d'un "mode assist" qui permet de ralentir la vitesse du jeu."
+    description: "Le jeu dispose d'un \"mode assist\" qui permet de ralentir la vitesse du jeu."
 
   qte:
     note: 3
@@ -77,7 +76,7 @@ evaluation:
 
   movement_tracking:
     note: 0
-    description: "le jeu n'est pas en VR."
+    description: "Le jeu n'est pas en VR."
 
   mobile_mode:
     note: 0
@@ -113,7 +112,7 @@ evaluation:
 
   tutorials:
     note: 3
-    description: "Le niveau "Prologue" introduit les différentes actions du jeu."
+    description: "Le niveau \"Prologue\" introduit les différentes actions du jeu."
 
   more_reading_time:
     note: 2
@@ -121,7 +120,7 @@ evaluation:
 
   photosensitive:
     note: 3
-    description: "Permet de d'activer un mode "Photosensible" désactivant tout les éléments pouvant déclencher des crises."
+    description: "Permet de d'activer un mode \"Photosensible\" désactivant tout les éléments pouvant déclencher des crises."
 
   help_game:
     note: 1
@@ -158,7 +157,6 @@ evaluation:
   background_movements:
     note: 1
     description: "Il n'y a pas d'option pour désactiver ou cacher les mouvements de l'arrière plan."
-
 
   text_audio_chat:
     note: 0
@@ -228,7 +226,7 @@ evaluation:
 
   different_movements:
     note: 0
-    description: "Le jeu est un metroidvania en 2D, les mouvement suivent le personnage."
+    description: "Le jeu est un plateformer en 2D, les mouvement suivent le personnage."
 
   surround_sound:
     note: 1
@@ -288,21 +286,53 @@ evaluation:
 
   binaural_recording:
     note: 1
-    description: "Le jeu ne simule pas l'enregistrement binaural ."
+    description: "Le jeu ne simule pas l'enregistrement binaural."
+
+  audio_description:
+    note: 1
+    description: "Il n'y a pas de description audio."
+
+  subtitles:
+    note: 0
+    description: "Il n'y a pas de doublages."
+
+  sound_information:
+    note: 3
+    description: "Toutes les informations sonore sont aussi communiqué visuellement."
+
+  clear_subtitles:
+    note: 0
+    description: "Il n'y a pas de sous-titres."
+
+  discussion_without_parasites:
+    note: 0
+    description: "Il n'y a pas de doublages."
+
+  substitles_speech_sup:
+    note: 0
+    description: "Il n'y a pas de doublages."
+
+  activation_subtitles:
+    note: 0
+    description: "Il n'y a pas de doublages."
+
+  noise_caption:
+    note: 0
+    description : "Il n'y a pas de bruit de fond significatif."
+
+  visual_speaker_indication:
+    note: 3
+    description : "Les personnes entrains de parler lors des dialogues ont leur porter à coté du texte."
+
+  customization_subtitles:
+    note: 0
+    description : "Il n'y a pas de doublages."
+
+  text_chat_and_voice:
+    note: 0
+    description : "Les personnes entrains de parler lors des dialogues ont leur porter à coté du texte."
+ 
 
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  ---
