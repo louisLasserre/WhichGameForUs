@@ -4,6 +4,39 @@ evaluation:
 
     
 
+    stereo_mono:
+    note: 1
+    description: "Le jeu n'a pas de toggle entre mono et stereo."
+
+    words_per_minute:
+    note: 0
+    description: "Il n'y a pas de doublages."
+
+    sign_language:
+      note: 0
+      description: "Le jeu n'est pas multijoueur."
+
+
+    no_voice_input:
+      note: 3
+      description: "L'entrée vocale n'est pas requise dans le jeu."
+
+    com_visuel_multi:
+      note: 0
+      description: "le jeu n'est pas multijoueur."
+
+    speech_recognition:
+      note: 0
+      description: Il n'y a pas controle à la voix dans le jeu
+
+    half_voice:
+      note: 0
+      description: "Il n'y a pas controle à la voix dans le jeu."    
+
+    provide_accessibility:
+      note: 1
+      description: "Le site ne contient pas les options d'accessibilité du jeu."
+
     details_on_accessibility:
       note: 2
       description: "Le jeu explique le mode assist lorsqu'on essaye de l'activer, mais il n'explique pas le reste."
