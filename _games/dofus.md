@@ -17,7 +17,7 @@ evaluation:
   menu_with_keys:
     note: 3
     description: "On peut accéder au menu en cliquant sur l'engrenage en haut à droite pour aller directement dans les paramètres"
-    
+
   sensitivity:
     note: 1
     description: "On ne peut pas régler la sensibilité de la souris"
@@ -154,7 +154,7 @@ evaluation:
   interactive_elements:
     note: 3    
     screenshot: Dofus7_interactive_elements.jpg
-    description: "Les éléments avec lesquels on peut interargir sont accompagné d'un petit logo et d'un nom/description"
+    description: "Les éléments avec lesquels on peut interagir sont accompagné d'un petit logo et d'un nom/description"
 
   background_movements:
     note: 0
@@ -165,17 +165,15 @@ evaluation:
     screenshot: Dofus8_text_audio_chat.jpg
     description: "Il n'y a qu'un tchat écrit dans le jeu, le tchat vocal n'est pas inclu"
 
-
   visual_backup:
     note: 3
     screenshot: Dofus9_visual_backup.jpg
     description: "Le jeu propose un menu accessible à tout moment en faisant \"Echap\" "
 
-
   separate_volumes:
     note: 3
     screenshot: Dofus1_separate_volumes.jpg
-    description: "Chaque "famille" de son peut être baissée, coupée ou augmentée mais aussi plus gloabalement"
+    description: "Chaque \"famille\" de son peut être baissée, coupée ou augmentée mais aussi plus globalement"
 
   different_sound:
     note: 3
@@ -213,7 +211,7 @@ evaluation:
   hide_option:
     note: 2
     screenshot: Dofus12_hide_option.jpg
-    description: "En combat il est possible d'activer le mode "Tactique" qui permet de cacher tout les éléments décoratifs et avec lesquels on ne peut pas intéragir. Cela permet de mieux se concentrer sur l'essentiel"
+    description: "En combat il est possible d'activer le mode \"Tactique\" qui permet de cacher tout les éléments décoratifs et avec lesquels on ne peut pas interagir. Cela permet de mieux se concentrer sur l'essentiel"
 
   different_essential_information:
     note: 3
@@ -339,121 +337,120 @@ evaluation:
   text_chat_and_voice:
     note: 2
     description : "Il n'y a qu'un tchat écrit dans le jeu, le tchat vocal n'est pas inclu"
-    
- 
- 
-
-    communication_sign:
-        note: 3
-        description: "Le tchat textuel permet de discuter entre joueurs"
 
 
-    visual_voice_chat:
-        note: 0
-        description: "Il n'y a pas de tchat vocal dans le jeu"
-
-    multi_no_mic:
-        note: 0
-        description: "Il n'y a pas de tchat vocal dans le jeu"
-
-    sounds_to_text:
-        note: 3
-        description: "Tout les sons sont visibles sauf les musiques de fond qui ne sont pas représentées mais les monstres ou animaux par exemple ont leur propre bruit"
-
-    stereo_mono:
-        note: 1
-        description: "On ne peut pas choisir entre un son mono ou stéréo"
-
-    words_per_minute:
-        note: 0
-        description: "Il n'y a pas de dialogues dans le jeu"
-
-    sign_language:
-        note: 1
-        description: "Le jeu n'inclus pas la possibilité d'utiliser la langue des signes"
 
 
-    no_voice_input:
-        note: 0
-        description: "Il n'y a pas de controles vocaux"
-
-    com_visuel_multi:
-        note: 3
-        description: "Le jeu dispose d'un tchat textuel"
-
-    speech_recognition:
-        note: 0
-        description: "Il n'y a pas de controles vocaux"
-
-    half_voice:
-        note: 0
-        description: "Il n'y a pas de controles vocaux"   
-
-    provide_accessibility:
-        note: 1
-        description: "Le site ne contient pas les options d accessibilité "
-
-    details_on_accessibility:
-        note: 1
-        description: "Il n'y a pas de paramètres propre à l'accssibilité"
-
-    difficulty_level:
-        note: 1
-        description: "Il n'y a pas de gestion de la difficulté, le joueur deviens de plus en plus fort au fur et à mesure du jeu, il choisi de la zone qu'il souahite découvrir qui est plus ou moins difficile"
-
-    save_parameters:
-        note: 3
-        description: "Les paramètres sont automatiquement sauvegardés et mémorisé. "
-
-    access_comment:
-        note: 2
-        screenshot: Dofus14_access_comment.jpg
-        description: "On peut contacter directement depuis le jeu l'équipe du support mais cela n'est pas forcément pour répondre aux problèmes d'accessiblité"
-
-    menu_with_movement:
-        note: 1
-        description: "On ne peut qu'accéder au différentes parties du menu avec la souris"
-
-    disabled_tester:
-        note: 0
-        description: "Il n'y a pas moyen de savoir les procédures de test du jeu"
-
-    mechanical_jump:
-        note: 1
-        description: "Il n'y a pas de mode avec des controles simplifiés"
-
-    automatic_assistance_mode:
-        note: 2
-        description: "Le jeu suggère des actions mais principalement celle de passer son tour lorsqu'on l'oubli"
-
-    manual_backup:
-        note: 1
-        description: "Le jeu sauvegarde continuellement votre progression en ligne."
+  communication_sign:
+      note: 3
+      description: "Le tchat textuel permet de discuter entre joueurs"
 
 
-    automatic_backup:
-        note: 3
-        description: "Le jeu sauvegarde continuellement votre progression en ligne."
+  visual_voice_chat:
+      note: 0
+      description: "Il n'y a pas de tchat vocal dans le jeu"
 
-    online_management:
-        note: 1
-        description: "Il n'y a pas de paramètres propre à l'accssibilité"
+  multi_no_mic:
+      note: 0
+      description: "Il n'y a pas de tchat vocal dans le jeu"
 
-    gameplay_variable:
-        note: 1
-        description: "Il n'y a pas de gameplay différents que des combats, des quêtes etc"
+  sounds_to_text:
+      note: 3
+      description: "Tout les sons sont visibles sauf les musiques de fond qui ne sont pas représentées mais les monstres ou animaux par exemple ont leur propre bruit"
 
-    accessibility_test:
-        note: 0
-        description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu"
+  stereo_mono:
+      note: 1
+      description: "On ne peut pas choisir entre un son mono ou stéréo"
 
-    profile_parameter:
-        note: 1
-        description: "Le jeu ne contient pas de profils parametrables"
+  words_per_minute:
+      note: 0
+      description: "Il n'y a pas de dialogues dans le jeu"
+
+  sign_language:
+      note: 1
+      description: "Le jeu n'inclus pas la possibilité d'utiliser la langue des signes"
 
 
-    voice_transcription:
-        note: 1
-        description: "Le jeu ne possede pas de transcription vocal pour les textes en temps réel"
-        
+  no_voice_input:
+      note: 0
+      description: "Il n'y a pas de controles vocaux"
+
+  com_visuel_multi:
+      note: 3
+      description: "Le jeu dispose d'un tchat textuel"
+
+  speech_recognition:
+      note: 0
+      description: "Il n'y a pas de controles vocaux"
+
+  half_voice:
+      note: 0
+      description: "Il n'y a pas de controles vocaux"   
+
+  provide_accessibility:
+      note: 1
+      description: "Le site ne contient pas les options d accessibilité "
+
+  details_on_accessibility:
+      note: 1
+      description: "Il n'y a pas de paramètres propre à l'accssibilité"
+
+  difficulty_level:
+      note: 1
+      description: "Il n'y a pas de gestion de la difficulté, le joueur deviens de plus en plus fort au fur et à mesure du jeu, il choisi de la zone qu'il souahite découvrir qui est plus ou moins difficile"
+
+  save_parameters:
+      note: 3
+      description: "Les paramètres sont automatiquement sauvegardés et mémorisé. "
+
+  access_comment:
+      note: 2
+      screenshot: Dofus14_access_comment.jpg
+      description: "On peut contacter directement depuis le jeu l'équipe du support mais cela n'est pas forcément pour répondre aux problèmes d'accessiblité"
+
+  menu_with_movement:
+      note: 1
+      description: "On ne peut qu'accéder au différentes parties du menu avec la souris"
+
+  disabled_tester:
+      note: 0
+      description: "Il n'y a pas moyen de savoir les procédures de test du jeu"
+
+  mechanical_jump:
+      note: 1
+      description: "Il n'y a pas de mode avec des controles simplifiés"
+
+  automatic_assistance_mode:
+      note: 2
+      description: "Le jeu suggère des actions mais principalement celle de passer son tour lorsqu'on l'oubli"
+
+  manual_backup:
+      note: 1
+      description: "Le jeu sauvegarde continuellement votre progression en ligne."
+
+
+  automatic_backup:
+      note: 3
+      description: "Le jeu sauvegarde continuellement votre progression en ligne."
+
+  online_management:
+      note: 1
+      description: "Il n'y a pas de paramètres propre à l'accssibilité"
+
+  gameplay_variable:
+      note: 1
+      description: "Il n'y a pas de gameplay différents que des combats, des quêtes etc"
+
+  accessibility_test:
+      note: 0
+      description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu"
+
+  profile_parameter:
+      note: 1
+      description: "Le jeu ne contient pas de profils parametrables"
+
+
+  voice_transcription:
+      note: 1
+      description: "Le jeu ne possede pas de transcription vocal pour les textes en temps réel"
 ---

@@ -2,7 +2,7 @@
 title: Un jeu pour moi
 ---
 
-<div class="row">
+<div class="offset-md-2 col-md-8 row">
   {% for game in site.games %}
     {% assign slug = game.title | slugify: 'latin' %}
     <div class="col-md-3 mb-4">
