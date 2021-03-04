@@ -17,6 +17,7 @@ evaluation:
  
  menu_with_keys:
    note: 3
+   screenshot: celeste_menu_with_keys.jpg
    description: "Les menus sont navigables en utilisant les touches de déplacement."
   
  sensitivity:
