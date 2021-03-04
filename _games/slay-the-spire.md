@@ -234,7 +234,7 @@ evaluation:
 
     contrast_elements:
         note: 3
-        screenshot: slay_the_spire_different_contrast_elements.jpg
+        screenshot: slay_the_spire_contrast_elements.jpg
         description: "Les interfaces sont tres contrastees"
 
     different_movements:

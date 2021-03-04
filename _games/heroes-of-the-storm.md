@@ -107,7 +107,7 @@ evaluation:
 
     clear_language:
         note: 2
-        screenshot: heroes-of-the-storm_clear_language.jpg
+        screenshot: heroes-of-the-storm_clear_langage.jpg
         description: "Si l'on veut rentrer dans les détails des capacités, l'explication devient vraiment compliqué selon le personnage."
 
     clear_text:
@@ -263,7 +263,6 @@ evaluation:
 
     adapted_website:
         note: 1
-        screenshot: heroes-of-the-storm_adapted_website.jpg
         description: "Le site d'heroes of the storm n'est pas très accessible."
 
     visible_essentiel_elements:
@@ -384,7 +383,7 @@ evaluation:
 
     com_visuel_multi:
         note: 3
-        screenshot: heroes-of-the-storm_com_visuel_multi.jpg
+        screenshot: heroes-of-the-storm_visual_voice_chat.jpg
         description: "Un tchat textuel et vocal est possible en jeu."
 
     speech_recognition:
