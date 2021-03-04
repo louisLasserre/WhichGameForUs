@@ -1,18 +1,18 @@
 <div class="row mb-5 offset-md-3 ">
   <div class="col-md-1">
-    <div class="lead ">
+    <div class="lead">
       {% if include.data.note == 0 %}
-        <span class="badge bg-secondary p-3" >Non applicable</span>
+        <span class="badge bg-secondary p-3 text-wrap" >Non applicable</span>
       {% elsif include.data.note == 1 %}
-        <span class="badge bg-danger p-3">Non respecté</span>
+        <span class="badge bg-danger p-3 text-wrap">Non respecté</span>
       {% elsif include.data.note == 2 %}
-        <span class="badge bg-warning p-3">Partiellement respecté</span>
+        <span class="badge bg-warning p-3 text-wrap">En partie respecté</span>
       {% elsif include.data.note == 3 %}
-        <span class="badge bg-success p-3">Respecté</span>
+        <span class="badge bg-success p-3 text-wrap">Respecté</span>
       {% endif %}
     </div>
   </div>
-  <div class="guideline col-md-7 ">
+  <div class="guideline col-md-7 gx-5">
     <div class="lead container-fluid bg-secondary p-3 rounded">{{site.data.structure.guidelines[include.guideline]}}</div>
     <div class="container-fluid my-5" >
       <div class="row">
