@@ -1,8 +1,9 @@
----        screenshot: .jpg
+---       
 title: Heroes of the storm
 evaluation:
     touch_assign:
         note: 3
+        screenshot: .jpg 
         description: "Réglage possible mais mal appliqué/ fait."
     
     simple_commands:
