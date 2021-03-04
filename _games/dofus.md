@@ -132,7 +132,7 @@ evaluation:
 
   reminder_control:
     note: 1
-    screenshot: Dofus5_reminder_control.jpg Dofus6_reminder_control.jpg
+    screenshot: Dofus6_reminder_control.jpg Dofus6_reminder_control.jpg
     description: "Il n'y a pas de rappel des controles durant le jeu."
 
   sandbox_mode:
