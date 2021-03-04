@@ -32,7 +32,7 @@ layout: default
   {% endfor %}
 </ul>
 
-<div class="tab-content" id="tabContent">
+<div class="tab-content a" id="tabContent">
   {% for category in site.data.structure.categories %}
     {% assign category_slug = category.name | slugify: 'latin' %}
     {% if forloop.index0 == 0%}
@@ -40,7 +40,7 @@ layout: default
     {% else %}
       {% assign active = false %}
     {% endif %}
-    <div  class="tab-pane show pt-5 {% if active %} active {% endif %}"
+    <div  class="tab-pane show pt-5 {% if active %} active {% endif %} "
           id="{{ category_slug}}"
           role="tabpanel"
           aria-labelledby="{{ category_slug}}-tab">
