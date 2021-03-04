@@ -83,6 +83,14 @@ categories:
       - summary_key_point
       - oral_written_information
       - interactive_elements
+      - background_movements
+      - text_audio_chat
+      - visual_backup
+      - separate_volumes
+      - different_sound
+      - text_changes
+      - important_word
+      - turn_off_blood
 
   - name: Visuel
     guidelines:
@@ -91,7 +99,12 @@ categories:
       - font
       - clear_text  
       - interactive_elements
+      - separate_volumes
+      - different_sound
+
       
   - name: Auditif
+    guidelines:
+      - separate_volumes
   - name: Discours
   - name: Général
