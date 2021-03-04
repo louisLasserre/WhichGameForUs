@@ -193,6 +193,7 @@ evaluation:
 
   important_word:
     note: 3
+    screenshot: celeste_important_world.jpg
     description: "Certains mots importants (comme le nom des personnages) dans les dialogues sont marqué d'une couleur différentes."
 
   turn_off_blood:
@@ -221,6 +222,7 @@ evaluation:
 
   different_essential_information:
     note: 1
+    screenshot: celeste_different_essential_information.jpg
     description: "Le nombre de dash restant est indiqué par la couleur des cheveux du personnage."
 
   field_of_view:
@@ -233,6 +235,7 @@ evaluation:
 
   contrast_elements:
     note: 3
+    screenshot: celeste_contrast_elements.jpg
     description: "Tout éléments d'UI à un fond sombre en transparence pour le faire ressortir."
 
   different_movements:
@@ -333,6 +336,7 @@ evaluation:
 
   visual_speaker_indication:
     note: 3
+    screenshot: celeste_visual_speaker_indication.jpg
     description : "Les personnes entrains de parler lors des dialogues ont leur porter à coté du texte."
 
   customization_subtitles:
@@ -398,10 +402,12 @@ evaluation:
 
   details_on_accessibility:
     note: 2
+    screenshot: celeste_details_on_accessibility.jpg
     description: "Le jeu explique le mode assist lorsqu'on essaye de l'activer, mais il n'explique pas le reste."
 
   difficulty_level:
     note: 3
+    screenshot: celeste_difficulty_level.jpg
     description: "Le mode Assist permet de moduler la difficulté du jeu."
 
   save_parameters:
@@ -422,18 +428,22 @@ evaluation:
 
   mechanical_jump:
     note: 1
+    screenshot: celeste_mechanical_jump.jpg
     description: "Avec le mode Assist on peut passer des niveaux."
 
   automatic_assistance_mode:
     note: 1
+    screenshot: celeste_automatic_assistance_mode.jpg
     description: "Le Dash assist met sur pause le jeu tant que l'on a pas choisi la direction du Dash."
 
   manual_backup:
     note: 3
+    screenshot: celeste_manual_backup.jpg
     description: "Le jeu comporte des sauvegarde manuelles à chaque fois que l'on veut quitter le jeu."
 
   automatic_backup:
     note: 3
+    screenshot: celeste_automatic_backup.jpg
     description: "Le jeu comporte des sauvegarde automatique à chaque changement d'écran."
 
   online_management:
@@ -442,6 +452,7 @@ evaluation:
 
   gameplay_variable:
     note: 3
+    screenshot: celeste_gameplay_variable.jpg
     description: "Il y a un grand choix dan sle paramètrage des difficulté en touchant à certains paramètres."
 
   accessibility_test:
