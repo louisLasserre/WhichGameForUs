@@ -9,11 +9,11 @@ evaluation:
   simple_commands:
     note: 3
     screenshot: zelda_breath_of_the_wild_simple_commands.jpg
-    description: "Les commandes sont assez simple car chaque action à sa touche assignée, comme par exemple attaquer, sauter etc.."
+    description: "Les commandes sont assez simples car chaque action a sa touche assignée, comme par exemple attaquer, sauter etc.."
 
   haptic_slider:
     note: 2
-    description: "Petites vibrations lorsque notre personnage prends un coup. Ce n'est pas possible de les désactiver directement en jeu."
+    description: "Petites vibrations lorsque le personnage prend un coup. Ce n'est pas possible de les désactiver directement en jeu."
 
   menu_with_keys:
     note: 3
@@ -27,7 +27,7 @@ evaluation:
   large_elements:
     note: 1
     screenshot: zelda_breath_of_the_wild_large_elements.jpg
-    description: "Les éléments du menu ne sont pas très espacés et pourraient l'être davantage, ils ne sont pas tactile en mode portable."
+    description: "Les éléments du menu ne sont pas très espacés et pourraient l'être davantage, ils ne sont pas tactiles en mode portable."
 
   more_than_one_device:
     note: 1
@@ -35,7 +35,7 @@ evaluation:
 
   menus_do_not_move:
     note: 3
-    description: "L'interface ne bouge pas. Les contrôles dans les interfaces sont guidés et peuvent être fait par joystick ou la croix directionnelle"
+    description: "L'interface ne bouge pas. Les contrôles dans les interfaces sont guidées et peuvent être utilisées avec le joystick ou la croix directionnelle."
 
   simultaneous_action:
     note: 1
@@ -51,7 +51,7 @@ evaluation:
 
   qte:
     note: 2
-    description: "Pour réaliser une action il n'y a pas besoin d'appuyer plusieurs fois sur la touche, néanmoins en combat appuyer plusieurs fois sur la touche attaque pour combattre est nécessaire."
+    description: "Pour réaliser une action, il n'y a pas besoin d'appuyer plusieurs fois sur la touche, néanmoins en combat appuyer plusieurs fois sur la touche attaque pour combattre est nécessaire."
 
   window_mode:
     note: 0
@@ -75,7 +75,7 @@ evaluation:
 
   movement_tracking:
     note: 0
-    description: "Le jeu n'est pas en VR."
+    description: "Le jeu n'est pas en réalité virtuelle."
 
   mobile_mode:
     note: 0
@@ -87,7 +87,7 @@ evaluation:
 
   time_limit:
     note: 3
-    description: "Difficilement mesurable mais le jeu laisse un court délais entre les actions."
+    description: "Difficilement mesurable mais le jeu laisse un court délai entre les actions."
 
   simple_control:
     note: 0
@@ -96,7 +96,7 @@ evaluation:
   level_navigation:
     note: 3
     screenshot: zelda_breath_of_the_wild_level_navigation.jpg
-    description: "Pour jouer il suffit de cliquer sur \"Continuer\" si on a déjà commencer le jeu ou bien sur \"Nouvelle Partie\". Si jamais on a plusieurs sauvegardes il suffit de choisir celle qui convient."
+    description: "Pour jouer, il suffit de cliquer sur \"Continuer\" si on a déjà commencer le jeu ou bien sur \"Nouvelle Partie\". Si jamais on a plusieurs sauvegardes, il suffit de choisir celle qui convient."
 
   font:
     note: 3
@@ -104,7 +104,7 @@ evaluation:
 
   clear_language:
     note: 3
-    description: "Le language est clair et précis sauf lorsqu'il s'agit d'objet précis qui sont propre au jeu qui peuvent avoir un nom plus complexe."
+    description: "Le language est clair et précis sauf lorsqu'il s'agit d'objet précis qui sont propres au jeu et qui peuvent avoir un nom plus complexe."
 
   clear_text:
     note: 3
@@ -112,12 +112,12 @@ evaluation:
 
   tutorials:
     note: 3
-    description: Le jeu possède un tutoriel lorsque l'on débute une nouvelle partie. Les contrôles sont ensuite rappelés."
+    description: Le jeu possède un tutoriel lorsque l'on débute une nouvelle partie. Les contrôles sont ensuite rappelées."
 
   more_reading_time:
     note: 3
     screenshot: zelda_breath_of_the_wild_more_reading_time.jpg
-    description: "Le joueur peut avancer à son rythme dans les boites de dialogues en pressant la touche à puis en selectionnant une réponse si jamais elles lui sont proposées."
+    description: "Le joueur peut avancer à son rythme dans les boîtes de dialogues en pressant la touche à puis en selectionnant une réponse si jamais elles lui sont proposées."
 
   photosensitive:
     note: 3
@@ -125,7 +125,7 @@ evaluation:
 
   help_game:
     note: 3
-    description: "Le jeu rappelle plusieurs fois au joueur tout au long de son aventure les différentes commandes pour ne pas qu'il soit perdu."
+    description: "Le jeu rappelle plusieurs fois au joueur tout au long de son aventure, les différentes commandes pour ne pas qu'il soit perdu."
 
   reminder_objective:
     note: 3
@@ -148,23 +148,23 @@ evaluation:
   summary_key_point:
     note: 3
     screenshot: zelda_breath_of_the_wild_summary_key_point.jpg
-    description: "Dans la partie \"Journal\" on retrouve un ensemble de points, surtout dans la partie \"Souvenirs\" qui permet de relire des points importants de l'histoire."
+    description: "Dans la partie \"Journal\", on retrouve un ensemble de points, surtout dans la partie \"Souvenirs\" qui permet de relire des points importants de l'histoire."
 
   oral_written_information:
     note: 2
-    description: "Pas d'informations passées uniquement à l'oral, pour les dialogues il y a une retranscription écrite. En revanche des informations visuelles ne sont pas forcément tout le temps retranscrite à l'oral."
+    description: "Pas d'informations passées uniquement à l'oral, pour les dialogues il y a une retranscription écrite. En revanche, des informations visuelles ne sont pas forcément tout le temps retranscrites à l'oral."
 
   interactive_elements:
     note: 2
-    description: "Tout les éléments interactifs ne sont pas montrés comme clairement interactifs car cela fait aussi parti du jeu, il y a une part de secret et de découvertes. Lorsque l'on peut parler à un personnage ou ramasser un objet cela est acompagné d'une bulle avec la touche et l'action possible."
+    description: "Tous les éléments intéractifs ne sont pas montrés comme clairement intéractifs car cela fait aussi partie du jeu, il y a une part de secret et de découverte. Lorsque l'on peut parler à un personnage ou ramasser un objet cela est acompagné d'une bulle avec la touche et l'action possible."
 
   background_movements:
     note: 1
-    description: "Cela n'est pas possible dêtre désactivé."
+    description: "Cela n'est pas désactivable."
 
   text_audio_chat:
     note: 0
-    description: "Le jeu n'est pas multijoueurs."
+    description: "Le jeu n'est pas multijoueur."
 
 
   visual_backup:
@@ -179,21 +179,21 @@ evaluation:
 
   different_sound:
     note: 3
-    description: "Chaque son est différencié des uns des autres"
+    description: "Chaque son est différencié les uns des autres."
 
   text_changes:
     note: 1
     screenshot: zelda_breath_of_the_wild_text_changes.jpg
-    description: "Cette fonctionnalité n'est pas disponible en jeu. On en peut changer que l'opacité des boites de dialogue."
+    description: "Cette fonctionnalité n'est pas disponible en jeu. On ne peut changer que l'opacité des boîtes de dialogue."
 
   important_word:
     note: 3
     screenshot: zelda_breath_of_the_wild_important_word.jpg
-    description: "Les éléments important comme les noms de ville, les objets, nom de personnage etc... sont mit en évidence dans les dialogues par une couleur."
+    description: "Les éléments importants comme les noms de ville, les objets, les noms de personnage etc... sont mis en évidence dans les dialogues par une couleur."
 
   turn_off_blood:
     note: 0
-    description: "Le jeu ne contient pas d'éléments gore ou sanglants."
+    description: "Le jeu ne contient pas d'éléments gores ou sanglants."
 
   reading_text:
     note: 1
@@ -206,11 +206,11 @@ evaluation:
   replay_narration:
     note: 2
     screenshot: zelda_breath_of_the_wild_replay_narration.jpg
-    description: "Dans le \"Journal\" puis dans \"Souvenirs\" on peut relire des parties de l'histoire mais pas le tutoriel."
+    description: "Dans le \"Journal\" puis dans \"Souvenirs\", on peut relire des parties de l'histoire mais pas le tutoriel."
 
   symbols_chat:
     note: 0
-    description: "Le jeu n'est pas multijoueurs."
+    description: "Le jeu n'est pas multijoueur."
 
   hide_option:
     note: 1
@@ -218,20 +218,20 @@ evaluation:
 
   different_essential_information:
     note: 2
-    description: "Les informations essentielles mises en valeur dans les dialogues sont pas la couleur mais aussi la graisse du texte."
+    description: "Les informations essentielles sont mises en valeur dans les dialogues grâce à une couleur et à la graisse du texte."
 
   field_of_view:
     note: 3
-    description: "Le jeu est en 3D et celle ci est fixe, le personnage se deplace dans un vaste uivers."
+    description: "Le jeu est en 3D et celle-ci est fixe, le personnage se déplace dans un vaste univers."
 
   vr_problems:
     note: 0
-    description: "Le jeu n'est pas VR."
+    description: "Le jeu n'est pas en réalité virtuelle."
 
   contrast_elements:
     note: 3
     screenshot: zelda_breath_of_the_wild_contrast_elements.jpg
-    description: "Les contrates sont bien respectés dans l'ensemble, de plus on peut gérer l'opacité des bulles de dialogues."
+    description: "Les contrates sont bien respectés dans l'ensemble. De plus, on peut gérer l'opacité des bulles de dialogues."
 
   different_movements:
     note: 1
@@ -259,7 +259,7 @@ evaluation:
 
   adapted_website:
     note: 2
-    description: "Le site https://www.zelda.com/breath-of-the-wild/fr/nintendo-switch/ est accessible mais n'a pas d'alt pour les images par exemple."
+    description: "Le site https://www.zelda.com/breath-of-the-wild/fr/nintendo-switch/ est accessible mais n'a pas d'alternatives textuelles pour les images par exemple."
 
   visible_essentiel_elements:
     note: 1
@@ -280,19 +280,19 @@ evaluation:
   cardinal_point_orientation:
     note: 1
     screenshot: zelda_breath_of_the_wild_cardinal_point_orientation.jpg
-    description: "Une minicarte est présente à l'écran lorsque l'on joue et permet de s'orienter. Dans les paramètres on peut choisir qu'elle soit toujours pointée vers le nord."
+    description: "Une mini carte est présente à l'écran lorsque l'on joue et permet de s'orienter. Dans les paramètres, on peut choisir qu'elle soit toujours pointée vers le nord."
 
   digital_controls:
     note: 3
-    description: "Toutes les actions peuvent être effectuées avec des controles digitaux. Le gyrosope peut être désactivé."
+    description: "Toutes les actions peuvent être effectuées avec des contrôles digitaux. Le gyrosope peut être désactivé."
 
   screen_readers:
     note: 1
-    description: "Pas de lecteur d'écrans."
+    description: "Pas de lecteur d'écran."
 
   separate_music:
     note: 3
-    description: " Chaque éléments, musique, bruitage, action possèdent des sons distincts."
+    description: "Chaque élément, musique, bruitage, action possède des sons distincts."
 
   binaural_recording:
     note: 1
@@ -300,7 +300,7 @@ evaluation:
 
   audio_description:
     note: 1
-    description: "Possède uniquement la lecture des menus et interface mais pas de description en jeu."
+    description: "Possède uniquement la lecture des menus et des interfaces mais pas de description en jeu."
 
   subtitles:
     note: 3
@@ -308,7 +308,7 @@ evaluation:
 
   sound_information:
     note: 3
-    description: "Toutes les informations sonore sont aussi communiquées visuellement."
+    description: "Toutes les informations sonores sont aussi communiquées visuellement."
 
   clear_subtitles:
     note: 3
@@ -321,7 +321,7 @@ evaluation:
 
   substitles_speech_sup:
     note: 3
-    description: "Il y a un doublage lors de cinématiques accompagné de sous-titres."
+    description: "Il y a un doublage lors de cinématique accompagnée de sous-titres."
 
   activation_subtitles:
     note: 1
@@ -333,7 +333,7 @@ evaluation:
 
   visual_speaker_indication:
     note: 3
-    description : "Le nom de la personne qui entrain de parler est inscrit à l'écran."
+    description : "Le nom de la personne qui parle est inscrit à l'écran."
 
   customization_subtitles:
     note: 1
@@ -341,19 +341,19 @@ evaluation:
 
   text_chat_and_voice:
     note: 0
-    description : "Le jeu n'est pas multijoueurs."
+    description : "Le jeu n'est pas multijoueur."
 
   communication_sign:
     note: 0
-    description: "Le jeu n'est pas multijoueurs."
+    description: "Le jeu n'est pas multijoueur."
 
   visual_voice_chat:
     note: 0
-    description: "Le jeu n'est pas multijoueurs."
+    description: "Le jeu n'est pas multijoueur."
 
   multi_no_mic:
     note : 0
-    description: "Le jeu n'est pas multijoueurs."
+    description: "Le jeu n'est pas multijoueur."
 
   sounds_to_text:
     note: 3
@@ -365,11 +365,11 @@ evaluation:
 
   words_per_minute:
     note: 3
-    description: "Les sous-titres sont bien adapté et ne sont pas trop longs."
+    description: "Les sous-titres sont bien adaptés et ne sont pas trop longs."
 
   sign_language:
     note: 0
-    description: "Le jeu n'est pas multijoueurs."
+    description: "Le jeu n'est pas multijoueur."
 
 
   no_voice_input:
@@ -378,7 +378,7 @@ evaluation:
 
   com_visuel_multi:
     note: 0
-    description: "Le jeu n'est pas multijoueurs."
+    description: "Le jeu n'est pas multijoueur."
 
   speech_recognition:
     note: 0
@@ -406,7 +406,7 @@ evaluation:
 
   access_comment:
     note: 1
-    description: "The Legend of Zelda : Breath Of The Wild ne prends aucun commentaire de la part de sa communauté."
+    description: "The Legend of Zelda : Breath Of The Wild ne prend aucun commentaire de la part de sa communauté."
 
   menu_with_movement:
     note: 3
@@ -414,7 +414,7 @@ evaluation:
 
   disabled_tester:
     note: 0
-    description: "Pas moyen de savoir les procédures de play-test du jeu."
+    description: "Pas moyen de savoir les procédures de tests du jeu."
 
   mechanical_jump:
     note: 1
@@ -422,7 +422,7 @@ evaluation:
 
   automatic_assistance_mode:
     note: 1
-    description: "Il n'y a pas d'aide en terme de contrôles."
+    description: "Il n'y a pas d'aide en terme de contrôle."
 
   manual_backup:
     note: 3
@@ -434,7 +434,7 @@ evaluation:
 
   online_management:
     note: 0
-    description: "Le jeu n'est pas multijoueurs."
+    description: "Le jeu n'est pas multijoueur."
 
   gameplay_variable:
     note: 1
@@ -442,11 +442,11 @@ evaluation:
 
   accessibility_test:
     note: 0
-    description: "Pas moyen de savoir les procédures de play-test du jeu."
+    description: "Pas moyen de savoir les procédures de tests du jeu."
 
   profile_parameter:
     note: 1
-    description: "Le jeu ne contient aucune solution multiprofile."
+    description: "Le jeu ne contient aucune solution multi-profil."
 
 
   voice_transcription:

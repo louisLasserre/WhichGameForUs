@@ -141,7 +141,6 @@ evaluation:
     
     reminder_control:
         note: 3
-        screenshot: star_craft_reminder_control.jpg
         description: "Tout peut être fait à la souris mais les touches correspondantes à telle et telle lettre sont affichées sur l'icône de l'action."
     
     sandbox_mode:
