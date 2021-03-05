@@ -8,10 +8,12 @@ layout: default
   <div class="offset-md-1 col-md-10">
     <h1 class="mb-4">{{ page.title }}</h1>
     <img src="/assets/images/games/{{ slug }}/{{slug}}.jpg" alt="{{ game.title }}" class="img-fluid mb-4">
-    {% include  evaluation.html
-                guidelines=site.data.structure.guidelines
-                evaluation=page.evaluation
-                size='big' %}
+    <div class="inter lead">Note globale d'accessibilité : 
+      {% include  evaluation.html
+                  guidelines=site.data.structure.guidelines
+                  evaluation=page.evaluation
+                  size='big' %}
+    </div>  
     </div>
   </div>
 </div>
@@ -25,7 +27,7 @@ layout: default
       {% assign active = false %}
     {% endif %}
     <li class="nav-item" role="presentation">
-      <a  class="nav-link {% if active %} active {% endif %}" id="{{ category_slug }}-tab"
+      <a  class="nav-link {% if active %} active {% endif %} px-5 lead" id="{{ category_slug }}-tab"
           data-bs-toggle="tab"
           data-bs-target="#{{ category_slug }}"
           type="button"
@@ -48,17 +50,19 @@ layout: default
           id="{{ category_slug}}"
           role="tabpanel"
           aria-labelledby="{{ category_slug}}-tab">
-      <div class="mb-4">
-        {% include  evaluation.html
-                    guidelines=category.guidelines
-                    evaluation=page.evaluation
-                    size='small' %}
+      <div class="mb-5">
+        <div class="text-center lead mb-2 mt-5">{{category.name}}</div>
+          {% include  evaluation.html
+                      guidelines=category.guidelines
+                      evaluation=page.evaluation
+                      size='small' %}
       </div>
-
-      {% for guideline in category.guidelines %}
-        {% assign data = page.evaluation[guideline] %}
-        {% include guideline.html data=data slug=slug guideline=guideline %}
-      {% endfor %}
+      <div class="mt-10">
+        {% for guideline in category.guidelines %}
+          {% assign data = page.evaluation[guideline] %}
+          {% include guideline.html data=data slug=slug guideline=guideline %}
+        {% endfor %}
+      </div>
     </div>
   {% endfor %}
 </div>

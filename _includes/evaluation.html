@@ -23,11 +23,11 @@
 {% else %}
   {% assign color = 'success' %}
 {% endif %}
-<div class="progress bg-info"  style="height: {% if include.size == 'small' %}30{% else %}50{% endif %}px">
+<div class="progress bg-info my-3"  style="height: {% if include.size == 'small' %}30{% else %}50{% endif %}px">
   <div  class="progress-bar bg-{{ color }} {% if include.size == 'big' %}lead{% endif %}"
         role="progressbar"
         style="width: {{percent}}%;"
         aria-valuenow="{{percent}}"
         aria-valuemin="0"
-        aria-valuemax="100"><b>{{percent}} %</b></div>
+        aria-valuemax="100"><b> {{percent}} %</b></div>
 </div>
