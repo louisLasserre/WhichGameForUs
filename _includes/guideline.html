@@ -26,7 +26,8 @@
         {% if include.data.screenshot %}
           <img  src="/assets/images/games/{{include.slug}}/{{ include.data.screenshot }}"
                 alt="Screenshot {{include.slug}}"
-                class="img-fluid mb-3">
+                class="img-fluid mb-3"
+                loading="lazy">
         {% endif %}
         <p class="opens">{{ include.data.description }}</p>
       </div>
