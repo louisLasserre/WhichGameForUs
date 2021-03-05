@@ -322,7 +322,7 @@ evaluation:
 
     visual_speaker_indication:
         note: 3
-        screenshot: animal_crossing_new_horizons_visuel_speaker_indication.jpg
+        screenshot: animal_crossing_new_horizons_visual_speaker_indication.jpg
         description : "Le personnage qui est en train de parler, à son nom qui est indiqué."
 
     customization_subtitles:
@@ -433,7 +433,7 @@ evaluation:
 
     accessibility_test:
         note: 0
-        description: "Il n'y a pas moyen de savoir les procédures de test du jeu."
+        description: "Il n'y a pas de moyen de savoir les procédures de test du jeu."
 
     profile_parameter:
         note: 1
