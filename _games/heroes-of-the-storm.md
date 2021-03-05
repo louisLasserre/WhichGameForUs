@@ -214,7 +214,7 @@ evaluation:
     symbols_chat:
         note: 3
         screenshot: heroes_of_the_storm_symbols_chat.jpg
-        description: "Il y a d'émoticônes disponibles gratuitement, d'autres sont gagnables, ou encore payantes ."
+        description: "Il y a de nombreuses émoticônes disponibles gratuitement, d'autres sont gagnables, ou encore payantes."
 
     hide_option:
         note: 1
