@@ -2,7 +2,7 @@
   <div class="col-md-3">
     <div class="lead">
       {% if include.data.note == 0 %}
-        {% assign color = 'secondary' %}
+        {% assign color = 'info' %}
         {% assign text = 'Non applicable' %}
       {% elsif include.data.note == 1 %}
         {% assign color = 'danger' %}
@@ -17,8 +17,8 @@
       <span class="badge bg-{{ color }} p-3 badge__evaluation text-wrap">{{ text }}</span>
     </div>
   </div>
-  <div class="guideline col-md-8">
-    <div class="lead bg-secondary px-3 py-2 rounded">
+  <div class="col-md-8">
+    <div class="lead inter bg-secondary px-3 py-2 rounded">
       {{site.data.structure.guidelines[include.guideline]}}
     </div>
     <div class="mt-4">
@@ -28,7 +28,7 @@
                 alt="Screenshot {{include.slug}}"
                 class="img-fluid mb-3">
         {% endif %}
-        <p>{{ include.data.description }}</p>
+        <p class="opens">{{ include.data.description }}</p>
       </div>
     </div>
   </div>
