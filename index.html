@@ -2,17 +2,33 @@
 title: Un jeu pour moi
 ---
 
-<div class="offset-md-2 col-md-8 row">
+<div class="row mb-5">
+  <div class="offset-md-1 col-md-10">
+    <p class="lead">
+      Nous évaluons, selon la liste des bonnes pratiques de « game accessibility guideline », l’accessibilité des jeux vidéo les plus populaires, et nous leur attribuons une note sur 100. Nous revenons aussi sur les bonnes pratiques non présentes. Vous retrouverez l’intégralité de la  liste de bonnes pratiques dans l’onglet « Bonnes pratiques ».
+    </p>
+  </div>
+</div>
+
+<div class="row">
   {% for game in site.games %}
     {% assign slug = game.title | slugify: 'latin' %}
     <div class="col-md-3 mb-4">
-      <div class="card bg-dark">
-        <img src="/assets/images/games/{{ slug }}/{{ slug }}.jpg" alt="{{ game.title }}" class="card-img-top">
+      <div class="card border-0">
+        <img  src="/assets/images/games/{{ slug }}/{{ slug }}.jpg"
+              alt="{{ game.title }}"
+              class="card-img-top">
         <div class="card-body">
-          <h2 class="card-title">{{ game.title }}</h2>
-          <a href="/jeux/{{ slug }}" class="btn btn-primary stretched-link">
-            Voir le jeu
-          </a>
+          <h2 class="h5 card-title text-dark mb-4">{{ game.title }}</h2>
+          <div class="text-end mb-3">
+            <a href="/jeux/{{ slug }}" class="btn btn-primary stretched-link">
+              Détails
+            </a>
+          </div>
+          {% include  evaluation.html
+                      guidelines=site.data.structure.guidelines
+                      evaluation=game.evaluation
+                      size='small' %}
         </div>
       </div>
     </div>
