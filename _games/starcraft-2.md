@@ -27,28 +27,17 @@ evaluation:
     
     large_elements:
         note: 1
-<<<<<<< HEAD:_games/star-craft.md
-        screenshot: star_craft_large_elements.jpg
-        description: "Éléments petits et gros, qui sont plus ou moins espacés, mais pas suffisament pour tout différencier."
-=======
-        screenshot: dialogues_écrit_clear_subtitles.png
-        description: "éléments petits et gros, qui sont plus ou moins espacés, mais pas suffisament pour tous différenciers"
->>>>>>> 6f0ad4f7ac24f48b623f3c73eaa452d38e43ad0f:_games/starcraft-2.md
+        screenshot: star_craft_large_elements.png
+        description: "Éléments petits et gros, qui sont plus ou moins espacés, mais pas suffisament pour tous différencier."
     
     more_than_one_device:
         note: 2
         description: "On peut jouer avec le clavier et la souris."
     
     menus_do_not_move:
-<<<<<<< HEAD:_games/star-craft.md
         note: 2
         screenshot: star_craft_menus_do_not_move.jpg
         description: "Certains éléments sont stationnaires et ne peuvent pas bouger. Cependant, en multijoueur, les autres joueurs peuvent bouger armées et batiments."
-=======
-        note: 1
-        screenshot: armée_qui_se_mélange.png
-        description: "Certains éléments sont stationnaires et ne peuvent pas bouger mais en multi les autres joueurs peuvent bouger armée et batiments"
->>>>>>> 6f0ad4f7ac24f48b623f3c73eaa452d38e43ad0f:_games/starcraft-2.md
     
     simultaneous_action:
         note: 2
@@ -208,22 +197,12 @@ evaluation:
     
     important_word:
         note: 3
-<<<<<<< HEAD:_games/star-craft.md
         description: "Les éléments importants ont une couleur spéciale"
     
     turn_off_blood:
         note: 3
         screenshot: star_craft_turn_off_blood.jpg
         description: "On peut déactiver les contenus gores ou sanglants."
-=======
-        screenshot: éléments_intéractif_séléction_interactive_elements.png
-        description: "Les éléments importants ont une couleurs spéciales (les noms ici mais sur la capture ça se voit plus)"
-    
-    turn_off_blood:
-        note: 3
-        screenshot: violence_réduite.png
-        description: "c'est possible"
->>>>>>> 6f0ad4f7ac24f48b623f3c73eaa452d38e43ad0f:_games/starcraft-2.md
     
     reading_text:
         note: 1
@@ -342,13 +321,8 @@ evaluation:
     
     sound_information:
         note: 3
-<<<<<<< HEAD:_games/star-craft.md
         screenshot: star_craft_sound_information.jpg
         description: "Il est possible d'avoir des sous-titres tout le temps."
-=======
-        screenshot: sous_titre_subtitles.png
-        description: "Il est possible d'avoir des sous titres tout le temps"
->>>>>>> 6f0ad4f7ac24f48b623f3c73eaa452d38e43ad0f:_games/starcraft-2.md
     
     clear_subtitles:
         note: 3
