@@ -3,33 +3,33 @@ title: Dofus
 evaluation:
   touch_assign:
     note: 3
-    screenshot: Dofus1_touch_assign.jpg
-    description: "Toutes les touches correspondant à des actions sont modifiables"
+    screenshot: dofus_touch_assign.jpg
+    description: "Toutes les touches correspondant à des actions sont modifiables."
 
   simple_commands:
     note: 2
-    description: "Les commandes sont simples mais deviennent plus compliquées lorsqu'il s'agit de raccourcis (qui demandent une combinaison de deux touches simultanées)"
+    description: "Les commandes sont simples mais deviennent plus compliquées lorsqu'il s'agit de raccourcis (qui demandent une combinaison de deux touches simultanées)."
 
   haptic_slider:
     note: 0
-    description: "Il n'y a pas de vibrations"
+    description: "Il n'y a pas de vibrations."
 
   menu_with_keys:
     note: 3
-    description: "On peut accéder au menu en cliquant sur l'engrenage en haut à droite pour aller directement dans les paramètres"
+    description: "On peut accéder au menu via les paramètres en cliquant sur l'engrenage en haut à droite."
 
   sensitivity:
     note: 1
-    description: "On ne peut pas régler la sensibilité de la souris"
+    description: "On ne peut pas régler la sensibilité de la souris."
 
   large_elements:
     note: 2
-    screenshot: Dofus2.1_large_elements.jpg
-    description: "L'interface comporte des éléments proches qui pourraient être plus aérés. Une option permet de grossir les différentes icones"
+    screenshot: dofus_large_elements.jpg
+    description: "L'interface comporte des éléments proches qui pourraient être plus aérés. Une option permet de grossir les différentes icônes."
 
   more_than_one_device:
     note: 1
-    description: "Il n'est pas possible d'ajouter plusieurs périphériques d'entrée en même temps"
+    description: "Il n'est pas possible d'ajouter plusieurs périphériques d'entrée en même temps."
 
   menus_do_not_move:
     note: 3
@@ -37,67 +37,67 @@ evaluation:
 
   simultaneous_action:
     note: 3
-    description: "Il ne faut pas appuyer sur plusieurs touches pour faire une action"
+    description: "Il ne faut pas appuyer sur plusieurs touches pour faire une action."
 
   digital_controls:
     note: 3
-    description: "Toutes les actions sont effectuées par des controles digitaux"
+    description: "Toutes les actions sont effectuées par des contrôles digitaux."
 
   option_vit:
     note: 1
-    description: "La vitesse du jeu ne peut pas être reglée"
+    description: "La vitesse du jeu ne peut pas être reglée."
 
   qte:
     note: 3
-    description: "Une touche n'a pas à être appuyée plusieurs fois pour faire une action"
+    description: "Une touche n'a pas à être appuyée plusieurs fois pour faire une action."
 
   window_mode:
     note: 3
-    description: "Le mode fenêtré est possible tout comme le plein écran"
+    description: "Le mode fenêtré est possible."
 
   button_pressure:
     note: 0
-    description: "Aucun bouton n'a besoin d'être pressé en continu dans le jeu"
+    description: "Aucun bouton n'a besoin d'être pressé en continu."
 
   orga_interface:
     note: 1
-    description: "Il n'est pas possible de changer l'organisation de l'interface"
+    description: "Il n'est pas possible de changer l'organisation de l'interface."
 
   resizing_interface:
     note: 1
-    description: "On ne peut pas modifier la taille de l'interface"
+    description: "On ne peut pas modifier la taille de l'interface."
 
   macro_system:
     note: 1
-    description: "Il n'est pas possible de faire des macro dans le jeu et cela est considéré comme de la triche"
+    description: "Il n'est pas possible de faire des macros : cela est considéré comme de la triche."
 
   movement_tracking:
     note: 0
-    description: "Le jeu n'est pas en VR."
+    description: "Le jeu n'est pas en réalité virtuelle."
 
   mobile_mode:
     note: 0
-    description: "Le jeu n'est pas testé dans sa version mobile"
+    description: "Le jeu n'est pas testé dans sa version mobile."
 
   timing:
     note: 1
-    description: "Chaque action s'effectue au tour à tour, il faut donc faire un ensemble d'action dans un temps imparti"
+    description: "Chaque action s'effectue au tour par tour, il faut donc faire un ensemble d'action dans un temps imparti."
 
   time_limit:
     note: 3
-    description: "Difficilement mesurable mais le jeu ne demande pas à appuyer de nombreuses fois sur une touche"
+    description: "Le jeu ne demande pas d'appuyer de nombreuses fois sur une touche."
 
   simple_control:
     note: 0
-    description: "Difficilement mesurable, le jeu est sûrement adaptable"
+    description: "Difficilement mesurable, le jeu est, dans laplupart des cas, adaptable."
 
   level_navigation:
     note: 3
-    description: "Pour lancer le jeu il suffit de se connecter et de sélectionner son personnage puis vous entrez dans le jeu directement"
+    description: "Pour lancer le jeu, il suffit de se connecter et de sélectionner son personnage puis vous entrez dans le jeu directement"
 
   font:
     note: 3
-    description: "La police d'écriture est dans un style simple et fin, comprend les accents, il n'y a pas d'empatement"
+    description: "La police d'écriture est dans un style simple et fin, comprend les accents, il n'y a pas d'empatement."
 
   clear_language:
     note: 3
@@ -105,47 +105,47 @@ evaluation:
 
   clear_text:
     note: 3
-    screenshot: Dofus3_clear_text.jpg
-    description: "Le language est clair et précis sauf lorsqu'il s'agit d'objet précis qui sont propre au jeu qui peuvent avoir un nom plus complexe"
+    screenshot: dofus_clear_text.jpg
+    description: "Le langage est clair et précis sauf lorsqu'il s'agit d'objets précis qui sont propres au jeu qui peuvent avoir un nom complexe."
 
   tutorials:
     note: 3
-    description: "Présence d'un turoriel détaillé comme première quête, le joueur n'est pas perdu car il est guidé par des flèches"
+    description: "Présence d'un turoriel détaillé comme première quête, le joueur est guidé par des flèches."
 
   more_reading_time:
     note: 3
-    description: "Le texte apparait en un bloc, le joueur a le temps de le lire avant de cliquer sur la suite du dialogue quand il le souhaite"
+    description: "Le texte apparaît en bloc, le joueur doit cliquer pour avoir la suite du dialogue."
 
   photosensitive:
     note: 3
-    description: "Il n'y a pas de clignotement ou de textures trop répétitives ou agressives"
+    description: "Il n'y a pas de clignotements ou de textures répétitives ou agressives."
 
   help_game:
     note: 1
-    screenshot: Dofus4_help_game.jpg
-    description: "Un guide est présent mais il est très chargé, des astuces en jeu apparaissent en combat (par exemple lorsque l'on met trop de temps à passer son tour)"
+    screenshot: dofus_help_game.jpg
+    description: "Un guide est présent mais il est très chargé, des astuces apparaissent en combat après un certain délai."
 
   reminder_objective:
     note: 1
-    screenshot: Dofus5_reminder_objective.jpg
-    description: "Au suvol des attaques disponible on nous rappel la touche de raccourci mais sinon tout se joue à la souris"
+    screenshot: dofus_reminder_objective.jpg
+    description: "Au suvol des attaques disponible, on nous rappelle la touche de raccourci mais la plupart du jeu se joue à la souris."
 
   reminder_control:
     note: 1
-    screenshot: Dofus6_reminder_control.jpg
-    description: "Il n'y a pas de rappel des controles durant le jeu."
+    screenshot: dofus_reminder_control.jpg
+    description: "Il n'y a pas de rappel des contrôles durant le jeu."
 
   sandbox_mode:
     note: 2
-    description: "Le monde dans lequel nous apparaissons au debut est une zone pour débutant alors on peut s'entraîner sans trop de difficultés"
+    description: "Le monde dans lequel nous apparaissons au début est une zone pour débutant alors on peut s'entraîner sans trop de difficultés mais il n'y a pas d'endroit d'entraînement à proprement parler."
 
   simple_narration:
     note: 0
-    description: "Il n'y a pas de structure narrative dans le jeu en dehors des quêtes"
+    description: "Il n'y a pas de structure narrative en dehors des quêtes."
 
   summary_key_point:
     note: 0
-    description: "Il n'y a pas de structure narrative dans le jeu."
+    description: "Il n'y a pas de structure narrative."
 
   oral_written_information:
     note: 1
@@ -153,69 +153,69 @@ evaluation:
 
   interactive_elements:
     note: 3    
-    screenshot: Dofus7_interactive_elements.jpg
-    description: "Les éléments avec lesquels on peut interagir sont accompagné d'un petit logo et d'un nom/description"
+    screenshot: dofus_interactive_elements.jpg
+    description: "Les éléments avec lesquels on peut intéragir sont accompagnés d'un petit logo et d'une description."
 
   background_movements:
     note: 0
-    description: "Il n'y a pas de mouvements de fond dans le jeu"
+    description: "Il n'y a pas de mouvements de fond dans le jeu."
 
   text_audio_chat:
     note: 2
-    screenshot: Dofus8_text_audio_chat.jpg
-    description: "Il n'y a qu'un tchat écrit dans le jeu, le tchat vocal n'est pas inclu"
+    screenshot: dofus_text_audio_chat.jpg
+    description: "Il n'y a un tchat écrit dans le jeu, mais pas de tchat vocal."
 
   visual_backup:
     note: 3
-    screenshot: Dofus9_visual_backup.jpg
+    screenshot: dofus_visual_backup.jpg
     description: "Le jeu propose un menu accessible à tout moment en faisant \"Echap\" "
 
   separate_volumes:
     note: 3
-    screenshot: Dofus1_separate_volumes.jpg
-    description: "Chaque \"famille\" de son peut être baissée, coupée ou augmentée mais aussi plus globalement"
+    screenshot: dofus_separate_volumes.jpg
+    description: "Chaque catégorie de son peut être peut être gérer indépendamment."
 
   different_sound:
     note: 3
-    description: "Chaque son est différencié des uns des autres"
+    description: "Chaque son est distinct."
 
   text_changes:
     note: 3
-    screenshot: Dofus11_text_changes.jpg
-    description: "On peut changer la couleur et le contraste des différents chanels"
+    screenshot: dofus_text_changes.jpg
+    description: "On peut changer la couleur et le contraste des différents tchats."
 
   important_word:
     note: 2
-    description: "Quelques mots sont mis en valeur surtout au niveau des objets de quête"
+    description: "Quelques mots sont mis en valeur surtout au niveau des objets de quête."
 
   turn_off_blood:
     note: 0
-    description: "Le jeu ne contient pas d'éléments gore ou sanglants"
+    description: "Le jeu ne contient pas d'éléments gores ou sanglants"
 
   reading_text:
     note: 1
-    description: "Il n'y a pas de lecteur d'ecran integré dans le jeu"
+    description: "Il n'y a pas de lecteur d'écran intégré dans le jeu."
 
   unforeseen_event:
     note: 2
-    description: "Il n'y a pas vraiment d'événements surprises ou le peu qu'il y a ne sont pas désactivables"
+    description: "Il n'y a pas vraiment d'événements surprises mais le peu qu'il y a ne sont pas désactivables."
 
   replay_narration:
     note: 1
-    description: "Le joueur ne peut pas refaire le tutoriel après l'avoir terminé"
+    description: "Le joueur ne peut pas refaire le tutoriel après l'avoir terminé."
 
   symbols_chat:
     note: 1
-    description: "Il y a un système d'emotes qui permettent aux joueurs de différentes langues de communiquer mais pour certains aspect du jeu ce n'est pas suffisant"
+    description: "Il y a un système d'émoticônes qui permettent aux joueurs de communiquer sans la barrière du langage mais pour certains aspects du jeu, ce n'est pas suffisant"
 
   hide_option:
     note: 2
-    screenshot: Dofus12_hide_option.jpg
-    description: "En combat il est possible d'activer le mode \"Tactique\" qui permet de cacher tout les éléments décoratifs et avec lesquels on ne peut pas interagir. Cela permet de mieux se concentrer sur l'essentiel"
+    screenshot: dofus_hide_option.jpg
+    description: "En combat, il est possible d'activer le mode \"Tactique\" qui permet de cacher tous les éléments décoratifs et avec lesquels on ne peut pas intéragir."
 
   different_essential_information:
     note: 3
-    description: "Une information colorée est toujours accompagnée d'un texte, d'une texture différente, d'une forme"
+    description: "Une information colorée est toujours accompagnée d'un texte, d'une texture différente et d'une forme."
 
   field_of_view:
     note: 0
@@ -223,11 +223,11 @@ evaluation:
 
   vr_problems:
     note: 0
-    description: "Le jeu n'est pas en VR."
+    description: "Le jeu n'est pas en réalité virtuelle."
 
   contrast_elements:
     note: 3
-    description: "Le contraste de l'interface est fort, fond foncé/texte clair ou coloré"
+    description: "Le contraste de l'interface est fort."
 
   different_movements:
     note: 0
@@ -235,11 +235,11 @@ evaluation:
 
   surround_sound:
     note: 1
-    description: "Le jeu ne comprends pas de son surround"
+    description: "Le jeu ne considère pas de son surround."
 
   background_animation:
     note: 0
-    description: "Il n'y a pas d'animations en fond"
+    description: "Il n'y a pas d'animation en fond."
 
   mobile_reader_background:
     note: 0
@@ -247,15 +247,15 @@ evaluation:
 
   adjust_contrast:
     note: 1
-    description: "On ne peut pas gérer les contrastes mais seulement la luminosité"
+    description: "On ne peut pas gérer les contrastes mais seulement la luminosité."
 
   cursor:
     note: 1
-    description: "On ne peut pas choisir son curseur"
+    description: "On ne peut pas choisir son curseur."
 
   adapted_website:
     note: 2
-    description: "Le site https://www.dofus.com/fr contient des fênetre qui s'ouvrent sans prévenir et un manque de description des titres mais sinon il est accessible"
+    description: "Le site https://www.dofus.com/fr est majoritairement accessible mais il contient des fênetres qui s'ouvrent sans prévenir et un manque de description des titres."
 
   visible_essentiel_elements:
     note: 0
@@ -263,11 +263,11 @@ evaluation:
 
   font_size:
     note: 2
-    description: "La taille de police peut être changée dans quelques interfaces"
+    description: "La taille de police peut être changée dans quelques interfaces."
 
   audio_card_sonar:
     note: 0
-    description: "Il n'y a pas de carte de type sonar disponible en jeu"
+    description: "Il n'y a pas de carte de type sonar disponible en jeu."
 
   voice_gps:
     note: 1
@@ -275,19 +275,19 @@ evaluation:
 
   cardinal_point_orientation:
     note: 0
-    description: "Le jeu ne dispose pas de GPS vocal"
+    description: "Le jeu ne dispose pas de GPS vocal."
 
   digital_controls:
     note: 3
-    description: "Toute les actions peuvent être effectué avec des controles digitaux"
+    description: "Toutes les actions peuvent être effectuées avec des contrôles digitaux."
 
   screen_readers:
     note: 1
-    description: "Pas de lecteurs d'écrans"
+    description: "Pas de lecteurs d'écrans."
 
   separate_music:
     note: 3
-    description: "Chaque son est différencié et peut être activé ou désactivé facilement dans le menu sonore"
+    description: "Chaque son est différencié et peut être activé ou désactivé facilement via le menu sonore."
 
   binaural_recording:
     note: 1
@@ -303,7 +303,7 @@ evaluation:
 
   sound_information:
     note: 3
-    description: "Toute les informations sonore sont aussi communiqué visuellement. Execpté la musique de fond"
+    description: "Toute les informations sonores sont aussi communiquées visuellement."
 
   clear_subtitles:
     note: 1
@@ -327,102 +327,102 @@ evaluation:
 
   visual_speaker_indication:
     note: 3
-    screenshot: Dofus13_visual_speaker_indication.jpg
-    description : "A chaque fois qu'un personnage parle son nom est affiché dans la bulle de dialogue en gras"
+    screenshot: dofus_visual_speaker_indication.jpg
+    description : "A chaque fois qu'un personnage parle son nom est affiché en gras dans la bulle de dialogue."
 
   customization_subtitles:
     note: 0
-    description : "Il n'y a pas de sous-titres ou de légendes"
+    description : "Il n'y a pas de sous-titres ou de légendes."
 
   text_chat_and_voice:
     note: 2
-    description : "Il n'y a qu'un tchat écrit dans le jeu, le tchat vocal n'est pas inclu"
+    description : "Il n'y a qu'un tchat écrit dans le jeu, le tchat vocal n'est pas inclu."
 
 
 
 
   communication_sign:
       note: 3
-      description: "Le tchat textuel permet de discuter entre joueurs"
+      description: "Le tchat textuel permet de discuter entre joueurs."
 
 
   visual_voice_chat:
       note: 0
-      description: "Il n'y a pas de tchat vocal dans le jeu"
+      description: "Il n'y a pas de tchat vocal dans le jeu."
 
   multi_no_mic:
       note: 0
-      description: "Il n'y a pas de tchat vocal dans le jeu"
+      description: "Il n'y a pas de tchat vocal dans le jeu."
 
   sounds_to_text:
       note: 3
-      description: "Tout les sons sont visibles sauf les musiques de fond qui ne sont pas représentées mais les monstres ou animaux par exemple ont leur propre bruit"
+      description: "Tous les sons ont une transcription visuelle."
 
   stereo_mono:
       note: 1
-      description: "On ne peut pas choisir entre un son mono ou stéréo"
+      description: "On ne peut pas choisir entre un son mono ou stéréo."
 
   words_per_minute:
       note: 0
-      description: "Il n'y a pas de dialogues dans le jeu"
+      description: "Il n'y a pas de dialogues dans le jeu."
 
   sign_language:
       note: 1
-      description: "Le jeu n'inclus pas la possibilité d'utiliser la langue des signes"
+      description: "Le jeu n'inclut pas la possibilité d'utiliser la langue des signes."
 
 
   no_voice_input:
       note: 0
-      description: "Il n'y a pas de controles vocaux"
+      description: "Il n'y a pas de contrôles vocaux."
 
   com_visuel_multi:
       note: 3
-      description: "Le jeu dispose d'un tchat textuel"
+      description: "Le jeu dispose d'un tchat textuel."
 
   speech_recognition:
       note: 0
-      description: "Il n'y a pas de controles vocaux"
+      description: "Il n'y a pas de contrôles vocaux."
 
   half_voice:
       note: 0
-      description: "Il n'y a pas de controles vocaux"   
+      description: "Il n'y a pas de contrôles vocaux."   
 
   provide_accessibility:
       note: 1
-      description: "Le site ne contient pas les options d accessibilité "
+      description: "Le site ne contient pas les options d'accessibilité."
 
   details_on_accessibility:
       note: 1
-      description: "Il n'y a pas de paramètres propre à l'accssibilité"
+      description: "Il n'y a pas de paramètres propre à l'accessibilité."
 
   difficulty_level:
       note: 1
-      description: "Il n'y a pas de gestion de la difficulté, le joueur deviens de plus en plus fort au fur et à mesure du jeu, il choisi de la zone qu'il souahite découvrir qui est plus ou moins difficile"
+      description: "Il n'y a pas de gestion de la difficulté, le joueur devient de plus en plus fort au fur et à mesure, il choisit de la zone qu'il souahite découvrir, qui est plus ou moins difficile"
 
   save_parameters:
       note: 3
-      description: "Les paramètres sont automatiquement sauvegardés et mémorisé. "
+      description: "Les paramètres sont automatiquement sauvegardés et mémorisés. "
 
   access_comment:
       note: 2
-      screenshot: Dofus14_access_comment.jpg
-      description: "On peut contacter directement depuis le jeu l'équipe du support mais cela n'est pas forcément pour répondre aux problèmes d'accessiblité"
+      screenshot: dofus_access_comment.jpg
+      description: "On peut contacter l'équipe du support directement depuis le jeu."
 
   menu_with_movement:
       note: 1
-      description: "On ne peut qu'accéder au différentes parties du menu avec la souris"
+      description: "On ne peut accéder aux différentes parties du menu qu'avec la souris"
 
   disabled_tester:
       note: 0
-      description: "Il n'y a pas moyen de savoir les procédures de test du jeu"
+      description: "Il n'y a pas moyen de connaître les procédures de tests du jeu."
 
   mechanical_jump:
       note: 1
-      description: "Il n'y a pas de mode avec des controles simplifiés"
+      description: "Il n'y a pas de mode avec des contrôles simplifiés."
 
   automatic_assistance_mode:
       note: 2
-      description: "Le jeu suggère des actions mais principalement celle de passer son tour lorsqu'on l'oubli"
+      description: "Le jeu suggère des actions après un délai d'inaction."
 
   manual_backup:
       note: 1
@@ -435,22 +435,22 @@ evaluation:
 
   online_management:
       note: 1
-      description: "Il n'y a pas de paramètres propre à l'accssibilité"
+      description: "Il n'y a pas de paramètres propre à l'accessibilité."
 
   gameplay_variable:
       note: 1
-      description: "Il n'y a pas de gameplay différents que des combats, des quêtes etc"
+      description: "Il n'y a pas de gameplay différents que des combats, des quêtes etc."
 
   accessibility_test:
       note: 0
-      description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu"
+      description: "Il n'y a pas de moyen de savoir les procédures de tests du jeu."
 
   profile_parameter:
       note: 1
-      description: "Le jeu ne contient pas de profils parametrables"
+      description: "Le jeu ne contient pas de profils paramétrables."
 
 
   voice_transcription:
       note: 1
-      description: "Le jeu ne possede pas de transcription vocal pour les textes en temps réel"
+      description: "Le jeu ne possède pas de transcription vocal pour les textes en temps réel."
 ---

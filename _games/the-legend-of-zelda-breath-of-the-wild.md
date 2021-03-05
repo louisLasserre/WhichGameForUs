@@ -3,12 +3,12 @@ title: The Legend of Zelda Breath Of The Wild
 evaluation:
   touch_assign:
     note: 2
-    screenshot: zelda-breath-of-the-wild_touch_assign.jpg
+    screenshot: zelda_breath_of_the_wild_touch_assign.jpg
     description: "Possible d'inverser le bouton de saut et d'annulation. Aucune autre commande n'est configurable."
 
   simple_commands:
     note: 3
-    screenshot: zelda-breath-of-the-wild_simple_commands.jpg
+    screenshot: zelda_breath_of_the_wild_simple_commands.jpg
     description: "Les commandes sont assez simple car chaque action à sa touche assignée, comme par exemple attaquer, sauter etc.."
 
   haptic_slider:
@@ -21,12 +21,12 @@ evaluation:
     
   sensitivity:
     note: 3
-    screenshot: zelda-breath-of-the-wild_controls.jpg
+    screenshot: zelda_breath_of_the_wild_controls.jpg
     description: "Possibilité de modifier la sensibilité."
 
   large_elements:
     note: 1
-    screenshot: zelda-breath-of-the-wild_large_elements.jpg
+    screenshot: zelda_breath_of_the_wild_large_elements.jpg
     description: "Les éléments du menu ne sont pas très espacés et pourraient l'être davantage, ils ne sont pas tactile en mode portable."
 
   more_than_one_device:
@@ -95,7 +95,7 @@ evaluation:
 
   level_navigation:
     note: 3
-    screenshot: zelda-breath-of-the-wild_level_navigation.jpg
+    screenshot: zelda_breath_of_the_wild_level_navigation.jpg
     description: "Pour jouer il suffit de cliquer sur \"Continuer\" si on a déjà commencer le jeu ou bien sur \"Nouvelle Partie\". Si jamais on a plusieurs sauvegardes il suffit de choisir celle qui convient."
 
   font:
@@ -116,7 +116,7 @@ evaluation:
 
   more_reading_time:
     note: 3
-    screenshot: zelda-breath-of-the-wild_more_reading_time.jpg
+    screenshot: zelda_breath_of_the_wild_more_reading_time.jpg
     description: "Le joueur peut avancer à son rythme dans les boites de dialogues en pressant la touche à puis en selectionnant une réponse si jamais elles lui sont proposées."
 
   photosensitive:
@@ -129,7 +129,7 @@ evaluation:
 
   reminder_objective:
     note: 3
-    screenshot: zelda-breath-of-the-wild_reminder_objective_.jpg
+    screenshot: zelda_breath_of_the_wild_reminder_objective.jpg
     description: "Grâce à la partie \"Journal\", on peut retrouver les différentes quêtes débloquées et celle que l'on suit."
 
   reminder_control:
@@ -142,12 +142,12 @@ evaluation:
 
   simple_narration:
     note: 2
-    screenshot: zelda-breath-of-the-wild_simple_narration.jpg
+    screenshot: zelda_breath_of_the_wild_simple_narration.jpg
     description: "La structure narrative de base est assez claire mais de nombreuses quêtes annexes viennent se rajouter, bien que non obligatoires."
 
   summary_key_point:
     note: 3
-    screenshot: zelda-breath-of-the-wild_summary_key_point.jpg
+    screenshot: zelda_breath_of_the_wild_summary_key_point.jpg
     description: "Dans la partie \"Journal\" on retrouve un ensemble de points, surtout dans la partie \"Souvenirs\" qui permet de relire des points importants de l'histoire."
 
   oral_written_information:
@@ -169,7 +169,7 @@ evaluation:
 
   visual_backup:
     note: 3
-    screenshot: zelda-breath-of-the-wild_visual_backup.jpg
+    screenshot: zelda_breath_of_the_wild_visual_backup.jpg
     description: "Le jeu dispose d'un système de sauvegarde manuelle et automatique. Chaque sauvegarde est accompagnée d'une miniature."
 
 
@@ -183,12 +183,12 @@ evaluation:
 
   text_changes:
     note: 1
-    screenshot: zelda-breath-of-the-wild_text_changes.jpg
+    screenshot: zelda_breath_of_the_wild_text_changes.jpg
     description: "Cette fonctionnalité n'est pas disponible en jeu. On en peut changer que l'opacité des boites de dialogue."
 
   important_word:
     note: 3
-    screenshot: zelda-breath-of-the-wild_important_word.jpg
+    screenshot: zelda_breath_of_the_wild_important_word.jpg
     description: "Les éléments important comme les noms de ville, les objets, nom de personnage etc... sont mit en évidence dans les dialogues par une couleur."
 
   turn_off_blood:
@@ -205,7 +205,7 @@ evaluation:
 
   replay_narration:
     note: 2
-    screenshot: zelda-breath-of-the-wild_replay_narration.jpg
+    screenshot: zelda_breath_of_the_wild_replay_narration.jpg
     description: "Dans le \"Journal\" puis dans \"Souvenirs\" on peut relire des parties de l'histoire mais pas le tutoriel."
 
   symbols_chat:
@@ -230,7 +230,7 @@ evaluation:
 
   contrast_elements:
     note: 3
-    screenshot: zelda-breath-of-the-wild_contrast_elements.jpg
+    screenshot: zelda_breath_of_the_wild_contrast_elements.jpg
     description: "Les contrates sont bien respectés dans l'ensemble, de plus on peut gérer l'opacité des bulles de dialogues."
 
   different_movements:
@@ -279,7 +279,7 @@ evaluation:
 
   cardinal_point_orientation:
     note: 1
-    screenshot: zelda-breath-of-the-wild_cardinal_point_orientation.jpg
+    screenshot: zelda_breath_of_the_wild_cardinal_point_orientation.jpg
     description: "Une minicarte est présente à l'écran lorsque l'on joue et permet de s'orienter. Dans les paramètres on peut choisir qu'elle soit toujours pointée vers le nord."
 
   digital_controls:
@@ -312,7 +312,7 @@ evaluation:
 
   clear_subtitles:
     note: 3
-    screenshot: zelda-breath-of-the-wild_clear_subtitles.jpg
+    screenshot: zelda_breath_of_the_wild_clear_subtitles.jpg
     description: "Format d'écriture clair ayant un bon contraste. Language simple."
 
   discussion_without_parasites:

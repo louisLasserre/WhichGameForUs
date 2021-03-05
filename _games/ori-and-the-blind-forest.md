@@ -8,8 +8,8 @@ evaluation:
 
     simple_commands:
         note: 1
-        screenshot: ori_and_the_blind_forest_simple_command.jpg
-        description: "Les commandes sont assez complexes puisque le jeu combine un platforming assez challenging et plusieurs mécaniques de combos, sans fournir des versions simplifiées des contrôles."
+        screenshot: ori_and_the_blind_forest_simple_commands.jpg
+        description: "Les commandes sont assez complexes puisque le jeu combine un platforming assez challenging et plusieurs mécaniques de combos, sans fournir des versions simplifiés des contrôles."
 
     haptic_slider:
         note: 3
@@ -28,7 +28,7 @@ evaluation:
     large_elements:
         note: 3
         screenshot: ori_and_the_blind_forest_large_elements.jpg
-        description: "Les éléments interactifs sont pour la plus part grands et espacés."
+        description: "Les éléments intéractifs sont pour la plupart grands et espacés."
 
     more_than_one_device:
         note: 1
@@ -36,7 +36,7 @@ evaluation:
 
     menus_do_not_move:
         note: 3
-        description: "Il n'y pas d'éléments interactifs nécessitant une précision."
+        description: "Il n'y pas d'éléments intéractifs nécessitant une précision."
 
     simultaneous_action:
         note: 1
@@ -45,7 +45,7 @@ evaluation:
 
     digital_controls:
         note: 3
-        description: "On peut faire toutes les actions à la manettes."
+        description: "On peut faire toutes les actions à la manette."
 
     option_vit:
         note: 1
@@ -67,7 +67,7 @@ evaluation:
 
     orga_interface:
         note: 1
-        description: "pas de réorganisation l'interface"
+        description: "Pas de réorganisation l'interface"
 
     resizing_interface:
         note: 2
@@ -80,7 +80,7 @@ evaluation:
 
     movement_tracking:
         note: 0
-        description: "Le jeu n'est pas en VR."
+        description: "Le jeu n'est pas en réalité virtuelle."
 
     mobile_mode:
         note: 0
@@ -106,7 +106,7 @@ evaluation:
     font:
         note: 3
         screenshot: ori_and_the_blind_forest_font.jpg
-        description: "La police est facilement lisible, pas d'empattements ou d'effet de style particulier."
+        description: "La police est facilement lisible, pas d'empattement ou d'effet de style particulier."
 
     clear_language:
         note: 2
@@ -129,7 +129,7 @@ evaluation:
 
     photosensitive:
         note: 1
-        description: "Les textures du jeu sont répétitves, et les effets de particules lumineux sont nombreux."
+        description: "Les textures du jeu sont répétitves, et les effets de particules lumineuses sont nombreux."
 
     help_game:
         note: 2
@@ -138,7 +138,7 @@ evaluation:
     reminder_objective:
         note: 3
         screenshot: ori_and_the_blind_forest_reminder_objective.jpg
-        description: "Le joueur peut regarder sa map pour revoir l'objectif en cours."
+        description: "Le joueur peut regarder sa carte pour revoir l'objectif en cours."
 
     reminder_control:
         note: 2
@@ -147,7 +147,7 @@ evaluation:
 
     sandbox_mode:
         note: 1
-        description: "Pas  de mode entraînement, seulement des niveaux de difficulté."
+        description: "Pas de mode entraînement, seulement des niveaux de difficulté."
 
     simple_narration:
         note: 2
@@ -156,7 +156,7 @@ evaluation:
     summary_key_point:
         note: 3
         screenshot: ori_and_the_blind_forest_summary_key_point.jpg
-        description: "Présence dans le menu principal d'un outil pour revoir les cinématiques déjà vues."
+        description: "Présence, dans le menu principal, d'un outil pour revoir les cinématiques déjà vues."
 
     oral_written_information:
         note: 2
@@ -165,7 +165,7 @@ evaluation:
 
     interactive_elements:
         note: 3
-        description: "Les éléments interactifd du jeu ont tous des effets lumineux colorés, liés par la couleur à la mécanique à utiliser."
+        description: "Les éléments interactifs ont tous des effets lumineux colorés, liés par la couleur à la mécanique à utiliser."
 
     background_movements:
         note: 1
@@ -179,16 +179,16 @@ evaluation:
     visual_backup:
         note: 3
         screenshot: ori_and_the_blind_forest_visual_backup.jpg
-        description: "les sauvegardes sont présentes avec un visuel et multiples indications sur la partie en cours."
+        description: "Les sauvegardes sont présentes avec un visuel et de multiples indications sur la partie en cours."
 
     separate_volumes:
         note: 3
         screenshot: ori_and_the_blind_forest_separate_volumes.jpg
-        description: "les effets sonores et la musique peuvent être gérés différemment."
+        description: "Les effets sonores et la musique peuvent être gérés indépandement."
 
     different_sound:
         note: 3
-        description: "Tous les éléments du jeu ont une disctinction sonore claire."
+        description: "Tous les éléments ont des sons distincts."
 
     text_changes:
         note: 1
@@ -197,7 +197,7 @@ evaluation:
     important_word:
         note: 2
         screenshot: ori_and_the_blind_forest_important_word.jpg
-        description: "les mots importants se démarquent en jaune."
+        description: "Les mots importants se démarquent en jaune."
 
     turn_off_blood:
         note: 0
@@ -235,16 +235,16 @@ evaluation:
 
     vr_problems:
         note: 0
-        description: "Le jeu n'est pas en VR."
+        description: "Le jeu n'est pas en réalité virtuelle."
 
     contrast_elements:
         note: 3
         screenshot: ori_and_the_blind_forest_contrast_elements.jpg
-        description: "Le fond des textes et interfaces est noirci en contraste avec la couleur blanche de ceux-ci."
+        description: "Le fond des textes et interfaces est noircis en contraste avec la couleur blanche de ceux-ci."
 
     different_movements:
         note: 3
-        description: "La caméra suis les mouvements du joueur."
+        description: "La caméra suit les mouvements du joueur."
 
     surround_sound:
         note: 0
@@ -252,7 +252,7 @@ evaluation:
 
     background_animation:
         note: 1
-        description: "Les animations de fond sont toujours activées."
+        description: "Les animations de fond ne peuvent pas être désactivés."
 
     mobile_reader_background:
         note: 0
@@ -272,7 +272,7 @@ evaluation:
 
     visible_essentiel_elements:
         note: 1
-        description: "Il y'a souvent des passages secrets camouflés."
+        description: "Il y a souvent des passages secrets camouflés."
 
     font_size:
         note: 1
@@ -280,23 +280,23 @@ evaluation:
 
     audio_card_sonar:
         note: 1
-        description: "Il existe une mini map mais pas avec de l'audio."
+        description: "Il existe une mini carte mais pas avec de l'audio."
 
     voice_gps:
         note: 1
-        description: "Ce jeu ne dispose pas de gps vocal."
+        description: "Ce jeu ne dispose pas de GPS vocal."
 
     cardinal_point_orientation:
         note: 1
-        description: "Les deplacements se font avec le joystick, il n’y a pas d’aide au deplacement."
+        description: "Les déplacements se font avec le joystick, il n’y a pas d’aide au déplacement."
 
     digital_controls:
         note: 3
-        description: "Toutes les actions peuvent être effectuées avec les touches de la manettes."
+        description: "Toutes les actions peuvent être effectuées avec les touches de la manette."
 
     screen_readers:
         note: 1
-        description: "Pas de lecteurs d'écrans."
+        description: "Pas de lecteur d'écran."
 
     separate_music:
         note: 3
@@ -317,12 +317,12 @@ evaluation:
 
     sound_information:
         note: 3
-        description: "Toute les informations sonore sont aussi communiquées visuellement."
+        description: "Toutes les informations sonores sont aussi communiquées visuellement."
 
     clear_subtitles:
         note: 3
-        screenshot: ori_and_the_blind_clear_subtitles.jpg
-        description: "Tout les textes sont faciles à percevoir."
+        screenshot: ori_and_the_blind_forest_clear_subtitles.jpg
+        description: "Tous les textes sont faciles à percevoir."
 
     discussion_without_parasites:
         note: 0
@@ -338,11 +338,11 @@ evaluation:
 
     noise_caption:
         note: 1
-        description : "Pas de sous-titres pour les bruits de fond."
+        description : "Pas de sous-titre pour les bruits de fond."
 
     visual_speaker_indication:
         note: 1
-        screenshot: ori_and_the_blind_forest_subtitles.jpg
+        screenshot: ori_and_the_blind_forest_visual_speaker_indication.jpg
         description : "Pas d'indication."
 
     customization_subtitles:
@@ -377,7 +377,7 @@ evaluation:
 
     words_per_minute:
         note: 3
-        screenshot: ori_and_the_blind_forest_visual_words_per_minute.jpg
+        screenshot: ori_and_the_blind_forest_words_per_minute.jpg
         description: "Les sous-titre sont cohérents par rapport à la cible."
 
     sign_language:
@@ -395,15 +395,15 @@ evaluation:
 
     speech_recognition:
         note: 0
-        description: "Il n'y a pas controle à la voix dans le jeu."
+        description: "Il n'y a pas contrôle à la voix dans le jeu."
 
     half_voice:
         note: 0
-        description: "Il n'y a pas controle à la voix dans le jeu."   
+        description: "Il n'y a pas contrôle à la voix dans le jeu."   
 
     provide_accessibility:
         note: 1
-        description: "Le site ni l'emballage ne contienne les options d'accessibilité du jeu."
+        description: "Ni le site, ni l'emballage ne contienne les options d'accessibilité du jeu."
 
     details_on_accessibility:
         note: 1
@@ -424,15 +424,15 @@ evaluation:
 
     menu_with_movement:
         note: 3
-        description: "Les menus sont navigables avec toute les commandes de déplacement."
+        description: "Les menus sont navigables avec toutes les commandes de déplacement."
 
     disabled_tester:
         note: 0
-        description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu."
+        description: "Il n'y a pas moyen de savoir les procédures de tests du jeu."
 
     mechanical_jump:
         note: 2
-        description: "Il existe un skip des cinématiques."
+        description: "Il existe un \"Passer\" des cinématiques."
 
     automatic_assistance_mode:
         note: 1
@@ -457,11 +457,11 @@ evaluation:
 
     accessibility_test:
         note: 0
-        description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu."
+        description: "Il n'y a pas moyen de savoir les procédures de tests du jeu."
 
     profile_parameter:
         note: 1
-        description: "Le jeu ne contient aucune solution multiprofile."
+        description: "Le jeu ne contient aucune solution multi-profil."
 
 
     voice_transcription:

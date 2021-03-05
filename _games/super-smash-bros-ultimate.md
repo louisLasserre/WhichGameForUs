@@ -4,11 +4,11 @@ evaluation:
     touch_assign:
         note: 3
         screenshot: super_smash_bros_ultimate_touch_assign.jpg
-        description: "Toutes les touches correspondant à des actions sont modifiables."
+        description: "Toutes les touches correspondantes à des actions sont modifiables."
     
     simple_commands:
         note: 3
-        description: "certains coup complexe a utiliser dispose d'un option pour les faire plus simplement , (exemple : saut court avec 2 boutons)."
+        description: "Certains coups complexes à utiliser dispose d'une option pour les faire plus simplement (exemple : saut court avec 2 boutons)."
     
     haptic_slider:
         note: 3
@@ -17,19 +17,19 @@ evaluation:
     
     menu_with_keys:
         note: 3
-        description: "Le jeu entier et navigable avec la manette et donc les mêmes inputs."
+        description: "Le jeu entier est navigable avec la manette et donc les mêmes touches."
     
     sensitivity:
         note: 1
-        description: "Pas d'options de sensibilité des contrôles."
+        description: "Pas d'option de sensibilité des contrôles."
     
     large_elements:
         note: 2
-        description: "Les menus sont navigables a la manette et n'ont pas besoin d'étre ciblé mais la selection des personnage et des terrain sont un peu complexe a cause de leur nombre et de leur taille."
+        description: "Les menus sont navigables à la manette et n'ont pas besoin d'étre ciblé mais la sélection des personnageq et des terrainq sont un peu complexe à cause de leur nombre et de leur taille."
     
     more_than_one_device:
         note: 1
-        description: "La switch ne supporte qu'un seul type d'Input."
+        description: "La switch ne supporte qu'un seul type de touche."
     
     menus_do_not_move:
         note: 3
@@ -41,12 +41,12 @@ evaluation:
     
     digital_controls:
         note: 3
-        description: "Toutes les actions sont effectuées par des controles digitaux."
+        description: "Toutes les actions sont effectuées par des contrôles digitaux."
     
     option_vit:
         note: 2
         screenshot: super_smash_bros_ultimate_option_vit.jpg
-        description: "il est possible de créer des match spéciaux dont la vitesse est (un peu réglable: lent ou rapide) mais la vitesse du jeu en soit ne l'est pas."
+        description: "Il est possible de créer des matchs spéciaux dont la vitesse est (un peu réglable: lent ou rapide) mais la vitesse du jeu en soit ne l'est pas."
     
     qte:
         note: 3
@@ -58,7 +58,7 @@ evaluation:
     
     button_pressure:
         note: 1
-        description: "Les boucliers et les retours dans les menus de selection de terrain et de personnage nécessitent une pression continue."
+        description: "Les boucliers et les retours dans les menus de sélection de terrain et de personnage nécessitent une pression continue."
     
     orga_interface:
         note: 1
@@ -70,11 +70,11 @@ evaluation:
     
     macro_system:
         note: 1
-        description: "Impossible d'utiliser des macro."
+        description: "Impossible d'utiliser des macros."
     
     movement_tracking:
         note: 0
-        description: "Le jeu n'est pas VR."
+        description: "Le jeu n'est pas en réalité virtuelle."
     
     mobile_mode:
         note: 0
@@ -82,20 +82,20 @@ evaluation:
     
     timing:
         note: 3
-        description: "Il n'y a pas de timing précis a avoir pour jouer au jeu."
+        description: "Il n'y a pas de timing précis à avoir pour jouer au jeu."
     
     time_limit:
         note: 2
-        description: "Selon les coups , il y a un peut de délai entre les entrées."
+        description: "Selon les coups, il y a un peu de délai entre les entrées."
     
     simple_control:
         note: 2
-        description: "C'est un jeu de combat donc les controles sont complexes et donc difficilement adaptables , cependent ils reste simple et logique contrairement a des jeux de style street fighter."
+        description: "C'est un jeu de combat donc les contrôles sont complexes et donc difficilement adaptable. Cependent il reste simple et logique."
     
     level_navigation:
         note: 1
         screenshot: super_smash_bros_ultimate_level_navigation.jpg
-        description: "Il est nécessaire de passer par plusieurs menu et sous menu pour lancer une partie."
+        description: "Il est nécessaire de passer par plusieurs menus et sous menus pour lancer une partie."
     
     font:
         note: 3
@@ -104,7 +104,7 @@ evaluation:
     
     clear_language:
         note: 2
-        description: "Le language est simple et clair mais utilise quelque fois des termes propre au jeu et donc moin facilement comprehensible."
+        description: "Le langage est simple et clair mais utilise quelques fois des termes propre au jeu."
     
     clear_text:
         note: 3
@@ -113,11 +113,11 @@ evaluation:
     tutorials:
         note: 3
         screenshot: super_smash_bros_ultimate_tutorials.jpg
-        description: "Un tutoriel vidéo est disponible, soit si on laisse tourner l'écran titre soir dans un menu dédié au replay de vidéo  + dans le mode histoire un onglet comment jouer permet de revoir les explications de différentes mechaniques."
+        description: "Un tutoriel vidéo est disponible, soit si on laisse tourner l'écran titre, soit dans un menu dédié aux vidéos. De plus, dans le mode histoire, il y a un onglet \"Comment jouer\" qui permet de revoir les explications des différentes méchaniques."
         
     more_reading_time:
         note: 0
-        description: "Il n'y a pas de boite de texte ou de dialogue."
+        description: "Il n'y a pas de boîte de texte ou de dialogue."
     
     photosensitive:
         note: 2
@@ -127,24 +127,24 @@ evaluation:
     help_game:
         note: 3
         screenshot: super_smash_bros_ultimate_help_game.jpg
-        description: "Il y a tout un menu dédié a des aides et astuces en jeu."
+        description: "Il y a tout un menu dédié à des aides et astuces en jeu."
     
     reminder_objective:
         note: 1
-        description: "Peu importe  le mode de jeu (histoire ou combat libre) l'objectif n'est jamais rapellé et reste implicite (battez votre ennemi)."
+        description: "L'objectif n'est jamais explicitement indiqué."
     
     reminder_control:
         note: 1
-        description: "Les commandes ne sont pas rappellées plus loin dans le jeu."
+        description: "Les commandes ne sont pas rappelées."
     
     sandbox_mode:
         note: 3
         screenshot: super_smash_bros_ultimate_sandbox_mode.jpg
-        description: "Il existe un mode entrainement/sandbox."
+        description: "Il existe un mode entrainement/bac à sable."
     
     simple_narration:
         note: 3
-        description: "La structure narative n'existe que dans le mode histoire et elle est tres simpliste."
+        description: "La structure narative n'existe que dans le mode histoire et elle est simpliste."
     
     summary_key_point:
         note: 0
@@ -156,11 +156,11 @@ evaluation:
     
     interactive_elements:
         note: 3
-        description: "Chaque element du jeu quel qu'il soit a une animation propre pour montrer qu'il sont utilisable ou en train d'être utilisé."
+        description: "Chaque élément du jeu a une animation propre pour montrer qu'ils sont utilisables ou en train d'être utilisés."
     
     background_movements:
         note: 2
-        description: "Une option permet de retirer l'aléatoire et  l'animation de fond de la plupart des terrains mais change aussi leut forme... il n'y a pas d'option propre a l'arrière plan des terrains."
+        description: "Une option permet de retirer l'aléatoire et l'animation de fond de la plupart des terrains mais cela change aussi leur forme... il n'y a pas d'option propre à l'arrière plan des terrains."
     
     text_audio_chat:
         note: 1
@@ -179,11 +179,11 @@ evaluation:
     
     different_sound:
         note: 3
-        description: "Tous les éléments et musiques du jeu sont distinct et propre a chaque action/objet/compétences..."
+        description: "Tous les éléments et musiques du jeu sont distincts et propres à chaque action/objet/compétence..."
     
     text_changes:
         note: 1
-        description: "Le contraste et la couleur des textes n'est pas changeable."
+        description: "Le contraste et la couleur des textes n'est pas changeables."
     
     important_word:
         note: 1
@@ -191,32 +191,32 @@ evaluation:
     
     turn_off_blood:
         note: 0
-        description: "Il n'y a pas de contenue gore ou de sang."
+        description: "Il n'y a pas de contenu gore ou de sang."
     
     reading_text:
         note: 1
-        description: "Il n'y a pas de lecteur d'ecran integré dans le jeu."
+        description: "Il n'y a pas de lecteur d'écran intégré dans le jeu."
     
     unforeseen_event:
-        note: 1
-        description: "C'est un jeu de combat donc il y a des évènements imprévue comme les déplacements de l'énemie ou des évènements aléatoire sur certains terrains (qui peuvent etre désactivés)."
+        note: 2
+        description: "C'est un jeu de combat donc il y a des évènements imprévus comme les déplacements de l'ennemi ou des évènements aléatoires sur certains terrains (qui peuvent etre désactivés)."
         
     replay_narration:
         note: 3
         screenshot: super_smash_bros_ultimate_replay_narration.jpg
-        description: "Le joueur peut de nouveau regarder les vidéo de naration dans une gallerie dédié et regarder a nouveau le tutoriel."
+        description: "Le joueur peut de nouveau regarder les vidéos de narration dans une galerie dédiée et regarder à nouveau le tutoriel."
     
     symbols_chat:
         note: 1
-        description: "Le jeu ne proppose pas de symbole pour les chat."
+        description: "Le jeu ne proppose pas de symbole pour les tchats."
     
     hide_option:
         note: 0
-        description: "C'est un jeu de combat, et il n'y a pas d'objets non-interactifs présents."
+        description: "C'est un jeu de combat, et il n'y a pas d'objets non intéractifs présents."
     
     different_essential_information:
         note: 3
-        description: "Toutes les informations on une couleur et un texte propre."
+        description: "Toutes les informations ont une couleur et un texte propre."
     
     field_of_view:
         note: 0
@@ -224,12 +224,12 @@ evaluation:
     
     vr_problems:
         note: 0
-        description: "Le jeu n'est pas VR."
+        description: "Le jeu n'est pas en réalité virtuelle."
     
     contrast_elements:
         note: 3
         screenshot: super_smash_bros_ultimate_contrast_elements.jpg
-        description: "Les textes sont soit noir sur fond blanc ou blanc sur fond de couleur, de plus lors du survol (dans les menus) une outline noir s'ajoute autour du texte pour le démarquer."
+        description: "Les textes sont soit noir sur fond blanc, soit blanc sur fond de couleur. De plus, lors du survol (dans les menus) une ombre noir s'ajoute autour du texte pour le démarquer."
     
     different_movements:
         note: 0
@@ -241,7 +241,7 @@ evaluation:
     
     background_animation:
         note: 2
-        description: "les animations de fond peuvent etre désactivé pour la plupart des terrain mais cela implique un changement de sa forme."
+        description: "Les animations de fond peuvent etre désactivées pour la plupart des terrains mais cela implique un changement de sa forme."
     
     mobile_reader_background:
         note: 0
@@ -253,11 +253,11 @@ evaluation:
     
     cursor:
         note: 0
-        description: "Il n'y a pas de croix de visée "
+        description: "Il n'y a pas de croix de visée. "
     
     adapted_website:
         note: 1
-        description: "Le site n'est absoluement pas accessible et donc non adapté aux lecteurs d'écrans https://www.smashbros.com/fr_FR/"
+        description: "Le site n'est absoluement pas accessible et non adapté aux lecteurs d'écrans https://www.smashbros.com/fr_FR/"
     
     visible_essentiel_elements:
         note: 0
@@ -281,15 +281,15 @@ evaluation:
     
     digital_controls:
         note: 3
-        description: "Toutes les actions peuvent être effectuées avec des controles digitaux."
+        description: "Toutes les actions peuvent être effectuées avec des contrôles digitaux."
     
     screen_readers:
         note: 1
-        description: "Pas de lecteur d'écrans."
+        description: "Pas de lecteur d'écran."
     
     separate_music:
         note: 3
-        description: "Chaque éléments, musique, bruitage, action possèdent des sons distincts."
+        description: "Chaque élément, musique, bruitage, action possède des sons distincts."
     
     binaural_recording:
         note: 1
@@ -330,7 +330,7 @@ evaluation:
     
     visual_speaker_indication:
         note: 3
-        description : "Le nom de la personne qui entrain de parler est inscrit à l'écran."
+        description : "Le nom de la personne qui parle est inscrit à l'écran."
     
     customization_subtitles:
         note: 1
@@ -362,7 +362,7 @@ evaluation:
 
     words_per_minute:
         note: 1
-        description: "Les sous-titres sont mal adaptés par rapport à la cible. Le nombre de mots par minute est trop grand pour un jeu dont le public cible ainsi que des enfants."
+        description: "Les sous-titres sont mal adaptés par rapport à la cible. Le débit est trop rapide."
 
     sign_language:
         note: 1
@@ -396,7 +396,7 @@ evaluation:
     difficulty_level:
         note: 3
         screenshot: super_smash_bros_ultimate_difficulty_level.jpg
-        description: "Dans le mode histoire quatre niveaux de difficulté existent allant de Très Simple à Difficile. Dans le mode combat (SMASH) les ordinateurs peuvent etre réglé selon neuf niveaux de difficultées."
+        description: "Dans le mode histoire, quatre niveaux de difficulté existent allant de Très Simple à Difficile. Dans le mode combat (SMASH), les ordinateurs peuvent être réglés selon neuf niveaux de difficulté."
 
     save_parameters:
         note: 3
@@ -404,7 +404,7 @@ evaluation:
 
     access_comment:
         note: 1
-        description: "Super Smash Bros ne prends aucun commentaire de la part de sa communauté."
+        description: "Super Smash Bros ne prend aucun commentaire de la part de sa communauté."
 
     menu_with_movement:
         note: 3
@@ -412,11 +412,11 @@ evaluation:
 
     disabled_tester:
         note: 0
-        description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu."
+        description: "Il n'y a pas moyen de savoir les procédures de tests du jeu."
 
     mechanical_jump:
         note: 2
-        description: "Il existe un skip des cinématiques."
+        description: "Il existe un bouton \"Passer\" des cinématiques."
 
     automatic_assistance_mode:
         note: 1
@@ -441,7 +441,7 @@ evaluation:
 
     accessibility_test:
         note: 0
-        description: "Il n'y a pas moyen de savoir les procédures de play-test du jeu."
+        description: "Il n'y a pas moyen de savoir les procédures de tests du jeu."
 
     profile_parameter:
         note: 2
