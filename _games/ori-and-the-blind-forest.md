@@ -1,5 +1,6 @@
 ---
 title: Ori and the Blind Forest
+plateform: Nintendo Switch, Xbox One, Microsoft Windows
 evaluation:
     touch_assign:
         note: 1

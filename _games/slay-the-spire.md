@@ -1,5 +1,6 @@
 ---
 title: Slay the Spire
+plateform: Android, PlayStation 4, iOS, Nintendo Switch, Xbox One, Mac OS, Microsoft Windows, Linux
 evaluation:
     touch_assign:
         note: 3

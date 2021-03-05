@@ -1,5 +1,6 @@
 ---
 title: Minecraft
+plateform: Windows, OS X, Linux
 evaluation:
   touch_assign:
     note: 3

@@ -1,5 +1,6 @@
 ---
 title: Super Smash Bros Ultimate
+plateform: Nintendo Switch
 evaluation:
     touch_assign:
         note: 3

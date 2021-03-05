@@ -1,5 +1,6 @@
 ---
 title: Starcraft 2
+plateform: Windows, Mac OS X
 evaluation:
     touch_assign:
         note: 3

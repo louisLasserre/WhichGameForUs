@@ -1,5 +1,6 @@
 ---
 title: Destiny 2
+plateform: PlayStation 4, Google Stadia, Xbox One, PlayStation 5, Microsoft Windows
 evaluation:
     touch_assign:
         note: 2

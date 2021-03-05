@@ -1,5 +1,6 @@
 ---
 title: Animal Crossing New Horizons
+plateform: Nintendo Switch
 evaluation:
     touch_assign:
         note: 1

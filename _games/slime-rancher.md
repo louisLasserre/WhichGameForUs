@@ -1,5 +1,6 @@
 ---
 title: Slime Rancher
+plateform: PlayStation 4, Xbox One, Microsoft Windows, Linux, Mac OS
 evaluation:
     touch_assign:
         note: 3

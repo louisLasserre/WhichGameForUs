@@ -1,5 +1,6 @@
 ---
 title: Heroes of the storm
+plateform: Microsoft Windows, Mac OS
 evaluation:
     touch_assign:
         note: 3

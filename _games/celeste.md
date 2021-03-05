@@ -1,5 +1,6 @@
 ---
 title: Celeste
+plateform: Nintendo Switch, PlayStation 4, Xbox One, Linux, Microsoft Windows, Google Stadia, Mac OS
 evaluation:
   touch_assign:
     note: 3

@@ -1,5 +1,6 @@
 ---
 title: The Legend of Zelda Breath Of The Wild
+plateform: Nintendo Switch
 evaluation:
   touch_assign:
     note: 2

@@ -1,5 +1,6 @@
 ---
 title: Dofus
+plateform: Linux, Adobe Flash Player, Mac OS, Android, Microsoft Windows
 evaluation:
   touch_assign:
     note: 3
