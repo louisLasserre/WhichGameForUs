@@ -3,6 +3,16 @@ title: Evénements
 ---
 {% for event in site.events %}
     <a href="{{ event.url }}">
-        {{ event.title }}
+        <div class="eventBlock">
+            <h2>{{event.jour}} - {{ event.title }}</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, commodi. Ullam dolore aperiam id repellat voluptate porro dolorum repudiandae? Quaerat aspernatur animi dolores hic dolore, iure veritatis est amet tempore!</p>
+
+            <button>En savoir plus</button>
+        </div>
+        
     </a>
 {% endfor %}
+
+
+{% include partenaires.html %}
