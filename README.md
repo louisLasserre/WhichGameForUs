@@ -1,5 +1,5 @@
 # WhichGameForUs
-“Un Jeu Pour Moi” est une bibliothèque de jeux catégorisés et évalués selon les critères de “gameaccessibilityguidelines.com” où les joueurs handicapés/en situation de handicap peuvent trouver le jeu qui leur correspond le mieux.
+C'est une bibliothèque de jeux catégorisés et évalués selon les critères de “gameaccessibilityguidelines.com” où les joueurs handicapés/en situation de handicap peuvent trouver le jeu qui leur correspond le mieux.
 
 ## 🇫🇷 Votre participation
 Ce projet est **open source 🤗**, n'hésiter pas à proposer des améliorations/modifications 😉
