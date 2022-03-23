@@ -12,8 +12,20 @@ defaults:
       type: "games"
     values:
       layout: "game"
+  -
+    scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
 
 collections:
   games:
     output: true
     permalink: /jeux/:title
+  
+  events:
+    output: true
+    permalink: /evenements/:title
+
+ 
