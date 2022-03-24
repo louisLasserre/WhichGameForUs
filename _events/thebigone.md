@@ -4,6 +4,14 @@ jour: mercredi 13 avril
 horaires: 18h-20h
 resume: <strong class="strong">Le live à ne pas manquer ! </strong><br>Nous répondons aux problèmes abordés lors du premier live et faisons venir un grand nombre d'acteurs du secteur de l'accessiblité. Notre objectif est de faire prendre conscience aux créateurs de jeux vidéos et au plus grand nombre de joueurs de l'importance d'inclure ces personnes en situation de handicap
 invites:
+    
+        nom: Ninon Dubourg
+        metier: Doctorante dans l'accessibilté
+        url: /assets/images/invites/ninondubourg.jpeg
+    -
+        nom: David Combarieu
+        metier: Président de l'association HandiGamers
+        url: /assets/images/invites/davidcombarieu.jpeg
     - 
         nom: Stéphane Laurent
         metier: Chef de Projet Réseau Testing - Cap Game
@@ -20,10 +28,6 @@ invites:
         nom: AlexandreTheGamer
         metier: Ambassadeur HandiGamers
         url: /assets/images/invites/rcAlex92.jpeg
-    -
-        nom: Ninon Dubourg
-        metier: Doctorante dans l'accessibilté
-        url: :assets/images/invites/ninondubourg.jpeg
     
 
 
