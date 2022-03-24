@@ -82,3 +82,42 @@
     padding-left: 10px;
     padding-bottom: 5px;
 }
+
+.invites-container{
+    width: 100%;
+    
+    .invite{
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        gap: 10px;
+        margin: 20px 0;
+        
+        article{
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            
+            p{
+                margin: 0;
+            }
+            p:first-child{font-weight: 600;}
+            p:last-child{color: rgb(211, 211, 211);}
+            width: 21vw;
+        }
+        .profil-img{
+            height: 83px;
+            width: 83px;
+            border-radius: 50%;
+            border: 3px solid white;
+            overflow: hidden;
+        }
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

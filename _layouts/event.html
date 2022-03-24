@@ -3,6 +3,9 @@ layout: default
 ---
 
 
+<h1>{{ page.title }}</h1>
+
+
 
 <div class="container_Page_Mrg">
     <div class="Container_Event_Logo_Whichgameforus">
@@ -21,10 +24,10 @@ layout: default
         <h1>Évènements</h1>
     </div>
     <div class="Container_Event_Text">
-        <p>Which Game For Us présente “Tous Pour Le Jeu”, une série de conférences diffusées en live sur Twitch. Les thèmes abordés seront autour de l’accessibilité dans les jeux-vidéo, avec pour objectif de rassembler les grands acteurs de l’industrie du jeu vidéo et les joueurs concernés. Nous animons des discussions concernant les pratiques à mettre en place pour une meilleure inclusion dans les jeux vidéo.</p>
+        <p>Which Game For Us présente <strong class="strong">“Tous Pour Le Jeu”</strong>, une série de conférences diffusées <strong class="strong"> live sur Twitch.</strong> Les thèmes abordés seront autour de l’accessibilité dans les jeux-vidéo, avec pour objectif de <strong class="strong">rassembler les grands acteurs de l’industrie du jeu vidéo</strong>  et les joueurs concernés. Nous animons des discussions concernant les pratiques à mettre en place pour une meilleure inclusion dans les jeux vidéo.</p>
     </div>
     <div class="Container_Event_Date">
-        <h2>Mercredi 23 Mars 2022</h2>
+        <h2>{{ page.jour }}</h2>
     </div>
     <div class="Container_Event_Banner_Logo">
         <div class="Container_Event_Banner">
@@ -51,20 +54,39 @@ layout: default
         <h2>Planning/Thèmes du Live</h2>
     </div>
     <div class="Container_Event_Title_Second_Text">
-        <div class="Container_Event_Title_Second_Text_Dp">
-            <h4 class="bold">Introduction :</h4><p> Présentation du projet, de l’équipe et des intervenants.</p>
-        </div>
-        <div class="Container_Event_Title_Second_Text_Dp">
-            <h4 class="bold">Discussions :</h4><p> Plusieurs questions posées par les animateurs aux différents invités. Mais aussi par les spectateurs du tchat.</p>
-        </div>
-        <div class="Container_Event_Title_Second_Text_Dp">
-            <h4 class="bold">Conclusion :</h4><p> Remerciements par l’équipe du projet aux partenaires, invités.</p>
-        </div>
+        {% for section in page.planning %}
+            <div class="Container_Event_Title_Second_Text_Dp">
+                <h4 class="bold"> {{ section.rubrique }} :</h4>
+                <p> {{ section.resume }}</p>
+            </div>
+        {% endfor %}
+        
     </div>
-    <div class="Container_Event_Title_Second">
-        <h2>Nos Invités</h2>
-    </div>
-    <div class="Container_Event_Title_Second">
-        <h2>Nos Partenaires</h2>
-    </div>
+
+
+    <!--invites-->
+    <section class="secPart">
+        <h2>Invités</h2>
+        <div class="invites-container">
+    
+            {% for invite in page.invites %}
+                <div class="invite">
+                    <article>
+                        <p>{{ invite.nom }}</p>
+                        <p>{{ invite.metier }}</p>
+                    </article>
+                    <div class="profil-img">
+                        <img src="{{ invite.url }}" alt="">
+                    </div>
+                    
+                </div>
+                
+                
+            {% endfor %}
+    
+        </div>
+    </section>
+    <!--Partenaires-->
+    {% include partenaires.html %}
 </div>
+

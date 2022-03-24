@@ -58,17 +58,19 @@ a{
     }
     
 }
-.secPart {margin: 80px auto;width: 80vw;}
+.secPart {margin: 80px auto;}
 
 .partenaires{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    
     padding: 20px;
     
     background-color: white;
+    .logoPartenaires{
+        display: inline-block;
+        margin: 20px;
+    }
     div{
-        height: 70px;
+        height: 49px;
         
         img{
             height: 100%;
@@ -76,4 +78,8 @@ a{
         }
         
     }
+}
+.strong{
+    font-weight: normal;
+    color: #EB2A4A;
 }
