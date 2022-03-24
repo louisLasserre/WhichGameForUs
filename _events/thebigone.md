@@ -30,14 +30,14 @@ invites:
 planning:
     -
         rubrique: Introduction
-        resume: Présentation des problématiques que l'on va évoqer, de l'équipe et de nos invités
+        resume: Présentation des problématiques que l'on va évoqer, de l'équipe et de nos invités.
     -
         rubrique: Discussions
         resume: Plusieurs questions posées par les animateurs aux différents invités. Mais aussi par les spectateurs du tchat.
     -
         rubrique: Confrontation
-        resume: Nous donnons l'occasion aux joueurs en situation de handicap de pouvoir s'addresser directment à des personnes participant à la création de jeux vidéos
+        resume: Nous donnons l'occasion aux joueurs en situation de handicap de pouvoir s'adresser directement à des personnes participant à la création de jeux vidéos.
     -
         rubrique: Programme en cours d'élaboration...
-        resume: Nous voulons donner la parole à un maximum de personnes pour qu'il puisse s'exprimer de la meilleure des manières 
+        resume: Nous voulons donner la parole à un maximum de personnes pour qu'il puisse s'exprimer de la meilleure des manières.
 ---

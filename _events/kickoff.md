@@ -24,7 +24,7 @@ invites:
 planning:
     -
         rubrique: Introduction
-        resume: Présentation du projet, de l'équipe et nos invités
+        resume: Présentation du projet, de l'équipe et nos invités.
     -
         rubrique: Discussions
         resume: Plusieurs questions posées par les animateurs aux différents invités. Mais aussi par les spectateurs du tchat.
