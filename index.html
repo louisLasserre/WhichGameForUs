@@ -14,7 +14,7 @@ title: Un jeu pour moi
   </div>
 </div>
 
-<div class="row evenement">
+<a href="/evenements"><div class="row evenement">
     <h2>
       Événements !
     </h2>
@@ -26,7 +26,8 @@ title: Un jeu pour moi
         <p>En savoir plus</p>
       </button>
     </div>
-</div>
+</div></a>
+
 <div class="row">
   {% for game in site.games %}
     {% assign slug = game.title | slugify: 'latin' %}
