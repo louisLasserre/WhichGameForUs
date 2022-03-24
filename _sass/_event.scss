@@ -1,0 +1,77 @@
+.container_Page_Mrg {
+    margin: 0 18.5%;
+}
+
+.Container_Event_Title {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 35px;
+}
+
+.Container_Event_Text {
+    display: flex;
+    justify-content: center;
+    line-height: 1.9rem;
+}
+
+.Container_Event_Logo_Whichgameforus {
+    display: flex;
+    justify-content: center;
+}
+
+.Container_Event_Banner_Logo {
+    display: flex;
+}
+
+.Container_Event_Banner {
+    display: flex;
+    width: 60%;
+}
+
+.bold {
+    font-style: bold;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.Container_Event_Title_Second_Text_Dp {
+    display: flex;
+    margin: -14px 0px;
+    margin-left: 20px;
+}
+
+.Container_Event_Title_Second_Text_Dp > p {
+    padding-top: 6px;
+}
+
+.Container_Event_Title_Second {
+    text-decoration: underline;
+    padding: 16px 0px;
+}
+
+.Container_Event_Date {
+    padding-bottom: 20px;
+}
+
+.Container_Event_Logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.Container_Event_Logo_Instagram, .Container_Event_Logo_Twitch{
+    display: flex;
+}
+
+.Container_Event_Logo_Instagram > h4 {
+     padding-left: 10px;
+}
+
+.Container_Event_Logo_Twitch {
+    padding-left: 8px;
+    padding-bottom: 5px;
+}
+
+.Container_Event_Logo_Twitch > h4 {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
