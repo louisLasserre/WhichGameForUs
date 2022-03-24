@@ -2,7 +2,7 @@
 title: Tous pour le jeu - The Big One
 jour: mercredi 13 avril 
 horaires: 18h-20h
-resume: <strong class="strong">Le live à ne pas manquer ! </strong><br>Nous répondons aux problèmes abordés lors du premier live et faisons venir un grand nombre d'acteurs du secteur de l'accessiblité. Notre objectif est de faire prendre conscience aux créateurs de jeux vidéos et au plus grand nombre de joueurs de l'importance d'inclure ces personnes en situation de handicap
+resume: L'évènement à <strong class="strong">NE PAS MANQUER !</strong> Nous répondrons davantage aux problèmes abordés lors du live précédent et ce en compagnie de <strong class="strong">grands acteurs de l'accessibilité </strong>dans les jeux vidéo. L'objectif est de toucher le plus de monde quant à <strong class="strong">l'inclusion </strong>des personnes en <strong class="strong">situation de handicap </strong>(plus précisément de handicap moteur) sur la scène des joueurs au même titre que n'importe quel autre <strong class="strong">gamer !</strong>
 invites:
     -
         nom: Ninon Dubourg
