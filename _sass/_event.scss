@@ -95,7 +95,7 @@
         margin: 20px 0;
         
         article{
-            display: flex;
+            display: inline-flex;
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
@@ -106,7 +106,7 @@
             }
             p:first-child{font-weight: 600;}
             p:last-child{color: rgb(211, 211, 211);}
-            width: 33vw;
+            width: 21vw;
         }
         .profil-img{
             height: 83px;

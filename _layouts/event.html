@@ -24,7 +24,7 @@ layout: default
         <h1>Évènements</h1>
     </div>
     <div class="Container_Event_Text">
-        <p>Which Game For Us présente “Tous Pour Le Jeu”, une série de conférences diffusées en live sur Twitch. Les thèmes abordés seront autour de l’accessibilité dans les jeux-vidéo, avec pour objectif de rassembler les grands acteurs de l’industrie du jeu vidéo et les joueurs concernés. Nous animons des discussions concernant les pratiques à mettre en place pour une meilleure inclusion dans les jeux vidéo.</p>
+        <p>Which Game For Us présente <strong class="strong">“Tous Pour Le Jeu”</strong>, une série de conférences diffusées <strong class="strong"> live sur Twitch.</strong> Les thèmes abordés seront autour de l’accessibilité dans les jeux-vidéo, avec pour objectif de <strong class="strong">rassembler les grands acteurs de l’industrie du jeu vidéo</strong>  et les joueurs concernés. Nous animons des discussions concernant les pratiques à mettre en place pour une meilleure inclusion dans les jeux vidéo.</p>
     </div>
     <div class="Container_Event_Date">
         <h2>{{ page.jour }}</h2>
@@ -62,7 +62,7 @@ layout: default
         {% endfor %}
         
     </div>
-</div>
+
 
     <!--invites-->
     <section class="secPart">
@@ -87,5 +87,6 @@ layout: default
         </div>
     </section>
     <!--Partenaires-->
+    {% include partenaires.html %}
+</div>
 
-{% include partenaires.html %}

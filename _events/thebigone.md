@@ -1,5 +1,5 @@
 ---
-title: Un jeu pour tous - The Big One
+title: Tous pour le jeu - The Big One
 jour: mercredi 13 avril 
 horaires: 18h-20h
 invites:
