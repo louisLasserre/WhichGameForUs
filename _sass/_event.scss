@@ -25,7 +25,10 @@
 
 .Container_Event_Banner {
     display: flex;
-    width: 60%;
+    width:  500px;
+    height: 300px;
+    margin-left: 15px;
+    margin-bottom: 50px;
 }
 
 .bold {
@@ -36,8 +39,8 @@
 
 .Container_Event_Title_Second_Text_Dp {
     display: flex;
-    margin: -14px 0px;
-    margin-left: 20px;
+    padding: 5px;
+    padding-left: 20px;
 }
 
 .Container_Event_Title_Second_Text_Dp > p {
@@ -47,15 +50,19 @@
 .Container_Event_Title_Second {
     text-decoration: underline;
     padding: 16px 0px;
+    margin: 40px 0px 20px 0px;
 }
 
 .Container_Event_Date {
-    padding: 20px;
+    padding: 20px 20px 50px 0px;
 }
 
 .Container_Event_Logo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    
 }
 
 .Container_Event_Logo_Instagram, .Container_Event_Logo_Twitch{
