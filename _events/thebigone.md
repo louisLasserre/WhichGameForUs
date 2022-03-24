@@ -12,7 +12,11 @@ invites:
         nom: David Combarieu
         metier: Président de l'association HandiGamers
         url: /assets/images/invites/davidcombarieu.jpeg
-    - 
+    -
+        nom: sanslesmains73
+        metier: influenceur jeux vidéo
+        url: /assets/images/invites/sanslesmains.jpeg
+    -
         nom: Stéphane Laurent
         metier: Chef de Projet Réseau Testing - Cap Game
         url: /assets/images/invites/CAdStephaneLaurent.jpeg
@@ -42,6 +46,6 @@ planning:
         rubrique: Confrontation
         resume: Nous donnons l'occasion aux joueurs en situation de handicap de pouvoir s'adresser directement à des personnes participant à la création de jeux vidéo.
     -
-        rubrique: Programme en cours d'élaboration...
+        rubrique: En cours d'élaboration...
         resume: Nous voulons donner la parole à un maximum de personnes pour qu'il puisse s'exprimer de la meilleure des manières.
 ---

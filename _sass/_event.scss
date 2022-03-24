@@ -24,11 +24,44 @@
 }
 
 .Container_Event_Banner {
-    display: flex;
+    
     width:  500px;
-    height: 300px;
+    
     margin-left: 15px;
     margin-bottom: 50px;
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    .Container_Event_Banner_Logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .Container_Event_Banner {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .Container_Event_Title_Second_Text_Dp {
+        flex-direction: column;
+    }
+    .Container_Event_Logo{
+        padding-left: 0 !important;
+    }
+    .invite{
+        article{
+            width: 180px;
+        }
+    }
+}
+h4{
+    color: #EB2A4A;
+    word-wrap: break-word;
+    
 }
 
 .bold {
