@@ -14,7 +14,7 @@ title: WhichGameForUs
   </div>
 </div>
 
-<a href="/evenements"><div class="row evenement">
+<a href="/evenements"><div class="row evenement" title="Accéder aux évènements: live twitch">
     <h2>
       Évènements !
     </h2>
@@ -41,7 +41,7 @@ title: WhichGameForUs
       <div class="form-check" type="button" data-bs-toggle="collapse" data-bs-target="#{{ category.name }}" aria-expanded="false" aria-controls="{{ category.name }}">
         
         
-        <label class="form-check-label" for="check{{ category.name }}">
+        <label class="form-check-label" for="check{{ category.name }}" title="afficher les pourcentages en catégorie {{ category.name }}">
           <input class="form-check-input" type="checkbox" value="" id="check{{ category.name }}">
           <p>{{ category.name }}</p>
         </label>
@@ -98,16 +98,3 @@ title: WhichGameForUs
   
 </div>
 
-<script>
-  active = "Moteur"
-
-  function Pclick(e){
-    
-    console.log("click");
-    console.log(e);
-    active = e
-    
-    console.log("----")
-    console.log(active)
-  }
-</script>
