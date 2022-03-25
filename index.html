@@ -1,11 +1,11 @@
 ---
-title: Un jeu pour moi
+title: WhichGameForUs
 ---
 
 <div class="row mb-5">
   <div class="offset-md-1 col-md-10 text-center">
     <a href="/"> <img src="/assets/images/logo.png" class="img-fluid px-5 pb-3"> </a>
-
+    
     <h1 class="arvo p-4 ">Which Game For Us !</h1>
     
     <p class="lead">
@@ -25,36 +25,89 @@ title: Un jeu pour moi
       <button>
         <p>En savoir plus</p>
       </button>
+
     </div>
 </div></a>
 
 <div class="row">
-  {% for game in site.games %}
-    {% assign slug = game.title | slugify: 'latin' %}
-    <div class="col-md-3 mb-4 card-group">
-
-      <div class="card border-0">
-        <img  src="/assets/images/games/{{ slug }}/{{ slug }}.jpg"
-              alt="{{ game.title }}"
-              class="card-img-top"
-              loading="lazy">
-        <div class="bg-secondary h-50 card-body" >
-          <h2 class="h5 card-title text-light mb-4">{{ game.title }}</h2>
-
-
-        </div>
-          <div class="card-footer mb-3">
-            <div class="text-end mb-3">
-              <a href="/jeux/{{ slug }}" class="btn btn-info text-light stretched-link">
-                Détails
-              </a>
-            </div>
-          {% include  evaluation.html
-                      guidelines=site.data.structure.guidelines
-                      evaluation=game.evaluation
-                      size='small' %}
-          </div>
-    </div>
-    </div>
+  <p>{{ site.events.kickoff }}</p> 
+  <section class="checks">
+    <div class="checks-center ">
+      <article class="evenement"><h2>Préciser les pourcentages</h2></article>
+      
+  {% for category in site.data.structure.categories %}
+  
+  
+      <div class="form-check" type="button" data-bs-toggle="collapse" data-bs-target="#{{ category.name }}" aria-expanded="false" aria-controls="{{ category.name }}">
+        
+        
+        <label class="form-check-label" for="check{{ category.name }}">
+          <input class="form-check-input" type="checkbox" value="" id="check{{ category.name }}">
+          <p>{{ category.name }}</p>
+        </label>
+      </div>
+    
   {% endfor %}
+    </div>
+  </section>
+    {% for game in site.games %}
+      {% assign slug = game.title | slugify: 'latin' %}
+      <div class="col-md-3 mb-4 card-group">
+
+        <div class="card border-0">
+          <img  src="/assets/images/games/{{ slug }}/{{ slug }}.jpg"
+                alt="{{ game.title }}"
+                class="card-img-top"
+                loading="lazy">
+          <div class="bg-secondary h-50 card-body" >
+            <h2 class="h5 card-title text-light mb-4">{{ game.title }}</h2>
+
+
+
+          </div>
+
+          {% for category in site.data.structure.categories %}
+            <div class="collapse" id="{{ category.name }}">
+              <div class="card card-body">
+                <p>{{ category.name }}</p>
+                {% include  evaluation.html
+                  guidelines=category.guidelines
+                  evaluation=game.evaluation
+                  size='small' %}
+              </div>
+            </div>
+          {% endfor %}
+
+
+            <div class="card-footer mb-3">
+              <div class=" mb-3 d-flex justify-content-between w-100 align-items-end">
+                <p class="m-0">Globale</p>
+                <a href="/jeux/{{ slug }}" class="btn btn-info text-light stretched-link">
+                  Détails
+                </a>
+                
+              </div>
+              {% include  evaluation.html
+                        guidelines=site.data.structure.guidelines
+                        evaluation=game.evaluation
+                        size='small' %}
+            </div>
+      </div>
+      </div>
+    {% endfor %}
+  
 </div>
+
+<script>
+  active = "Moteur"
+
+  function Pclick(e){
+    
+    console.log("click");
+    console.log(e);
+    active = e
+    
+    console.log("----")
+    console.log(active)
+  }
+</script>
