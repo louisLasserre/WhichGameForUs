@@ -2,6 +2,7 @@
 title: Tous pour le jeu - Kick Off
 jour: Mercredi 23 mars 
 horaires: 18h-20h
+eventImg: Banner.png
 resume: Le premier live de notre évènement "Tous pour le jeu".<br> Nous rassemblons des joueurs en situation de handicap pour une <strong class="strong">discussion</strong> autour des <strong class="strong">problèmes </strong>que ceux-ci rencontrent. Nous souhaitons <strong class="strong">informer le plus grand monde </strong>sur la manière dont ces joueurs se sont frayés un chemin dans la sphère vidéoludique, en les <strong class="strong">questionnant</strong> sur leurs <strong class="strong">besoins </strong>tout comme sur leurs <strong class="strong">solutions </strong>
 invites:
     - 
