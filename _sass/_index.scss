@@ -1,11 +1,11 @@
 .checks{
-    
+
     div{
         width: fit-content;
         display: inline-block;
         margin: 20px;
 
-        
+
         border-radius: 3px;
         p{
             margin: 0;
@@ -20,7 +20,10 @@
     }
     .checks-center{
         display: block;
-        
+
         margin: 0 auto;
     }
+}
+body{
+  margin-top: 110px;
 }

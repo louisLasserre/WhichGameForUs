@@ -1,21 +1,21 @@
 .evenement{
     width: 60% !important;
     margin: 20px auto;
-    
+
     .eventInner{
         width: 90%;
         margin: 0 auto 100px auto;
         position: relative;
         padding: 0;
-        
+
     }
     p{
-       
+
         margin-bottom: 0;
     }
     img{
         width: 100%;
-        
+
     }
     button{
         width: fit-content;
@@ -56,14 +56,14 @@ a{
         color: white;
         margin-top: 20px;
     }
-    
+
 }
 .secPart {margin: 80px auto;}
 
 .partenaires{
-    
-    padding: 20px;
-    
+
+    padding: 18px;
+
     background-color: white;
     .logoPartenaires{
         display: inline-block;
@@ -71,12 +71,12 @@ a{
     }
     div{
         height: 49px;
-        
+
         img{
             height: 100%;
             object-fit: cover;
         }
-        
+
     }
 }
 .strong{

@@ -1,0 +1,71 @@
+---
+title: WhichGameForUs - aboutUs
+---
+
+<section class="socialBtnContainer">
+  <a href="https://www.instagram.com/which_game_for_us/" ><div class="socialBtn" title="notre instagram">
+    <img src="assets/images/reseauxsociaux/instagram.png" alt="instagram">
+  </div></a>
+  <a href="https://twitter.com/whichgameforus"><div class="socialBtn" title="notre twitter">
+    <img src="assets/images/reseauxsociaux/twitter.png" alt="twitter">
+  </div></a>
+  <a href="https://www.facebook.com/whichgameforus/"><div class="socialBtn" title="notre facebook">
+    <img src="assets/images/reseauxsociaux/facebook.png" alt="facebook">
+  </div></a>
+  <a href="https://www.linkedin.com/company/which-game-for-us"><div class="socialBtn" title="notre linkedin">
+    <img src="assets/images/reseauxsociaux/linkedin.png" alt="linkedin">
+  </div></a>
+  <a href="https://www.twitch.tv/whichgameforus" ><div class="socialBtn" title="notre twitch">
+    <img src="assets/images/reseauxsociaux/twitch.png" alt="twitch">
+  </div></a>
+  <a href="https://github.com/louisLasserre/WhichGameForUs"><div class="socialBtn" title="notre github">
+    <img src="assets/images/reseauxsociaux/github.png" alt="github">
+  </div></a>
+
+</section>
+
+<article class="row justify-content-center">
+
+  <h3 class="col-11">QUI SOMMES NOUS ?</h3>
+
+
+  <p class="col-lg-10 col-10">
+    “Un Jeu Pour Moi”, est né d’une initiative d’étudiant.es passionné.es de jeux vidéo et d’accessibilité, dans le cadre d’un projet scolaire à impact social. Nous avons cherché à offrir une solution à la problématique suivante :  Est-ce que je peux jouer à ce jeu, en tant qu’handicapé/personne en situation de handicap ?
+    Notre équipe est directement affiliée au département MMI de l’IUT Bordeaux-Montaigne.
+
+  </p>
+  <h3 class="col-lg-10 col-11">Équipe 2022</h3>
+  <div class="col-lg-8 col-10">
+
+
+      {% for member in site.data.team.members %}
+        <section class="d-inline-flex align-items-center col-lg-4 gap-3 m-3">
+          <div class="border border-danger rounded-circle" >
+            <img src="assets/images/team/{{ member.profilpic }}" alt="image de profil de {{ member.name }}" style="width: 80px;">
+          </div>
+          <article>
+            <p class="d-inline">{{ member.name }}</p>
+            <p class="d-inline" style="color: #EB2A4A;">{{ member.lastName }}</p>
+            <p>{{ member.job }}</p>
+          </article>
+
+        </section>
+
+
+
+      {% endfor %}
+
+
+
+  </div>
+
+  <h2 class="col-11">Que faisons nous ?</h2>
+  <p class="col-lg-10 lh-lg col-10">
+    Notre plateforme catégorise et évalue divers jeux-vidéo selon les critères de <a href="https://gameaccessibilityguidelines.com/">“gameaccessibilityguidelines.com”</a>. Ces critères sont triés selon des catégories de handicap telles que Visuel, Moteur, Auditif ou Cognitif.
+    De là les jeux reçoivent une note pour chaque critère, pour chaque catégorie, et pour la globalité. L'évaluation des critères est accompagnée d’une courte description, informant l’utilisateur du contexte en-jeu, ainsi que d’une capture d’écran si cela est pertinent.
+    La navigation sur le site peut se faire soit dans un objectif de vérifier l’accessibilité d’un jeu spécifique, soit dans l’objectif de trouver les notations des jeux dans une catégorie ou un critère.
+  </p>
+  {% include partenaires.html %}
+
+
+</article>

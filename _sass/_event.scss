@@ -1,5 +1,5 @@
 .container_Page_Mrg {
-    margin: 0 18.5%;
+    margin: 0 auto;
 }
 
 .Container_Event_Title {
@@ -18,15 +18,26 @@
     display: flex;
     justify-content: center;
 }
+.Container_Event_Title_Second_Text_Dp {
+  flex-direction: column;
+  div{
+    overflow-wrap: break-word;
+  }
+  h4{
+    word-wrap: break-word;
+
+  }
+
+}
 
 .Container_Event_Banner_Logo {
     display: flex;
 }
 
 .Container_Event_Banner {
-    
+
     width:  500px;
-    
+
     margin-left: 15px;
     margin-bottom: 50px;
     img{
@@ -34,13 +45,13 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 500px)
+@media screen and (max-width: 600px)
 {
     .Container_Event_Banner_Logo {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        
+
     }
     .Container_Event_Banner {
         width: 100%;
@@ -48,6 +59,7 @@
     }
     .Container_Event_Title_Second_Text_Dp {
         flex-direction: column;
+
     }
     .Container_Event_Logo{
         padding-left: 0 !important;
@@ -64,19 +76,19 @@
 h4{
     color: #EB2A4A;
     word-wrap: break-word;
-    
+
 }
 
 .bold {
     font-style: bold;
     padding-right: 10px;
-    white-space: nowrap;
+
 }
 
 .Container_Event_Title_Second_Text_Dp {
     display: flex;
-    padding: 5px;
-    padding-left: 20px;
+    align-items: center;
+
 }
 
 .Container_Event_Title_Second_Text_Dp > p {
@@ -98,7 +110,7 @@ h4{
     flex-direction: column;
     justify-content: center;
     padding-left: 80px;
-    
+
 }
 
 .Container_Event_Logo_Instagram, .Container_Event_Logo_Twitch{
@@ -121,7 +133,7 @@ h4{
 
 .invites-container{
     width: 100%;
-    
+
     .invite{
         display: inline-flex;
         align-items: center;
@@ -129,14 +141,14 @@ h4{
         flex-direction: row-reverse;
         gap: 10px;
         margin: 20px 0;
-        
+
         article{
             display: inline-flex;
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
 
-            
+
             p{
                 margin: 0;
             }

@@ -1,6 +1,6 @@
 ---
 title: Tous pour le jeu - The Big One
-jour: Mercredi 13 avril 
+jour: Mercredi 13 avril
 horaires: 18h-20h
 eventImg: BannerAvril.png
 resume: L'évènement à <strong class="strong">NE PAS MANQUER !</strong> Nous répondrons davantage aux problèmes abordés lors du live précédent et ce en compagnie de <strong class="strong">grands acteurs de l'accessibilité </strong>dans les jeux vidéo. L'objectif est de toucher le plus de monde quant à <strong class="strong">l'inclusion </strong>des personnes en <strong class="strong">situation de handicap </strong>(plus précisément de handicap moteur) sur la scène des joueurs au même titre que n'importe quel autre <strong class="strong">gamer !</strong>
@@ -22,7 +22,7 @@ invites:
         nom: Stéphane Laurent
         metier: Chef de Projet Réseau Testing - Cap Game
         url: /assets/images/invites/CAdStephaneLaurent.jpeg
-    - 
+    -
         nom: MrGyzmo
         metier: Responsable de la Web TV - Atletec
         url: /assets/images/invites/Mrgyzmo.jpeg
@@ -34,7 +34,9 @@ invites:
         nom: AlexandreTheGamer
         metier: Ambassadeur HandiGamers
         url: /assets/images/invites/rcAlex92.jpeg
-    
+    -
+        metier: Nous vous dévoilerons la liste complète des invités lorsque celle ci sera complètement terminer
+
 
 
 planning:
@@ -42,12 +44,12 @@ planning:
         rubrique: Introduction
         resume: Présentation des problématiques que l'on va évoqer, de l'équipe et de nos invités.
     -
-        rubrique: Discussions
-        resume: Plusieurs questions posées par les animateurs aux différents invités. Mais aussi par les spectateurs du tchat.
+        rubrique: L’accessibilité dans un contexte juridique et associatif
+        resume: Avec Pierre Alain Raphan et David Combarieu
     -
-        rubrique: Confrontation
-        resume: Nous donnons l'occasion aux joueurs en situation de handicap de pouvoir s'adresser directement à des personnes participant à la création de jeux vidéo.
+        rubrique: L’actualité de l’accessibilité jeu vidéo
+        resume: avec Ninon Dubourg et Chris Klippel
     -
-        rubrique: En cours d'élaboration...
-        resume: Nous voulons donner la parole à un maximum de personnes pour qu'il puisse s'exprimer de la meilleure des manières.
+        rubrique: Les solutions hardware et software
+        resume: avec des streamers comme Sans les mains ou encore menton Tv ainsi que des concepteurs
 ---

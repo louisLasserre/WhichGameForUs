@@ -1,0 +1,56 @@
+members:
+  -
+    name: Martin
+    lastName: DUCONSEIL
+    job: CEO and Project Manager
+    profilpic: martinduconseil.png
+  -
+    name: Paul
+    lastName: ROBBERECHTS
+    job: Co-CEO
+    profilpic:  paulrobberechts.png
+  -
+    name: Noé
+    lastName: BRAUD
+    job:  Public Relations Manager
+    profilpic: noebraud.png
+  -
+    name: Maxime
+    lastName: LUST
+    job:  Front-end Developer
+    profilpic: maximelust.png
+  -
+    name: Emma
+    lastName: GUILLAUME
+    job: Responsable évènements
+    profilpic: emmaguillaume.png
+  -
+    name: Louis
+    lastName: LASSERRE
+    job: dev fullstack
+    profilpic: louislasserre.png
+  -
+    name: Léa
+    lastName: RAULT
+    job: Testeuse de jeu et Designer
+    profilpic: learault.png
+  -
+    name: Quentin
+    lastName: WEGERA
+    job: Rédacteur
+    profilpic: quentinwegera.png
+  -
+    name: Gabriel
+    lastName: PAGLIA
+    job: Développeur et traducteur
+    profilpic: gabrielpaglia.png
+  -
+    name: Cyril
+    lastName: BAS
+    job: Gestion de projet
+    profilpic: cyrilbas.png
+  -
+    name: Mathys
+    lastName: WAGNER
+    job: Community Manager
+    profilpic: mathyswagner.png

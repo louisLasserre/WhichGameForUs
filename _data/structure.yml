@@ -103,10 +103,22 @@ guidelines:
   manual_backup: Fournir une fonction de sauvegarde manuelle.
   automatic_backup: Fournir une fonction de sauvegarde automatique.
   online_management: Permettre de définir une préférence pour jouer en multijoueur en ligne avec / sans autres joueurs qui utilisent des fonctionnalités d'accessibilité qui pourraient donner un avantage concurrentiel.
-  gameplay_variable: Permettre au gameplay d'être affiné en exposant autant de variables que possible. 
+  gameplay_variable: Permettre au gameplay d'être affiné en exposant autant de variables que possible.
   accessibility_test: "Inclure chaque catégorie pertinente de déficience (motrice, cognitive, etc.) parmi les participants aux tests de jeu, en nombre représentatif en fonction de l'âge / démographique du public cible."
   profile_parameter: Autoriser l'enregistrement des paramètres dans différents profils, au niveau du jeu ou de la plateforme.
   voice_transcription: Inclure une transcription vocale de texte en temps réel.
+
+members:
+  -
+    name: Martin
+    lastName: DUCONSEIL
+    job: CEO and Project Manager
+    profilpic: martinduconseil.png
+  -
+    name: Louis
+    lastName: LASSERRE
+    job: dev fullstack
+    profilpic: louislasserre.png
 
 categories:
   - name: Moteur
@@ -123,7 +135,7 @@ categories:
       - digital_controls
       - option_vit
       - qte
-      - window_mode 
+      - window_mode
       - button_pressure
       - orga_interface
       - resizing_interface
@@ -171,7 +183,7 @@ categories:
       - large_elements
       - resizing_interface
       - font
-      - clear_text  
+      - clear_text
       - interactive_elements
       - separate_volumes
       - different_sound
@@ -196,7 +208,7 @@ categories:
       - separate_music
       - binaural_recording
       - audio_description
-      
+
   - name: Auditif
     guidelines:
       - separate_volumes
