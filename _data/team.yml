@@ -2,7 +2,7 @@ members:
   -
     name: Martin
     lastName: DUCONSEIL
-    job: CEO and Project Manager
+    job: CEO et chef de projet
     profilpic: martinduconseil.png
   -
     name: Paul
@@ -12,12 +12,12 @@ members:
   -
     name: Noé
     lastName: BRAUD
-    job:  Public Relations Manager
+    job:  Responsable des relations publiques
     profilpic: noebraud.png
   -
     name: Maxime
     lastName: LUST
-    job:  Front-end Developer
+    job:  Développeur front-end
     profilpic: maximelust.png
   -
     name: Emma
@@ -27,7 +27,7 @@ members:
   -
     name: Louis
     lastName: LASSERRE
-    job: dev fullstack
+    job: Développeur fullstack
     profilpic: louislasserre.png
   -
     name: Léa
