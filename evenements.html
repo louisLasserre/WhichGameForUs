@@ -1,31 +1,32 @@
 ---
 title: Evénements
 ---
-<div class="container_Page_Mrg">
-<div class="Container_Event_Logo_Whichgameforus">
-    <img src="/assets/images/logo.png" alt="logo de Which game for us">
-                
-</div>
-<div class="Container_Event_Title">
-    <h1>Évènements</h1>
-</div>
-<div class="Container_Event_Text">
-    <p>Which Game For Us présente <strong class="strong">“Tous Pour Le Jeu”</strong>, une série de conférences diffusées <strong class="strong"> live sur Twitch.</strong> Les thèmes abordés seront autour de l’accessibilité dans les jeux-vidéo, avec pour objectif de <strong class="strong">rassembler les grands acteurs de l’industrie du jeu vidéo</strong>  et les joueurs concernés. Nous animons des discussions concernant les pratiques à mettre en place pour une meilleure inclusion dans les jeux vidéo.</p>
-</div>
-</div>
-{% for event in site.events %}
-    <a href="{{ event.url }}">
-        <div class="eventBlock">
-            <h2>{{event.jour}} - {{ event.title }}</h2>
+<section class="row col-xl-10 m-auto">
+  <div class="container_Page_Mrg">
+    <div class="Container_Event_Logo_Whichgameforus">
+        <img src="/assets/images/logo.png" alt="logo de Which game for us">
 
-            <p>{{ event.resume }}</p>
+    </div>
+    <div class="Container_Event_Title">
+        <h1>Évènements</h1>
+    </div>
+    <div class="Container_Event_Text">
+        <p>Which Game For Us présente <strong class="strong">“Tous Pour Le Jeu”</strong>, une série de conférences diffusées <strong class="strong"> live sur Twitch.</strong> Les thèmes abordés seront autour de l’accessibilité dans les jeux-vidéo, avec pour objectif de <strong class="strong">rassembler les grands acteurs de l’industrie du jeu vidéo</strong>  et les joueurs concernés. Nous animons des discussions concernant les pratiques à mettre en place pour une meilleure inclusion dans les jeux vidéo.</p>
+    </div>
+  </div>
+  {% for event in site.events %}
+      <a href="{{ event.url }}">
+          <div class="eventBlock">
+              <h2>{{event.jour}} - {{ event.title }}</h2>
 
-            <button>En savoir plus</button>
-        </div>
-        
-    </a>
-{% endfor %}
+              <p>{{ event.resume }}</p>
+
+              <button>En savoir plus</button>
+          </div>
+
+      </a>
+  {% endfor %}
 
 
-{% include partenaires.html %}
-
+  {% include partenaires.html %}
+</section>
