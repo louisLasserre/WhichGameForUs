@@ -364,7 +364,7 @@ evaluation:
         description: "Le jeu n'est pas multijoueur."
 
     no_voice_input:
-        note: 1
+        note: 3
         description: "Il n'y a pas contrôle à la voix dans le jeu."
 
     com_visuel_multi:
