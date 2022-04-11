@@ -229,6 +229,10 @@ evaluation:
     note: 0
     description: "Le jeu n'est pas en 3D."
 
+  adjustable_field_of_view:
+    note: 0
+    description: "Le jeu n'est pas en 3D."
+
   vr_problems:
     note: 0
     description: "Le jeu n'est pas en réalité virtuelle."
@@ -462,4 +466,8 @@ evaluation:
   voice_transcription:
     note: 0
     description: "Le jeu n'est pas multijoueur."
+
+  adjustable_level:
+        note: 3
+        description: "Permettre au niveau de difficulté d'être ajusté durant le gameplay, que ce soit à travers les settings, ou une difficulté adaptative."
 ---

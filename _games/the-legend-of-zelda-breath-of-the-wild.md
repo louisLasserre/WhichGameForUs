@@ -225,6 +225,10 @@ evaluation:
     note: 3
     description: "Le jeu est en 3D et celle-ci est fixe, le personnage se déplace dans un vaste univers."
 
+  adjustable_field_of_view:
+    note: 1
+    description: "Cette fonctionnalité n'est pas disponible en jeu."
+
   vr_problems:
     note: 0
     description: "Le jeu n'est pas en réalité virtuelle."
@@ -453,6 +457,10 @@ evaluation:
   voice_transcription:
     note: 1
     description: "Cette fonctionnalité n'est pas incluse dans le jeu."
+
+    adjustable_level:
+        note: 1
+        description: "Il y a que deux difficultés un normal est une difficile que l'on débloque après avoir fini le jeu, et on ne peut pas la changer une fois que l'on a créée une partie."
  
  
 ---

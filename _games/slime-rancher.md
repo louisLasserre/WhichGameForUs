@@ -214,6 +214,10 @@ evaluation:
     field_of_view:
         note: 3
         description: "Le jeu est en 3D et la vision est fixe, le personnage se déplace dans un vaste univers."
+
+    adjustable_field_of_view:
+        note: 1
+        description: "Cette fonctionnalité n'est pas disponible en jeu."
     
     vr_problems:
         note: 0
@@ -439,5 +443,9 @@ evaluation:
     voice_transcription:
         note: 1
         description: "Le jeu ne possède pas de transcription vocal pour les textes en temps réel."
+
+    adjustable_level:
+        note: 1
+        description: "On ne peut pas changer de difficulté une fois que l'on a créé une sauvegarde"
         
 ---

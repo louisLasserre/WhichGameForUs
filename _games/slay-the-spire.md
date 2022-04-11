@@ -229,6 +229,10 @@ evaluation:
         note: 0
         description: "il n'y a pas de déplacements et donc pas d'options."
 
+    adjustable_field_of_view:
+        note: 0
+        description: "le jeu n'est pas 3D"
+
     vr_problems:
         note: 0
         description: "Le jeu n'est pas en réalité virtuelle."
@@ -458,5 +462,9 @@ evaluation:
     voice_transcription:
         note: 1
         description: "Cette fonctionnalité n'est pas incluse dans le jeu."
+
+    adjustable_level:
+        note: 3
+        description: "On peut changer de difficulté avant chaque session, et a travers des customisations on peut changer nombre de paramètre pour faciliter ou rendre difficile le jeu"
 
 ---

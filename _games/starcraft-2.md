@@ -233,6 +233,10 @@ evaluation:
     field_of_view:
         note: 0
         description: "C'est de la 3D plane."
+
+    adjustable_field_of_view:
+        note: 0
+        description: "C'est de la 3D plane."
     
     vr_problems:
         note: 0
@@ -482,5 +486,9 @@ evaluation:
     voice_transcription:
         note: 3
         description: "Dans la campagne, le texte est généralement répété à l'oral."
+
+    adjustable_level:
+        note: 0
+        description: "Jeu en ligne"
         
 ---

@@ -51,6 +51,7 @@ guidelines:
   hide_option: Proposer une option pour désactiver ou cacher les objets non-interactifs.
   different_essential_information: S'assurer qu'aucune information essentielle n'est transmise que par une seule couleur fixe.
   field_of_view: Définir une valeur par défaut appropriée pour le champ de vision, si le jeu utilise de la 3D.
+  adjustable_field_of_view: Si le jeu utilise un champ de vision, permettre qu'il soit ajustable.
   vr_problems: Éviter les déclencheurs de vertiges, nausées etc.. lors de simulation VR.
   contrast_elements: Faire un grand contraste entre le texte, l’Interface Utilisateur et l'arrière plan.
   different_movements: Éviter (ou ajouter une possibilité de retirer) toute différence entre les mouvements et les mouvements de caméra (par exemple = mouvement de personnage, arme etc).
@@ -107,6 +108,7 @@ guidelines:
   accessibility_test: "Inclure chaque catégorie pertinente de déficience (motrice, cognitive, etc.) parmi les participants aux tests de jeu, en nombre représentatif en fonction de l'âge / démographique du public cible."
   profile_parameter: Autoriser l'enregistrement des paramètres dans différents profils, au niveau du jeu ou de la plateforme.
   voice_transcription: Inclure une transcription vocale de texte en temps réel.
+  adjustable_level: Permettre au niveau de difficulté d'être ajusté durant le gameplay, que ce soit à travers les settings, ou une difficulté adaptive
 
 members:
   -
@@ -165,6 +167,7 @@ categories:
       - oral_written_information
       - interactive_elements
       - background_movements
+      - option_vit
       - text_audio_chat
       - visual_backup
       - separate_volumes
@@ -178,6 +181,7 @@ categories:
       - symbols_chat
       - hide_option
 
+
   - name: Visuel
     guidelines:
       - large_elements
@@ -190,6 +194,7 @@ categories:
       - reading_text
       - different_essential_information
       - field_of_view
+      - adjustable_field_of_view
       - vr_problems
       - contrast_elements
       - different_movements
@@ -261,3 +266,4 @@ categories:
       - accessibility_test
       - profile_parameter
       - voice_transcription
+      - adjustable_level

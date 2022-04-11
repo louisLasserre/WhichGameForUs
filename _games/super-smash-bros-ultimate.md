@@ -222,6 +222,10 @@ evaluation:
     field_of_view:
         note: 0
         description: "Le jeu n'est pas en 3D."
+
+    adjustable_field_of_view:
+        note: 0
+        description: "Le jeu n'est pas en 3D."
     
     vr_problems:
         note: 0
@@ -451,5 +455,9 @@ evaluation:
     voice_transcription:
         note: 1
         description: "Cette fonctionnalité n'est pas incluse dans le jeu."
+
+    adjustable_level:
+        note: 3
+        description: "On peut changer la difficulté durant le gameplay."
         
 ---

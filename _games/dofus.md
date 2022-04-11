@@ -153,7 +153,7 @@ evaluation:
     description: "Aucune information écrite n'est transmise à l'oral"
 
   interactive_elements:
-    note: 3    
+    note: 3
     screenshot: dofus_interactive_elements.jpg
     description: "Les éléments avec lesquels on peut intéragir sont accompagnés d'un petit logo et d'une description."
 
@@ -219,6 +219,10 @@ evaluation:
     description: "Une information colorée est toujours accompagnée d'un texte, d'une texture différente et d'une forme."
 
   field_of_view:
+    note: 0
+    description: "Le jeu n'est pas en 3D."
+
+  adjustable_field_of_view:
     note: 0
     description: "Le jeu n'est pas en 3D."
 
@@ -386,7 +390,7 @@ evaluation:
 
   half_voice:
       note: 0
-      description: "Il n'y a pas de contrôles vocaux."   
+      description: "Il n'y a pas de contrôles vocaux."
 
   provide_accessibility:
       note: 1
@@ -452,6 +456,10 @@ evaluation:
 
 
   voice_transcription:
-      note: 1
-      description: "Le jeu ne possède pas de transcription vocal pour les textes en temps réel."
+    note: 1
+    description: "Le jeu ne possède pas de transcription vocal pour les textes en temps réel."
+
+  adjustable_level:
+    note: 0
+    description: "C'est un MMORPG"
 ---

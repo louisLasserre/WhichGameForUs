@@ -215,6 +215,10 @@ evaluation:
         note: 3
         description: "Le jeu est en 3D et le champs de vision est fixe, le personnage se déplace sur un globe."
 
+    adjustable_field_of_view:
+        note: 2
+        description: "Le jeu est en 3D fixe, le personnage se déplace sur un globe, mais on peut changer l'angle un petit peu."
+
     vr_problems:
         note: 0
         description: "Le jeu n'est pas en réalité virtuelle."
@@ -443,5 +447,9 @@ evaluation:
     voice_transcription:
         note: 1
         description: "La retranscription vocale n'est pas incluse dans le jeu"
+
+    adjustable_level:
+        note: 0
+        description: "Il n'y a pas de niveau de difficulté"
 
 ---

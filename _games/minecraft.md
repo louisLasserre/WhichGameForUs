@@ -227,6 +227,10 @@ evaluation:
     note: 3
     description: "Le champs de vision est défini de base mais peut être changé."
 
+  adjustable_field_of_view:
+    note: 3
+    description: "Le champ de vision peut être changé à souhait"
+
   vr_problems:
     note: 0
     description: "Le jeu n'est pas réalité virtuelle."
@@ -453,4 +457,8 @@ evaluation:
   voice_transcription:
     note: 3
     description: "L'option du narrateur permet de lire le tchat en temps réel."
+
+  adjustable_level:
+        note: 3
+        description: "On peut changer la difficulté durant le gameplay."
 ---
