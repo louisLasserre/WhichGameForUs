@@ -26,6 +26,10 @@ invites:
         nom: MrGyzmo
         metier: Responsable de la Web TV - Atletec
         url: /assets/images/invites/Mrgyzmo.jpeg
+    -
+        nom: David Rabineau
+        metier: Game Developer et PDG du studio de création de jeux Homo Ludens
+        url: /assets/images/invites/davidRabineau.jpeg
 
 
 

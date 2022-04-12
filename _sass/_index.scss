@@ -1,9 +1,9 @@
 .checks{
-
+  margin: 20px auto;
     div{
         width: fit-content;
         display: inline-block;
-        margin: 20px;
+        margin: 10px;
 
 
         border-radius: 3px;
@@ -21,7 +21,9 @@
     .checks-center{
         display: block;
 
-        margin: 0 auto;
+
+        width: 100%;
+        margin: 0;
     }
 }
 body{
