@@ -3,7 +3,7 @@
     div{
         width: fit-content;
         display: inline-block;
-        margin: 10px;
+
 
 
         border-radius: 3px;
@@ -11,7 +11,7 @@
             margin: 0;
         }
         label{
-            padding: 20px 20px 20px 40px;
+            padding: 20px 97px 20px 40px;
             width: 120px;
             background-color: $danger;
             border-radius: 5px;
@@ -74,4 +74,7 @@ body{
   height: 100%;
   border-radius: 5px;
   border-color: white;
+}
+p{
+  font-size: 20px;
 }
