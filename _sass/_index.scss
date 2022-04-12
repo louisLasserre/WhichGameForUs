@@ -27,3 +27,49 @@
 body{
   margin-top: 110px;
 }
+
+.cardGame, .cardBtn{
+  transition: all 0.3s;
+}
+.cardGame:hover{
+
+  transform: translateY(-20px);
+
+}
+.cardGame:hover .cardBtn{
+  background: #EB2A4A !important;
+  border: #EB2A4A;
+}
+.checkBox{
+  position: relative;
+}
+.checkBox::before, .checkBox::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  transition: width .3s, height .3s, border-radius .5s;
+
+
+
+  position: absolute;
+
+}
+.checkBox::before{
+  border-top: solid transparent;
+  border-left: solid transparent;
+  border-top-left-radius: 5px;
+  inset: 0;
+}
+.checkBox::after{
+  border-right: solid transparent;
+  border-bottom: solid transparent;
+  border-bottom-right-radius: 5px;
+  bottom: 0;right: 0;
+}
+
+.checkBox:hover::before, .checkBox:hover::after{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border-color: white;
+}

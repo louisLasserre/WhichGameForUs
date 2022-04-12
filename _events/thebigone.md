@@ -15,27 +15,18 @@ invites:
         metier: Président de l'association HandiGamers
         url: /assets/images/invites/davidcombarieu.jpeg
     -
-        nom: sanslesmains73
-        metier: influenceur jeux vidéo
-        url: /assets/images/invites/sanslesmains.jpeg
+        nom: Pierre Alain Raphan
+        metier: Député LREM de l'Essonne
+        url: /assets/images/invites/pierreAlainRaphan.jpeg
     -
-        nom: Stéphane Laurent
-        metier: Chef de Projet Réseau Testing - Cap Game
-        url: /assets/images/invites/CAdStephaneLaurent.jpeg
+        nom: Chris’ Klippel
+        metier:  Journaliste et Chef de rubrique Jeux Vidéo chez PresseCitron/Président association NSTG
+        url: /assets/images/invites/chrisKlippel.jpeg
     -
         nom: MrGyzmo
         metier: Responsable de la Web TV - Atletec
         url: /assets/images/invites/Mrgyzmo.jpeg
-    -
-        nom: Adrien Du Patelin
-        metier: Futur doctorant en Sciences de l’Information et de la Communication
-        url: /assets/images/invites/adriendupatelin.jpeg
-    -
-        nom: AlexandreTheGamer
-        metier: Ambassadeur HandiGamers
-        url: /assets/images/invites/rcAlex92.jpeg
-    -
-        metier: Nous vous dévoilerons la liste complète des invités lorsque celle ci sera complètement terminer
+
 
 
 

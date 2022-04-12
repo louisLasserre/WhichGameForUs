@@ -41,7 +41,7 @@ title: WhichGameForUs
       <div class="form-check" type="button" data-bs-toggle="collapse" data-bs-target="#{{ category.name }}" aria-expanded="false" aria-controls="{{ category.name }}">
 
 
-        <label class="form-check-label" for="check{{ category.name }}" title="afficher les pourcentages en catégorie {{ category.name }}">
+        <label class="form-check-label checkBox" for="check{{ category.name }}" title="afficher les pourcentages en catégorie {{ category.name }}">
           <input class="form-check-input" type="checkbox" value="" id="check{{ category.name }}">
           <p>{{ category.name }}</p>
         </label>
@@ -54,7 +54,7 @@ title: WhichGameForUs
       {% assign slug = game.title | slugify: 'latin' %}
       <div class="col-md-3 mb-4 card-group">
 
-        <div class="card border-0">
+        <div class="card border-0 cardGame">
           <img  src="/assets/images/games/{{ slug }}/{{ slug }}.jpg"
                 alt="{{ game.title }}"
                 class="card-img-top"
@@ -82,7 +82,7 @@ title: WhichGameForUs
             <div class="card-footer mb-3">
               <div class=" mb-3 d-flex justify-content-between w-100 align-items-end">
                 <p class="m-0">Globale</p>
-                <a href="/jeux/{{ slug }}" class="btn btn-info text-light stretched-link">
+                <a href="/jeux/{{ slug }}" class="btn btn-info text-light stretched-link cardBtn">
                   Détails
                 </a>
 
