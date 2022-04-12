@@ -61,7 +61,9 @@ a{
 .secPart {margin: 80px auto;}
 
 .partenaires{
-
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
     padding: 18px;
 
     background-color: white;
@@ -71,10 +73,14 @@ a{
     }
     div{
         height: 49px;
+        width: 100%;
+
 
         img{
             height: 100%;
             object-fit: cover;
+            display: block;
+            margin: 0 auto;
         }
 
     }
@@ -82,4 +88,21 @@ a{
 .strong{
     font-weight: normal;
     color: #EB2A4A;
+}
+@media screen and (max-width: 995px){
+  .partenaires{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+
+}
+@media screen and (max-width: 515px){
+  .partenaires{
+    div{
+      height: 30px;
+
+    }
+
+  }
+
 }
