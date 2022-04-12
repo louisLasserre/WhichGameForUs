@@ -1,5 +1,5 @@
 ---
-title: Tous pour le jeu - The Big One
+title: Tous pour le jeu - Talk'n'Debate
 jour: Mercredi 13 avril
 horaires: 18h-20h
 eventImg: BannerAvril.png
