@@ -7,7 +7,8 @@ layout: default
 
 
 
-<div class="container_Page_Mrg row col-10">
+<section class="container_Page_Mrg row justify-content-center">
+  <div class="col-10 col-xs-12">
     <div class="Container_Event_Logo_Whichgameforus">
         <img src="/assets/images/logo.png" alt="logo de Which game for us">
 
@@ -45,12 +46,12 @@ layout: default
     <div class="Container_Event_Title_Second">
         <h2>Planning/Thèmes du Live</h2>
     </div>
-    <div class="Container_Event_Title_Second_Text col-12">
+    <div class="Container_Event_Title_Second_Text">
         {% for section in page.planning %}
-            <div class="Container_Event_Title_Second_Text_Dp col-12">
-                <h4 class="bold col-11"> {{ section.rubrique }} :</h4>
-                <p class="col-9"> {{ section.resume }}</p>
-            </div>
+
+          <h4 class="bold"> {{ section.rubrique }} :</h4>
+          <p class="ms-5"> {{ section.resume }}</p>
+
         {% endfor %}
 
     </div>
@@ -62,7 +63,7 @@ layout: default
         <div class="invites-container">
 
             {% for invite in page.invites %}
-                <div class="invite">
+                <div class="invite m-5">
                     <article>
                         <p>{{ invite.nom }}</p>
                         <p>{{ invite.metier }}</p>
@@ -80,4 +81,5 @@ layout: default
     </section>
     <!--Partenaires-->
     {% include partenaires.html %}
-</div>
+  </div>
+</section>
