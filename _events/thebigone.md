@@ -19,6 +19,10 @@ invites:
         metier: Député LREM de l'Essonne
         url: /assets/images/invites/pierreAlainRaphan.jpeg
     -
+        nom: Denis Masséglia
+        metier: Député LREM de Maine et Loire, Président du groupe d'études sur les jeux vidéo et l'esport
+        url: /assets/images/invites/denisMasseglia.jpeg
+    -
         nom: Chris’ Klippel
         metier:  Journaliste et Chef de rubrique Jeux Vidéo chez PresseCitron/Président association NSTG
         url: /assets/images/invites/chrisKlippel.jpeg
@@ -30,6 +34,7 @@ invites:
         nom: David Rabineau
         metier: Game Developer et PDG du studio de création de jeux Homo Ludens
         url: /assets/images/invites/davidRabineau.jpeg
+
 
 
 
