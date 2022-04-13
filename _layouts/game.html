@@ -13,7 +13,7 @@ layout: default
     <img src="/assets/images/games/{{ slug }}/{{slug}}.jpg" alt="{{ game.title }}" class="img-fluid mb-5">
     <div class="inter lead">
       <div class="mb-3">
-        Note globale d'accessibilité :
+        <h2>Note globale d'accessibilité :</h2>
       </div>
       <div class="mb-5">
         {% include  evaluation.html
@@ -41,8 +41,7 @@ layout: default
           type="button"
           role="tab"
           aria-controls="{{ category_slug }}"
-          aria-selected="true"
-          tabindex="4">{{ category.name }}</a>
+          aria-selected="true">{{ category.name }}</a>
     </li>
   {% endfor %}
 </ul>
