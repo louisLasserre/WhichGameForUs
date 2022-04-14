@@ -26,7 +26,7 @@ layout: default
   </div>
 </div>
 
-<ul class="nav nav-tabs mt-5" role="tablist">
+<ul class="nav nav-tabs mt-5" role="tablist" id="mainContent">
   {% for category in site.data.structure.categories %}
     {% assign category_slug = category.name | slugify: 'latin' %}
     {% if forloop.index0 == 0%}
