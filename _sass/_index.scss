@@ -46,12 +46,12 @@ body{
 .cardGame, .cardBtn{
   transition: all 0.3s;
 }
-.cardGame:hover{
+.cardGame:hover, .cardGame:focus-within{
 
   transform: translateY(-20px);
 
 }
-.cardGame:hover .cardBtn{
+.cardGame:hover .cardBtn, .cardGame:focus-within .cardBtn{
   background: #EB2A4A !important;
   border: #EB2A4A;
 }
